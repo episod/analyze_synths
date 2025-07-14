@@ -9,3 +9,5 @@ pyvenv.cfg
 venv/
 tmp_env/
 .vscode/
+.DS_Store/
+.lock/
