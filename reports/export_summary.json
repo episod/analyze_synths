@@ -1,0 +1,28 @@
+{
+  "export_directory": "reports",
+  "export_timestamp": "2025-07-14T07:10:30.450531",
+  "files_analyzed": 3,
+  "data_exports": {
+    "features": "reports/data/audio_features.csv",
+    "phases": "reports/data/phase_analysis.csv",
+    "clusters": "reports/data/cluster_analysis.csv",
+    "sequence": null,
+    "summary": "reports/data/summary_statistics.csv"
+  },
+  "visualization_exports": {
+    "phase_timeline": "reports/images/phase_timeline.png",
+    "cluster_analysis": "reports/images/cluster_analysis.png",
+    "mood_distribution": "reports/images/mood_distribution.png"
+  },
+  "report_exports": {
+    "comprehensive_report": "reports/reports/comprehensive_analysis_report.md",
+    "json_data": "reports/reports/analysis_data.json"
+  },
+  "analysis_stats": {
+    "files_found": 3,
+    "files_processed": 3,
+    "processing_errors": 0,
+    "start_time": "2025-07-14 07:09:19.308212",
+    "end_time": "2025-07-14 07:10:29.032215"
+  }
+}

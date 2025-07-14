@@ -43,6 +43,11 @@ from .statistics import (
     safe_divide,
     calculate_normalized_score
 )
+from .export_utils import (
+    create_export_directory,
+    create_export_subdirectories,
+    validate_export_directory
+)
 
 __all__ = [
     'AudioLoader',
@@ -73,5 +78,8 @@ __all__ = [
     'format_time_position',
     'calculate_progression_trend',
     'safe_divide',
-    'calculate_normalized_score'
+    'calculate_normalized_score',
+    'create_export_directory',
+    'create_export_subdirectories',
+    'validate_export_directory'
 ]

@@ -102,7 +102,7 @@ Supported formats: WAV, AIFF, MP3
         "--export-dir", 
         type=Path, 
         metavar="PATH",
-        defualt="./reports"
+        default="./reports",
         help="Directory for exported results (default: auto-generated timestamped directory)"
     )
     

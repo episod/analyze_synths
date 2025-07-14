@@ -45,6 +45,9 @@ from ..exporters.csv_exporter import CSVExporter
 from ..exporters.json_exporter import JSONExporter
 from ..exporters.markdown_exporter import MarkdownExporter
 
+# Import export utilities
+from ..utils.export_utils import create_export_directory, create_export_subdirectories
+
 
 class AudioAnalyzer:
     """
@@ -494,18 +497,11 @@ class AudioAnalyzer:
         if self.df is None or self.df.empty:
             raise ValueError("No data available for export. Run analyze_directory() first.")
         
-        # Create export directory if not specified
-        if export_dir is None:
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            export_dir = Path(f"audio_analysis_{timestamp}")
+        # Create export directory using shared utility
+        export_dir = create_export_directory(export_dir, prefix="audio_analysis")
         
-        export_dir = Path(export_dir)
-        export_dir.mkdir(exist_ok=True)
-        
-        # Create subdirectories
-        (export_dir / "data").mkdir(exist_ok=True)
-        (export_dir / "images").mkdir(exist_ok=True)
-        (export_dir / "reports").mkdir(exist_ok=True)
+        # Create subdirectories using shared utility
+        create_export_subdirectories(export_dir)
         
         print(f"Exporting comprehensive analysis to: {export_dir}")
         
