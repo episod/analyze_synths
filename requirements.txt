@@ -1,0 +1,8 @@
+librosa
+pandas
+scikit-learn
+matplotlib
+seaborn
+pydub
+numpy
+fastmcp

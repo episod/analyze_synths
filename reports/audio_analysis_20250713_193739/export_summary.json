@@ -1,0 +1,28 @@
+{
+  "export_directory": "audio_analysis_20250713_193739",
+  "export_timestamp": "2025-07-13T19:37:45.439691",
+  "files_analyzed": 26,
+  "data_exports": {
+    "features": "audio_analysis_20250713_193739/data/audio_features.csv",
+    "phases": "audio_analysis_20250713_193739/data/phase_analysis.csv",
+    "clusters": "audio_analysis_20250713_193739/data/cluster_analysis.csv",
+    "sequence": null,
+    "summary": "audio_analysis_20250713_193739/data/summary_statistics.csv"
+  },
+  "visualization_exports": {
+    "phase_timeline": "audio_analysis_20250713_193739/images/phase_timeline.png",
+    "cluster_analysis": "audio_analysis_20250713_193739/images/cluster_analysis.png",
+    "mood_distribution": "audio_analysis_20250713_193739/images/mood_distribution.png"
+  },
+  "report_exports": {
+    "comprehensive_report": "audio_analysis_20250713_193739/reports/comprehensive_analysis_report.md",
+    "json_data": "audio_analysis_20250713_193739/reports/analysis_data.json"
+  },
+  "analysis_stats": {
+    "files_found": 26,
+    "files_processed": 26,
+    "processing_errors": 0,
+    "start_time": "2025-07-13 19:14:11.548610",
+    "end_time": "2025-07-13 19:37:38.820440"
+  }
+}

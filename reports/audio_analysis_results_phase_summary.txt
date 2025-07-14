@@ -1,0 +1,1226 @@
+PHASE ANALYSIS SUMMARY
+==================================================
+
+File: Timeliner.wav
+Duration: 172.9 seconds (2.9 minutes)
+Detected 10 phases:
+
+  Phase 1: 00:00 - 00:20
+    Type: Introduction
+    Duration: 20.6s
+    Energy: 0.0689
+    Brightness: 517 Hz
+    Rhythm density: 0.5 onsets/sec
+
+  Phase 2: 00:20 - 00:35
+    Type: Build-up/Energetic
+    Duration: 15.0s
+    Energy: 0.1458
+    Brightness: 643 Hz
+    Rhythm density: 2.5 onsets/sec
+
+  Phase 3: 00:35 - 00:51
+    Type: Build-up/Energetic
+    Duration: 15.6s
+    Energy: 0.1516
+    Brightness: 1785 Hz
+    Rhythm density: 7.4 onsets/sec
+
+  Phase 4: 00:51 - 01:07
+    Type: Build-up/Energetic
+    Duration: 16.1s
+    Energy: 0.2005
+    Brightness: 1824 Hz
+    Rhythm density: 6.4 onsets/sec
+
+  Phase 5: 01:07 - 01:20
+    Type: Build-up/Energetic
+    Duration: 13.2s
+    Energy: 0.2318
+    Brightness: 1793 Hz
+    Rhythm density: 6.5 onsets/sec
+
+  Phase 6: 01:20 - 01:37
+    Type: Climax/Peak
+    Duration: 17.1s
+    Energy: 0.1740
+    Brightness: 1921 Hz
+    Rhythm density: 3.9 onsets/sec
+
+  Phase 7: 01:37 - 02:03
+    Type: Climax/Peak
+    Duration: 26.0s
+    Energy: 0.1960
+    Brightness: 824 Hz
+    Rhythm density: 2.3 onsets/sec
+
+  Phase 8: 02:03 - 02:17
+    Type: Climax/Peak
+    Duration: 14.3s
+    Energy: 0.1870
+    Brightness: 2033 Hz
+    Rhythm density: 6.6 onsets/sec
+
+  Phase 9: 02:17 - 02:32
+    Type: Climax/Peak
+    Duration: 14.5s
+    Energy: 0.2143
+    Brightness: 1566 Hz
+    Rhythm density: 3.0 onsets/sec
+
+  Phase 10: 02:32 - 02:52
+    Type: Conclusion
+    Duration: 20.4s
+    Energy: 0.0710
+    Brightness: 660 Hz
+    Rhythm density: 0.1 onsets/sec
+
+--------------------------------------------------
+
+File: 2021 04 18 grampy rabbit.aif
+Duration: 526.0 seconds (8.8 minutes)
+Detected 12 phases:
+
+  Phase 1: 00:00 - 00:59
+    Type: Rhythmic/Percussive
+    Duration: 59.6s
+    Energy: 0.0976
+    Brightness: 930 Hz
+    Rhythm density: 3.7 onsets/sec
+
+  Phase 2: 00:59 - 01:54
+    Type: Build-up/Energetic
+    Duration: 54.9s
+    Energy: 0.1202
+    Brightness: 806 Hz
+    Rhythm density: 5.6 onsets/sec
+
+  Phase 3: 01:54 - 02:07
+    Type: Build-up/Energetic
+    Duration: 13.3s
+    Energy: 0.1278
+    Brightness: 837 Hz
+    Rhythm density: 6.6 onsets/sec
+
+  Phase 4: 02:07 - 02:56
+    Type: Build-up/Energetic
+    Duration: 49.1s
+    Energy: 0.1311
+    Brightness: 795 Hz
+    Rhythm density: 6.7 onsets/sec
+
+  Phase 5: 02:56 - 03:13
+    Type: Build-up/Energetic
+    Duration: 16.7s
+    Energy: 0.1244
+    Brightness: 889 Hz
+    Rhythm density: 7.3 onsets/sec
+
+  Phase 6: 03:13 - 03:28
+    Type: Build-up/Energetic
+    Duration: 15.2s
+    Energy: 0.1365
+    Brightness: 1052 Hz
+    Rhythm density: 7.9 onsets/sec
+
+  Phase 7: 03:28 - 03:40
+    Type: Climax/Peak
+    Duration: 11.8s
+    Energy: 0.1307
+    Brightness: 932 Hz
+    Rhythm density: 7.1 onsets/sec
+
+  Phase 8: 03:40 - 04:04
+    Type: Climax/Peak
+    Duration: 23.8s
+    Energy: 0.1388
+    Brightness: 936 Hz
+    Rhythm density: 7.2 onsets/sec
+
+  Phase 9: 04:04 - 04:42
+    Type: Climax/Peak
+    Duration: 38.1s
+    Energy: 0.1321
+    Brightness: 869 Hz
+    Rhythm density: 7.0 onsets/sec
+
+  Phase 10: 04:42 - 04:57
+    Type: Climax/Peak
+    Duration: 15.1s
+    Energy: 0.1158
+    Brightness: 1073 Hz
+    Rhythm density: 6.7 onsets/sec
+
+  Phase 11: 04:57 - 08:41
+    Type: Climax/Peak
+    Duration: 224.1s
+    Energy: 0.1127
+    Brightness: 759 Hz
+    Rhythm density: 7.0 onsets/sec
+
+  Phase 12: 08:41 - 08:45
+    Type: Outro/Fade
+    Duration: 4.2s
+    Energy: 0.0065
+    Brightness: 12758 Hz
+    Rhythm density: 0.0 onsets/sec
+
+--------------------------------------------------
+
+File: 2021 12 20 chiminy biscuits.aif
+Duration: 328.0 seconds (5.5 minutes)
+Detected 24 phases:
+
+  Phase 1: 00:00 - 00:18
+    Type: Rhythmic/Percussive
+    Duration: 18.5s
+    Energy: 0.0136
+    Brightness: 1190 Hz
+    Rhythm density: 4.3 onsets/sec
+
+  Phase 2: 00:18 - 00:30
+    Type: Rhythmic/Percussive
+    Duration: 11.7s
+    Energy: 0.0150
+    Brightness: 1207 Hz
+    Rhythm density: 8.5 onsets/sec
+
+  Phase 3: 00:30 - 00:41
+    Type: Rhythmic/Percussive
+    Duration: 11.0s
+    Energy: 0.0118
+    Brightness: 1391 Hz
+    Rhythm density: 6.2 onsets/sec
+
+  Phase 4: 00:41 - 00:54
+    Type: Rhythmic/Percussive
+    Duration: 13.2s
+    Energy: 0.0120
+    Brightness: 1387 Hz
+    Rhythm density: 6.2 onsets/sec
+
+  Phase 5: 00:54 - 01:05
+    Type: Rhythmic/Percussive
+    Duration: 10.9s
+    Energy: 0.0146
+    Brightness: 1213 Hz
+    Rhythm density: 3.1 onsets/sec
+
+  Phase 6: 01:05 - 01:15
+    Type: Rhythmic/Percussive
+    Duration: 10.8s
+    Energy: 0.0167
+    Brightness: 1033 Hz
+    Rhythm density: 7.6 onsets/sec
+
+  Phase 7: 01:15 - 01:30
+    Type: Rhythmic/Percussive
+    Duration: 14.3s
+    Energy: 0.0168
+    Brightness: 1223 Hz
+    Rhythm density: 8.3 onsets/sec
+
+  Phase 8: 01:30 - 01:40
+    Type: Rhythmic/Percussive
+    Duration: 10.5s
+    Energy: 0.0123
+    Brightness: 1089 Hz
+    Rhythm density: 7.6 onsets/sec
+
+  Phase 9: 01:40 - 01:51
+    Type: Rhythmic/Percussive
+    Duration: 10.3s
+    Energy: 0.0139
+    Brightness: 1232 Hz
+    Rhythm density: 4.8 onsets/sec
+
+  Phase 10: 01:51 - 02:01
+    Type: Rhythmic/Percussive
+    Duration: 10.8s
+    Energy: 0.0130
+    Brightness: 1186 Hz
+    Rhythm density: 6.2 onsets/sec
+
+  Phase 11: 02:01 - 02:17
+    Type: Rhythmic/Percussive
+    Duration: 16.0s
+    Energy: 0.0152
+    Brightness: 1411 Hz
+    Rhythm density: 6.6 onsets/sec
+
+  Phase 12: 02:17 - 02:30
+    Type: Rhythmic/Percussive
+    Duration: 12.4s
+    Energy: 0.0142
+    Brightness: 1140 Hz
+    Rhythm density: 10.5 onsets/sec
+
+  Phase 13: 02:30 - 02:42
+    Type: Rhythmic/Percussive
+    Duration: 11.8s
+    Energy: 0.0137
+    Brightness: 1352 Hz
+    Rhythm density: 5.1 onsets/sec
+
+  Phase 14: 02:42 - 02:52
+    Type: Rhythmic/Percussive
+    Duration: 10.7s
+    Energy: 0.0111
+    Brightness: 1423 Hz
+    Rhythm density: 5.4 onsets/sec
+
+  Phase 15: 02:52 - 03:09
+    Type: Rhythmic/Percussive
+    Duration: 16.9s
+    Energy: 0.0120
+    Brightness: 1329 Hz
+    Rhythm density: 4.8 onsets/sec
+
+  Phase 16: 03:09 - 03:26
+    Type: Rhythmic/Percussive
+    Duration: 16.6s
+    Energy: 0.0121
+    Brightness: 1457 Hz
+    Rhythm density: 7.9 onsets/sec
+
+  Phase 17: 03:26 - 03:49
+    Type: Conclusion
+    Duration: 23.5s
+    Energy: 0.0116
+    Brightness: 1468 Hz
+    Rhythm density: 1.0 onsets/sec
+
+  Phase 18: 03:49 - 04:03
+    Type: Rhythmic/Percussive
+    Duration: 13.6s
+    Energy: 0.0101
+    Brightness: 1287 Hz
+    Rhythm density: 2.2 onsets/sec
+
+  Phase 19: 04:03 - 04:16
+    Type: Rhythmic/Percussive
+    Duration: 13.2s
+    Energy: 0.0131
+    Brightness: 1520 Hz
+    Rhythm density: 6.6 onsets/sec
+
+  Phase 20: 04:16 - 04:35
+    Type: Rhythmic/Percussive
+    Duration: 19.3s
+    Energy: 0.0120
+    Brightness: 1137 Hz
+    Rhythm density: 5.8 onsets/sec
+
+  Phase 21: 04:35 - 04:54
+    Type: Rhythmic/Percussive
+    Duration: 18.8s
+    Energy: 0.0155
+    Brightness: 1401 Hz
+    Rhythm density: 5.2 onsets/sec
+
+  Phase 22: 04:54 - 05:08
+    Type: Rhythmic/Percussive
+    Duration: 13.4s
+    Energy: 0.0114
+    Brightness: 1224 Hz
+    Rhythm density: 1.7 onsets/sec
+
+  Phase 23: 05:08 - 05:23
+    Type: Rhythmic/Percussive
+    Duration: 15.5s
+    Energy: 0.0021
+    Brightness: 3161 Hz
+    Rhythm density: 2.6 onsets/sec
+
+  Phase 24: 05:23 - 05:27
+    Type: Outro/Fade
+    Duration: 4.4s
+    Energy: 0.0000
+    Brightness: 14077 Hz
+    Rhythm density: 0.0 onsets/sec
+
+--------------------------------------------------
+
+File: 2023 04 13 centers.aif
+Duration: 576.5 seconds (9.6 minutes)
+Detected 2 phases:
+
+  Phase 1: 00:00 - 09:35
+    Type: Rhythmic/Percussive
+    Duration: 575.7s
+    Energy: 0.0110
+    Brightness: 2291 Hz
+    Rhythm density: 11.5 onsets/sec
+
+  Phase 2: 09:35 - 09:36
+    Type: Outro/Fade
+    Duration: 0.8s
+    Energy: 0.0000
+    Brightness: 12909 Hz
+    Rhythm density: 0.0 onsets/sec
+
+--------------------------------------------------
+
+File: 2022-12-14 a quatrax cosmos memory.aif
+Duration: 692.0 seconds (11.5 minutes)
+Detected 30 phases:
+
+  Phase 1: 00:00 - 00:21
+    Type: Rhythmic/Percussive
+    Duration: 21.5s
+    Energy: 0.0721
+    Brightness: 1177 Hz
+    Rhythm density: 3.0 onsets/sec
+
+  Phase 2: 00:21 - 00:51
+    Type: Rhythmic/Percussive
+    Duration: 30.0s
+    Energy: 0.0762
+    Brightness: 1105 Hz
+    Rhythm density: 2.1 onsets/sec
+
+  Phase 3: 00:51 - 01:09
+    Type: Rhythmic/Percussive
+    Duration: 18.5s
+    Energy: 0.0744
+    Brightness: 1276 Hz
+    Rhythm density: 3.5 onsets/sec
+
+  Phase 4: 01:09 - 01:23
+    Type: Rhythmic/Percussive
+    Duration: 13.4s
+    Energy: 0.0903
+    Brightness: 875 Hz
+    Rhythm density: 1.6 onsets/sec
+
+  Phase 5: 01:23 - 01:34
+    Type: Rhythmic/Percussive
+    Duration: 10.9s
+    Energy: 0.0792
+    Brightness: 834 Hz
+    Rhythm density: 2.3 onsets/sec
+
+  Phase 6: 01:34 - 01:48
+    Type: Rhythmic/Percussive
+    Duration: 13.8s
+    Energy: 0.0728
+    Brightness: 1510 Hz
+    Rhythm density: 2.2 onsets/sec
+
+  Phase 7: 01:48 - 02:00
+    Type: Rhythmic/Percussive
+    Duration: 12.3s
+    Energy: 0.0981
+    Brightness: 921 Hz
+    Rhythm density: 1.1 onsets/sec
+
+  Phase 8: 02:00 - 02:11
+    Type: Introduction
+    Duration: 11.1s
+    Energy: 0.0901
+    Brightness: 1488 Hz
+    Rhythm density: 0.9 onsets/sec
+
+  Phase 9: 02:11 - 02:29
+    Type: Introduction
+    Duration: 18.0s
+    Energy: 0.0950
+    Brightness: 1127 Hz
+    Rhythm density: 0.2 onsets/sec
+
+  Phase 10: 02:29 - 02:39
+    Type: Development
+    Duration: 10.4s
+    Energy: 0.1037
+    Brightness: 1971 Hz
+    Rhythm density: 0.2 onsets/sec
+
+  Phase 11: 02:39 - 02:50
+    Type: Bright/Melodic
+    Duration: 10.3s
+    Energy: 0.1149
+    Brightness: 2821 Hz
+    Rhythm density: 0.1 onsets/sec
+
+  Phase 12: 02:50 - 03:00
+    Type: Bright/Melodic
+    Duration: 10.0s
+    Energy: 0.1116
+    Brightness: 2887 Hz
+    Rhythm density: 0.2 onsets/sec
+
+  Phase 13: 03:00 - 03:17
+    Type: Rhythmic/Percussive
+    Duration: 17.7s
+    Energy: 0.0886
+    Brightness: 1165 Hz
+    Rhythm density: 1.6 onsets/sec
+
+  Phase 14: 03:17 - 03:34
+    Type: Rhythmic/Percussive
+    Duration: 16.2s
+    Energy: 0.1201
+    Brightness: 1030 Hz
+    Rhythm density: 2.0 onsets/sec
+
+  Phase 15: 03:34 - 03:55
+    Type: Rhythmic/Percussive
+    Duration: 21.2s
+    Energy: 0.0989
+    Brightness: 1559 Hz
+    Rhythm density: 2.0 onsets/sec
+
+  Phase 16: 03:55 - 04:13
+    Type: Rhythmic/Percussive
+    Duration: 17.9s
+    Energy: 0.0873
+    Brightness: 982 Hz
+    Rhythm density: 1.2 onsets/sec
+
+  Phase 17: 04:13 - 04:25
+    Type: Rhythmic/Percussive
+    Duration: 12.4s
+    Energy: 0.1013
+    Brightness: 886 Hz
+    Rhythm density: 1.4 onsets/sec
+
+  Phase 18: 04:25 - 04:40
+    Type: Development
+    Duration: 15.2s
+    Energy: 0.1136
+    Brightness: 916 Hz
+    Rhythm density: 0.9 onsets/sec
+
+  Phase 19: 04:40 - 06:24
+    Type: Rhythmic/Percussive
+    Duration: 104.0s
+    Energy: 0.0947
+    Brightness: 792 Hz
+    Rhythm density: 2.9 onsets/sec
+
+  Phase 20: 06:24 - 06:59
+    Type: Rhythmic/Percussive
+    Duration: 34.6s
+    Energy: 0.0655
+    Brightness: 946 Hz
+    Rhythm density: 2.5 onsets/sec
+
+  Phase 21: 06:59 - 07:13
+    Type: Rhythmic/Percussive
+    Duration: 14.3s
+    Energy: 0.0611
+    Brightness: 812 Hz
+    Rhythm density: 1.2 onsets/sec
+
+  Phase 22: 07:13 - 07:31
+    Type: Conclusion
+    Duration: 17.3s
+    Energy: 0.0664
+    Brightness: 825 Hz
+    Rhythm density: 0.8 onsets/sec
+
+  Phase 23: 07:31 - 07:49
+    Type: Rhythmic/Percussive
+    Duration: 17.9s
+    Energy: 0.0908
+    Brightness: 774 Hz
+    Rhythm density: 2.3 onsets/sec
+
+  Phase 24: 07:49 - 08:22
+    Type: Rhythmic/Percussive
+    Duration: 33.3s
+    Energy: 0.1099
+    Brightness: 707 Hz
+    Rhythm density: 2.0 onsets/sec
+
+  Phase 25: 08:22 - 08:38
+    Type: Rhythmic/Percussive
+    Duration: 16.2s
+    Energy: 0.1482
+    Brightness: 859 Hz
+    Rhythm density: 1.9 onsets/sec
+
+  Phase 26: 08:38 - 09:13
+    Type: Rhythmic/Percussive
+    Duration: 35.1s
+    Energy: 0.1194
+    Brightness: 846 Hz
+    Rhythm density: 1.9 onsets/sec
+
+  Phase 27: 09:13 - 10:10
+    Type: Rhythmic/Percussive
+    Duration: 56.8s
+    Energy: 0.1165
+    Brightness: 726 Hz
+    Rhythm density: 1.8 onsets/sec
+
+  Phase 28: 10:10 - 10:42
+    Type: Rhythmic/Percussive
+    Duration: 32.4s
+    Energy: 0.1086
+    Brightness: 782 Hz
+    Rhythm density: 1.0 onsets/sec
+
+  Phase 29: 10:42 - 11:23
+    Type: Conclusion
+    Duration: 40.4s
+    Energy: 0.0675
+    Brightness: 935 Hz
+    Rhythm density: 0.7 onsets/sec
+
+  Phase 30: 11:23 - 11:31
+    Type: Conclusion
+    Duration: 8.7s
+    Energy: 0.0625
+    Brightness: 947 Hz
+    Rhythm density: 0.0 onsets/sec
+
+--------------------------------------------------
+
+File: 2022 01 15 dont pick up.aif
+Duration: 436.5 seconds (7.3 minutes)
+Detected 27 phases:
+
+  Phase 1: 00:00 - 00:11
+    Type: Rhythmic/Percussive
+    Duration: 11.7s
+    Energy: 0.0114
+    Brightness: 4255 Hz
+    Rhythm density: 2.2 onsets/sec
+
+  Phase 2: 00:11 - 00:23
+    Type: Rhythmic/Percussive
+    Duration: 12.3s
+    Energy: 0.0144
+    Brightness: 3717 Hz
+    Rhythm density: 3.3 onsets/sec
+
+  Phase 3: 00:23 - 00:36
+    Type: Rhythmic/Percussive
+    Duration: 12.6s
+    Energy: 0.0165
+    Brightness: 3322 Hz
+    Rhythm density: 3.1 onsets/sec
+
+  Phase 4: 00:36 - 00:53
+    Type: Rhythmic/Percussive
+    Duration: 16.6s
+    Energy: 0.0353
+    Brightness: 2055 Hz
+    Rhythm density: 2.3 onsets/sec
+
+  Phase 5: 00:53 - 01:04
+    Type: Rhythmic/Percussive
+    Duration: 11.8s
+    Energy: 0.0453
+    Brightness: 1759 Hz
+    Rhythm density: 2.1 onsets/sec
+
+  Phase 6: 01:04 - 01:39
+    Type: Rhythmic/Percussive
+    Duration: 35.0s
+    Energy: 0.0494
+    Brightness: 1636 Hz
+    Rhythm density: 2.4 onsets/sec
+
+  Phase 7: 01:39 - 01:53
+    Type: Rhythmic/Percussive
+    Duration: 13.7s
+    Energy: 0.0406
+    Brightness: 2039 Hz
+    Rhythm density: 2.6 onsets/sec
+
+  Phase 8: 01:53 - 02:39
+    Type: Rhythmic/Percussive
+    Duration: 46.1s
+    Energy: 0.0491
+    Brightness: 1612 Hz
+    Rhythm density: 2.0 onsets/sec
+
+  Phase 9: 02:39 - 02:58
+    Type: Rhythmic/Percussive
+    Duration: 18.8s
+    Energy: 0.0183
+    Brightness: 2986 Hz
+    Rhythm density: 3.8 onsets/sec
+
+  Phase 10: 02:58 - 03:12
+    Type: Rhythmic/Percussive
+    Duration: 13.6s
+    Energy: 0.0119
+    Brightness: 3912 Hz
+    Rhythm density: 4.2 onsets/sec
+
+  Phase 11: 03:12 - 03:22
+    Type: Rhythmic/Percussive
+    Duration: 10.1s
+    Energy: 0.0149
+    Brightness: 3317 Hz
+    Rhythm density: 9.1 onsets/sec
+
+  Phase 12: 03:22 - 03:32
+    Type: Rhythmic/Percussive
+    Duration: 10.3s
+    Energy: 0.0205
+    Brightness: 2695 Hz
+    Rhythm density: 5.2 onsets/sec
+
+  Phase 13: 03:32 - 03:48
+    Type: Rhythmic/Percussive
+    Duration: 15.8s
+    Energy: 0.0330
+    Brightness: 2084 Hz
+    Rhythm density: 3.2 onsets/sec
+
+  Phase 14: 03:48 - 04:00
+    Type: Rhythmic/Percussive
+    Duration: 12.6s
+    Energy: 0.0349
+    Brightness: 1933 Hz
+    Rhythm density: 2.6 onsets/sec
+
+  Phase 15: 04:00 - 04:12
+    Type: Rhythmic/Percussive
+    Duration: 11.3s
+    Energy: 0.0373
+    Brightness: 1872 Hz
+    Rhythm density: 1.1 onsets/sec
+
+  Phase 16: 04:12 - 04:26
+    Type: Development
+    Duration: 13.8s
+    Energy: 0.0435
+    Brightness: 1712 Hz
+    Rhythm density: 0.7 onsets/sec
+
+  Phase 17: 04:26 - 04:42
+    Type: Development
+    Duration: 16.3s
+    Energy: 0.0505
+    Brightness: 1556 Hz
+    Rhythm density: 0.7 onsets/sec
+
+  Phase 18: 04:42 - 05:04
+    Type: Development
+    Duration: 21.7s
+    Energy: 0.0545
+    Brightness: 1504 Hz
+    Rhythm density: 0.9 onsets/sec
+
+  Phase 19: 05:04 - 05:26
+    Type: Rhythmic/Percussive
+    Duration: 22.1s
+    Energy: 0.0800
+    Brightness: 1283 Hz
+    Rhythm density: 2.2 onsets/sec
+
+  Phase 20: 05:26 - 05:36
+    Type: Rhythmic/Percussive
+    Duration: 10.7s
+    Energy: 0.0546
+    Brightness: 1709 Hz
+    Rhythm density: 1.8 onsets/sec
+
+  Phase 21: 05:36 - 05:51
+    Type: Rhythmic/Percussive
+    Duration: 14.9s
+    Energy: 0.0705
+    Brightness: 1792 Hz
+    Rhythm density: 6.0 onsets/sec
+
+  Phase 22: 05:51 - 06:04
+    Type: Climax/Peak
+    Duration: 12.6s
+    Energy: 0.1456
+    Brightness: 1228 Hz
+    Rhythm density: 4.3 onsets/sec
+
+  Phase 23: 06:04 - 06:16
+    Type: Climax/Peak
+    Duration: 12.5s
+    Energy: 0.1108
+    Brightness: 1152 Hz
+    Rhythm density: 3.1 onsets/sec
+
+  Phase 24: 06:16 - 06:52
+    Type: Rhythmic/Percussive
+    Duration: 35.1s
+    Energy: 0.0992
+    Brightness: 1212 Hz
+    Rhythm density: 2.1 onsets/sec
+
+  Phase 25: 06:52 - 07:05
+    Type: Rhythmic/Percussive
+    Duration: 13.3s
+    Energy: 0.0229
+    Brightness: 2731 Hz
+    Rhythm density: 3.6 onsets/sec
+
+  Phase 26: 07:05 - 07:15
+    Type: Bright/Melodic
+    Duration: 10.2s
+    Energy: 0.0073
+    Brightness: 6332 Hz
+    Rhythm density: 1.0 onsets/sec
+
+  Phase 27: 07:15 - 07:16
+    Type: Outro/Fade
+    Duration: 1.0s
+    Energy: 0.0005
+    Brightness: 11533 Hz
+    Rhythm density: 0.0 onsets/sec
+
+--------------------------------------------------
+
+File: 2022 06 05 negative 60.aif
+Duration: 252.0 seconds (4.2 minutes)
+Detected 4 phases:
+
+  Phase 1: 00:00 - 00:10
+    Type: Intro/Ambient
+    Duration: 10.8s
+    Energy: 0.0030
+    Brightness: 4638 Hz
+    Rhythm density: 0.3 onsets/sec
+
+  Phase 2: 00:10 - 00:25
+    Type: Breakdown/Quiet
+    Duration: 14.3s
+    Energy: 0.0045
+    Brightness: 2464 Hz
+    Rhythm density: 0.3 onsets/sec
+
+  Phase 3: 00:25 - 04:03
+    Type: Rhythmic/Percussive
+    Duration: 218.3s
+    Energy: 0.0302
+    Brightness: 776 Hz
+    Rhythm density: 1.8 onsets/sec
+
+  Phase 4: 04:03 - 04:11
+    Type: Outro/Fade
+    Duration: 8.6s
+    Energy: 0.0001
+    Brightness: 14177 Hz
+    Rhythm density: 0.0 onsets/sec
+
+--------------------------------------------------
+
+File: 2022 09 17 caving in.aif
+Duration: 568.0 seconds (9.5 minutes)
+Detected 34 phases:
+
+  Phase 1: 00:00 - 00:12
+    Type: Rhythmic/Percussive
+    Duration: 12.3s
+    Energy: 0.0877
+    Brightness: 1712 Hz
+    Rhythm density: 2.8 onsets/sec
+
+  Phase 2: 00:12 - 00:28
+    Type: Build-up/Energetic
+    Duration: 16.1s
+    Energy: 0.1108
+    Brightness: 1615 Hz
+    Rhythm density: 2.8 onsets/sec
+
+  Phase 3: 00:28 - 00:45
+    Type: Build-up/Energetic
+    Duration: 17.1s
+    Energy: 0.1369
+    Brightness: 996 Hz
+    Rhythm density: 2.5 onsets/sec
+
+  Phase 4: 00:45 - 00:59
+    Type: Rhythmic/Percussive
+    Duration: 13.7s
+    Energy: 0.0931
+    Brightness: 1106 Hz
+    Rhythm density: 2.9 onsets/sec
+
+  Phase 5: 00:59 - 01:10
+    Type: Build-up/Energetic
+    Duration: 11.2s
+    Energy: 0.1034
+    Brightness: 1056 Hz
+    Rhythm density: 3.0 onsets/sec
+
+  Phase 6: 01:10 - 01:22
+    Type: Build-up/Energetic
+    Duration: 12.4s
+    Energy: 0.1264
+    Brightness: 1224 Hz
+    Rhythm density: 2.1 onsets/sec
+
+  Phase 7: 01:22 - 01:38
+    Type: Rhythmic/Percussive
+    Duration: 16.2s
+    Energy: 0.1389
+    Brightness: 1431 Hz
+    Rhythm density: 1.6 onsets/sec
+
+  Phase 8: 01:38 - 02:04
+    Type: Introduction
+    Duration: 25.6s
+    Energy: 0.1685
+    Brightness: 1699 Hz
+    Rhythm density: 0.8 onsets/sec
+
+  Phase 9: 02:04 - 02:40
+    Type: Introduction
+    Duration: 36.3s
+    Energy: 0.1698
+    Brightness: 1607 Hz
+    Rhythm density: 0.6 onsets/sec
+
+  Phase 10: 02:40 - 02:52
+    Type: Rhythmic/Percussive
+    Duration: 11.5s
+    Energy: 0.1567
+    Brightness: 924 Hz
+    Rhythm density: 1.3 onsets/sec
+
+  Phase 11: 02:52 - 03:10
+    Type: Rhythmic/Percussive
+    Duration: 18.0s
+    Energy: 0.1249
+    Brightness: 874 Hz
+    Rhythm density: 1.5 onsets/sec
+
+  Phase 12: 03:10 - 03:24
+    Type: Rhythmic/Percussive
+    Duration: 14.4s
+    Energy: 0.1160
+    Brightness: 931 Hz
+    Rhythm density: 1.7 onsets/sec
+
+  Phase 13: 03:24 - 03:40
+    Type: Rhythmic/Percussive
+    Duration: 16.2s
+    Energy: 0.1040
+    Brightness: 1958 Hz
+    Rhythm density: 1.2 onsets/sec
+
+  Phase 14: 03:40 - 03:58
+    Type: Rhythmic/Percussive
+    Duration: 17.3s
+    Energy: 0.0942
+    Brightness: 1017 Hz
+    Rhythm density: 2.0 onsets/sec
+
+  Phase 15: 03:58 - 04:08
+    Type: Rhythmic/Percussive
+    Duration: 10.1s
+    Energy: 0.0889
+    Brightness: 1048 Hz
+    Rhythm density: 1.8 onsets/sec
+
+  Phase 16: 04:08 - 04:20
+    Type: Rhythmic/Percussive
+    Duration: 12.4s
+    Energy: 0.0878
+    Brightness: 1110 Hz
+    Rhythm density: 1.8 onsets/sec
+
+  Phase 17: 04:20 - 04:34
+    Type: Rhythmic/Percussive
+    Duration: 13.4s
+    Energy: 0.0795
+    Brightness: 1036 Hz
+    Rhythm density: 2.1 onsets/sec
+
+  Phase 18: 04:34 - 04:45
+    Type: Rhythmic/Percussive
+    Duration: 11.2s
+    Energy: 0.0935
+    Brightness: 1981 Hz
+    Rhythm density: 1.2 onsets/sec
+
+  Phase 19: 04:45 - 05:09
+    Type: Rhythmic/Percussive
+    Duration: 23.9s
+    Energy: 0.1586
+    Brightness: 1299 Hz
+    Rhythm density: 1.3 onsets/sec
+
+  Phase 20: 05:09 - 05:27
+    Type: Rhythmic/Percussive
+    Duration: 18.1s
+    Energy: 0.1243
+    Brightness: 1383 Hz
+    Rhythm density: 1.1 onsets/sec
+
+  Phase 21: 05:27 - 05:38
+    Type: Rhythmic/Percussive
+    Duration: 11.4s
+    Energy: 0.0822
+    Brightness: 1177 Hz
+    Rhythm density: 2.1 onsets/sec
+
+  Phase 22: 05:38 - 05:56
+    Type: Rhythmic/Percussive
+    Duration: 18.1s
+    Energy: 0.1166
+    Brightness: 1063 Hz
+    Rhythm density: 2.0 onsets/sec
+
+  Phase 23: 05:56 - 06:16
+    Type: Rhythmic/Percussive
+    Duration: 20.0s
+    Energy: 0.1588
+    Brightness: 1064 Hz
+    Rhythm density: 1.9 onsets/sec
+
+  Phase 24: 06:16 - 06:27
+    Type: Climax/Peak
+    Duration: 10.5s
+    Energy: 0.1660
+    Brightness: 1473 Hz
+    Rhythm density: 2.1 onsets/sec
+
+  Phase 25: 06:27 - 06:45
+    Type: Climax/Peak
+    Duration: 18.2s
+    Energy: 0.2328
+    Brightness: 1320 Hz
+    Rhythm density: 2.1 onsets/sec
+
+  Phase 26: 06:45 - 07:00
+    Type: Rhythmic/Percussive
+    Duration: 15.0s
+    Energy: 0.2337
+    Brightness: 985 Hz
+    Rhythm density: 1.1 onsets/sec
+
+  Phase 27: 07:00 - 07:13
+    Type: Climax/Peak
+    Duration: 13.4s
+    Energy: 0.3353
+    Brightness: 736 Hz
+    Rhythm density: 2.5 onsets/sec
+
+  Phase 28: 07:13 - 07:24
+    Type: Climax/Peak
+    Duration: 10.4s
+    Energy: 0.5534
+    Brightness: 365 Hz
+    Rhythm density: 2.8 onsets/sec
+
+  Phase 29: 07:24 - 07:44
+    Type: Conclusion
+    Duration: 20.0s
+    Energy: 0.3698
+    Brightness: 1224 Hz
+    Rhythm density: 0.9 onsets/sec
+
+  Phase 30: 07:44 - 07:54
+    Type: Rhythmic/Percussive
+    Duration: 10.6s
+    Energy: 0.0599
+    Brightness: 1274 Hz
+    Rhythm density: 1.0 onsets/sec
+
+  Phase 31: 07:54 - 08:13
+    Type: Rhythmic/Percussive
+    Duration: 19.0s
+    Energy: 0.0755
+    Brightness: 965 Hz
+    Rhythm density: 1.3 onsets/sec
+
+  Phase 32: 08:13 - 08:32
+    Type: Rhythmic/Percussive
+    Duration: 19.0s
+    Energy: 0.0870
+    Brightness: 1005 Hz
+    Rhythm density: 1.4 onsets/sec
+
+  Phase 33: 08:32 - 09:26
+    Type: Conclusion
+    Duration: 53.5s
+    Energy: 0.0810
+    Brightness: 1040 Hz
+    Rhythm density: 0.4 onsets/sec
+
+  Phase 34: 09:26 - 09:27
+    Type: Outro/Fade
+    Duration: 1.5s
+    Energy: 0.0002
+    Brightness: 10156 Hz
+    Rhythm density: 0.0 onsets/sec
+
+--------------------------------------------------
+
+File: 2022-09-25 while madeline sleeps.aif
+Duration: 642.0 seconds (10.7 minutes)
+Detected 24 phases:
+
+  Phase 1: 00:00 - 00:16
+    Type: Intro/Ambient
+    Duration: 16.5s
+    Energy: 0.0016
+    Brightness: 6058 Hz
+    Rhythm density: 0.0 onsets/sec
+
+  Phase 2: 00:16 - 00:32
+    Type: Rhythmic/Percussive
+    Duration: 16.1s
+    Energy: 0.0107
+    Brightness: 2121 Hz
+    Rhythm density: 2.0 onsets/sec
+
+  Phase 3: 00:32 - 00:46
+    Type: Rhythmic/Percussive
+    Duration: 13.9s
+    Energy: 0.0136
+    Brightness: 1785 Hz
+    Rhythm density: 1.0 onsets/sec
+
+  Phase 4: 00:46 - 01:01
+    Type: Introduction
+    Duration: 15.5s
+    Energy: 0.0262
+    Brightness: 1435 Hz
+    Rhythm density: 0.6 onsets/sec
+
+  Phase 5: 01:01 - 01:18
+    Type: Introduction
+    Duration: 16.7s
+    Energy: 0.0370
+    Brightness: 1457 Hz
+    Rhythm density: 0.2 onsets/sec
+
+  Phase 6: 01:18 - 01:36
+    Type: Introduction
+    Duration: 18.2s
+    Energy: 0.1034
+    Brightness: 1052 Hz
+    Rhythm density: 0.2 onsets/sec
+
+  Phase 7: 01:36 - 01:47
+    Type: Introduction
+    Duration: 10.3s
+    Energy: 0.1521
+    Brightness: 763 Hz
+    Rhythm density: 0.1 onsets/sec
+
+  Phase 8: 01:47 - 02:08
+    Type: Development
+    Duration: 21.8s
+    Energy: 0.1071
+    Brightness: 951 Hz
+    Rhythm density: 0.2 onsets/sec
+
+  Phase 9: 02:08 - 02:33
+    Type: Development
+    Duration: 24.5s
+    Energy: 0.0721
+    Brightness: 934 Hz
+    Rhythm density: 0.7 onsets/sec
+
+  Phase 10: 02:33 - 02:52
+    Type: Development
+    Duration: 19.3s
+    Energy: 0.1028
+    Brightness: 923 Hz
+    Rhythm density: 0.4 onsets/sec
+
+  Phase 11: 02:52 - 03:03
+    Type: Development
+    Duration: 11.1s
+    Energy: 0.2248
+    Brightness: 671 Hz
+    Rhythm density: 0.5 onsets/sec
+
+  Phase 12: 03:03 - 03:49
+    Type: Development
+    Duration: 45.7s
+    Energy: 0.1639
+    Brightness: 977 Hz
+    Rhythm density: 0.1 onsets/sec
+
+  Phase 13: 03:49 - 04:41
+    Type: Development
+    Duration: 51.9s
+    Energy: 0.1206
+    Brightness: 1056 Hz
+    Rhythm density: 0.0 onsets/sec
+
+  Phase 14: 04:41 - 04:54
+    Type: Development
+    Duration: 13.3s
+    Energy: 0.2637
+    Brightness: 870 Hz
+    Rhythm density: 0.2 onsets/sec
+
+  Phase 15: 04:54 - 05:10
+    Type: Development
+    Duration: 16.2s
+    Energy: 0.1996
+    Brightness: 1135 Hz
+    Rhythm density: 0.2 onsets/sec
+
+  Phase 16: 05:10 - 05:30
+    Type: Development
+    Duration: 19.9s
+    Energy: 0.2049
+    Brightness: 1279 Hz
+    Rhythm density: 0.0 onsets/sec
+
+  Phase 17: 05:30 - 06:23
+    Type: Conclusion
+    Duration: 52.5s
+    Energy: 0.2453
+    Brightness: 862 Hz
+    Rhythm density: 0.6 onsets/sec
+
+  Phase 18: 06:23 - 06:33
+    Type: Climax/Peak
+    Duration: 10.6s
+    Energy: 0.2592
+    Brightness: 1300 Hz
+    Rhythm density: 3.0 onsets/sec
+
+  Phase 19: 06:33 - 06:44
+    Type: Climax/Peak
+    Duration: 11.2s
+    Energy: 0.2209
+    Brightness: 1234 Hz
+    Rhythm density: 2.2 onsets/sec
+
+  Phase 20: 06:44 - 07:04
+    Type: Climax/Peak
+    Duration: 19.2s
+    Energy: 0.2168
+    Brightness: 857 Hz
+    Rhythm density: 2.3 onsets/sec
+
+  Phase 21: 07:04 - 08:19
+    Type: Rhythmic/Percussive
+    Duration: 75.9s
+    Energy: 0.2015
+    Brightness: 736 Hz
+    Rhythm density: 1.6 onsets/sec
+
+  Phase 22: 08:19 - 08:32
+    Type: Conclusion
+    Duration: 12.2s
+    Energy: 0.2608
+    Brightness: 1117 Hz
+    Rhythm density: 0.5 onsets/sec
+
+  Phase 23: 08:32 - 10:39
+    Type: Conclusion
+    Duration: 127.2s
+    Energy: 0.0909
+    Brightness: 848 Hz
+    Rhythm density: 0.0 onsets/sec
+
+  Phase 24: 10:39 - 10:41
+    Type: Outro/Fade
+    Duration: 2.7s
+    Energy: 0.0001
+    Brightness: 10684 Hz
+    Rhythm density: 0.0 onsets/sec
+
+--------------------------------------------------
+

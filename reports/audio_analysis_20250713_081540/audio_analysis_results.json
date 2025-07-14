@@ -1,0 +1,3117 @@
+{
+  "metadata": [
+    {
+      "filename": "Timeliner.wav",
+      "duration": 172.87256235827664,
+      "tempo": "[101.33272059]",
+      "detected_key": "C",
+      "key_confidence": 0.4617784321308136,
+      "num_phases": 10,
+      "energy_range": 0.16294008493423462,
+      "brightness_range": 1515.7756782122692,
+      "has_climax": true,
+      "has_breakdown": false,
+      "spectral_centroid_mean": 1277.0237248825192,
+      "spectral_centroid_std": 889.5078363364867,
+      "spectral_rolloff_mean": 1891.5294302661844,
+      "spectral_bandwidth_mean": 1268.617676859008,
+      "zero_crossing_rate_mean": 0.04837738871214156,
+      "rms_mean": 0.15947461128234863,
+      "rms_std": 0.10817525535821915,
+      "mfcc_1_mean": -304.0833740234375,
+      "mfcc_2_mean": 124.63890075683594,
+      "mfcc_3_mean": -1.4438295364379883,
+      "mfcc_4_mean": -9.764287948608398,
+      "mfcc_5_mean": -3.7132465839385986,
+      "mfcc_6_mean": -0.7416770458221436,
+      "mfcc_7_mean": 1.1782119274139404,
+      "mfcc_8_mean": -2.155456304550171,
+      "mfcc_9_mean": -9.31846809387207,
+      "mfcc_10_mean": -12.15722370147705,
+      "mfcc_11_mean": -11.279967308044434,
+      "mfcc_12_mean": -10.926027297973633,
+      "mfcc_13_mean": -10.671216011047363,
+      "mfcc_1_std": 83.81317138671875,
+      "mfcc_2_std": 45.62889862060547,
+      "mfcc_3_std": 49.599334716796875,
+      "mfcc_4_std": 29.235069274902344,
+      "mfcc_5_std": 19.90560531616211,
+      "mfcc_6_std": 16.998619079589844,
+      "mfcc_7_std": 14.16535758972168,
+      "mfcc_8_std": 13.17374038696289,
+      "mfcc_9_std": 15.243009567260742,
+      "mfcc_10_std": 14.846500396728516,
+      "mfcc_11_std": 13.782441139221191,
+      "mfcc_12_std": 12.589720726013184,
+      "mfcc_13_std": 13.21436882019043,
+      "chroma_C_mean": 0.46177852153778076,
+      "chroma_C#_mean": 0.19479690492153168,
+      "chroma_D_mean": 0.14241912961006165,
+      "chroma_D#_mean": 0.16885747015476227,
+      "chroma_E_mean": 0.13438977301120758,
+      "chroma_F_mean": 0.1802755892276764,
+      "chroma_F#_mean": 0.2306928038597107,
+      "chroma_G_mean": 0.3313245177268982,
+      "chroma_G#_mean": 0.11623195558786392,
+      "chroma_A_mean": 0.10061609745025635,
+      "chroma_A#_mean": 0.23869936168193817,
+      "chroma_B_mean": 0.2507973611354828,
+      "tonnetz_1_mean": -0.1396207743345886,
+      "tonnetz_2_mean": 0.4423326760733634,
+      "tonnetz_3_mean": 0.17289403916426363,
+      "tonnetz_4_mean": 0.03723139156745219,
+      "tonnetz_5_mean": 0.09314711095141096,
+      "tonnetz_6_mean": 0.09696557073839195,
+      "mood_descriptors": "energetic",
+      "character_tags": "warm_harmonics",
+      "primary_mood": "energetic",
+      "primary_character": "warm_harmonics",
+      "cluster": 4
+    },
+    {
+      "filename": "2021 04 18 grampy rabbit.aif",
+      "duration": 526.0,
+      "tempo": "[57.421875]",
+      "detected_key": "D",
+      "key_confidence": 0.697160005569458,
+      "num_phases": 12,
+      "energy_range": 0.1323055624961853,
+      "brightness_range": 11999.085046342872,
+      "has_climax": true,
+      "has_breakdown": false,
+      "spectral_centroid_mean": 926.4493319466161,
+      "spectral_centroid_std": 1233.168748345936,
+      "spectral_rolloff_mean": 1243.6596378997815,
+      "spectral_bandwidth_mean": 2162.0488510163495,
+      "zero_crossing_rate_mean": 0.01515078326753079,
+      "rms_mean": 0.11713314056396484,
+      "rms_std": 0.045514799654483795,
+      "mfcc_1_mean": -297.71075439453125,
+      "mfcc_2_mean": 194.80563354492188,
+      "mfcc_3_mean": 43.66737747192383,
+      "mfcc_4_mean": 14.642378807067871,
+      "mfcc_5_mean": 18.953075408935547,
+      "mfcc_6_mean": 19.75164222717285,
+      "mfcc_7_mean": 8.686943054199219,
+      "mfcc_8_mean": 1.383635401725769,
+      "mfcc_9_mean": 1.6148619651794434,
+      "mfcc_10_mean": -0.14361417293548584,
+      "mfcc_11_mean": 0.27015572786331177,
+      "mfcc_12_mean": -0.5254790186882019,
+      "mfcc_13_mean": -0.4114778935909271,
+      "mfcc_1_std": 49.58755874633789,
+      "mfcc_2_std": 24.13692283630371,
+      "mfcc_3_std": 35.944271087646484,
+      "mfcc_4_std": 22.009010314941406,
+      "mfcc_5_std": 11.565994262695312,
+      "mfcc_6_std": 10.370787620544434,
+      "mfcc_7_std": 8.639800071716309,
+      "mfcc_8_std": 8.17518424987793,
+      "mfcc_9_std": 7.424657344818115,
+      "mfcc_10_std": 6.782589912414551,
+      "mfcc_11_std": 6.806809425354004,
+      "mfcc_12_std": 7.614177227020264,
+      "mfcc_13_std": 7.761123180389404,
+      "chroma_C_mean": 0.6099570393562317,
+      "chroma_C#_mean": 0.6347368359565735,
+      "chroma_D_mean": 0.6971608400344849,
+      "chroma_D#_mean": 0.6304871439933777,
+      "chroma_E_mean": 0.635296642780304,
+      "chroma_F_mean": 0.6336117386817932,
+      "chroma_F#_mean": 0.5896462202072144,
+      "chroma_G_mean": 0.5434077978134155,
+      "chroma_G#_mean": 0.5639311671257019,
+      "chroma_A_mean": 0.5534713268280029,
+      "chroma_A#_mean": 0.537857174873352,
+      "chroma_B_mean": 0.5779668688774109,
+      "tonnetz_1_mean": -0.03833698970580267,
+      "tonnetz_2_mean": -0.018825279584312526,
+      "tonnetz_3_mean": -0.017068920256849616,
+      "tonnetz_4_mean": -0.076347292721061,
+      "tonnetz_5_mean": -0.015786444742390993,
+      "tonnetz_6_mean": 0.019436157805153356,
+      "mood_descriptors": "energetic",
+      "character_tags": "warm_harmonics",
+      "primary_mood": "energetic",
+      "primary_character": "warm_harmonics",
+      "cluster": 2
+    },
+    {
+      "filename": "2021 12 20 chiminy biscuits.aif",
+      "duration": 328.0,
+      "tempo": "[129.19921875]",
+      "detected_key": "D",
+      "key_confidence": 0.7015679478645325,
+      "num_phases": 24,
+      "energy_range": 0.01678226888179779,
+      "brightness_range": 13043.996160986631,
+      "has_climax": false,
+      "has_breakdown": false,
+      "spectral_centroid_mean": 1556.5979714597593,
+      "spectral_centroid_std": 1684.610656285417,
+      "spectral_rolloff_mean": 2556.0724596792925,
+      "spectral_bandwidth_mean": 3007.5794574979263,
+      "zero_crossing_rate_mean": 0.01999628552292758,
+      "rms_mean": 0.01249889936298132,
+      "rms_std": 0.007490595802664757,
+      "mfcc_1_mean": -495.7944641113281,
+      "mfcc_2_mean": 160.3495635986328,
+      "mfcc_3_mean": 24.087228775024414,
+      "mfcc_4_mean": 25.65599250793457,
+      "mfcc_5_mean": 15.955615997314453,
+      "mfcc_6_mean": 11.093805313110352,
+      "mfcc_7_mean": 10.327884674072266,
+      "mfcc_8_mean": 7.144257068634033,
+      "mfcc_9_mean": 6.326082229614258,
+      "mfcc_10_mean": 5.594334602355957,
+      "mfcc_11_mean": 5.059215545654297,
+      "mfcc_12_mean": 3.9714531898498535,
+      "mfcc_13_mean": 2.7136483192443848,
+      "mfcc_1_std": 64.30361938476562,
+      "mfcc_2_std": 37.05906677246094,
+      "mfcc_3_std": 25.698671340942383,
+      "mfcc_4_std": 12.90395450592041,
+      "mfcc_5_std": 12.12816047668457,
+      "mfcc_6_std": 10.066580772399902,
+      "mfcc_7_std": 8.922059059143066,
+      "mfcc_8_std": 9.940855979919434,
+      "mfcc_9_std": 7.438206672668457,
+      "mfcc_10_std": 7.110352039337158,
+      "mfcc_11_std": 6.747493267059326,
+      "mfcc_12_std": 7.022442817687988,
+      "mfcc_13_std": 6.2348151206970215,
+      "chroma_C_mean": 0.5214630961418152,
+      "chroma_C#_mean": 0.5668002963066101,
+      "chroma_D_mean": 0.7015697956085205,
+      "chroma_D#_mean": 0.6408685445785522,
+      "chroma_E_mean": 0.5822717547416687,
+      "chroma_F_mean": 0.5464396476745605,
+      "chroma_F#_mean": 0.5183907151222229,
+      "chroma_G_mean": 0.5797566771507263,
+      "chroma_G#_mean": 0.5996682643890381,
+      "chroma_A_mean": 0.5404837727546692,
+      "chroma_A#_mean": 0.5255385041236877,
+      "chroma_B_mean": 0.5226072669029236,
+      "tonnetz_1_mean": -0.043033591606633836,
+      "tonnetz_2_mean": -0.03578166640439944,
+      "tonnetz_3_mean": 0.07035224290263814,
+      "tonnetz_4_mean": 0.11403203387869633,
+      "tonnetz_5_mean": 0.04611559678180831,
+      "tonnetz_6_mean": -0.05302398798406963,
+      "mood_descriptors": "subtle",
+      "character_tags": "rich_texture",
+      "primary_mood": "subtle",
+      "primary_character": "rich_texture",
+      "cluster": 2
+    },
+    {
+      "filename": "2023 04 13 centers.aif",
+      "duration": 576.5,
+      "tempo": "[126.04801829]",
+      "detected_key": "D",
+      "key_confidence": 0.5832980275154114,
+      "num_phases": 2,
+      "energy_range": 0.01097968127578497,
+      "brightness_range": 10617.379336828355,
+      "has_climax": false,
+      "has_breakdown": false,
+      "spectral_centroid_mean": 2305.3786914212574,
+      "spectral_centroid_std": 1019.7430780716039,
+      "spectral_rolloff_mean": 3444.552749478915,
+      "spectral_bandwidth_mean": 2405.9877889581912,
+      "zero_crossing_rate_mean": 0.06906683018227908,
+      "rms_mean": 0.010998241603374481,
+      "rms_std": 0.00914815440773964,
+      "mfcc_1_mean": -447.1278381347656,
+      "mfcc_2_mean": 148.64254760742188,
+      "mfcc_3_mean": -91.4122543334961,
+      "mfcc_4_mean": -41.4074821472168,
+      "mfcc_5_mean": -13.84860610961914,
+      "mfcc_6_mean": -26.274391174316406,
+      "mfcc_7_mean": -24.01508140563965,
+      "mfcc_8_mean": -21.062734603881836,
+      "mfcc_9_mean": -9.563791275024414,
+      "mfcc_10_mean": 2.822949171066284,
+      "mfcc_11_mean": 6.152131080627441,
+      "mfcc_12_mean": 4.848813533782959,
+      "mfcc_13_mean": 8.41650676727295,
+      "mfcc_1_std": 94.91818237304688,
+      "mfcc_2_std": 49.60186767578125,
+      "mfcc_3_std": 19.750389099121094,
+      "mfcc_4_std": 20.793039321899414,
+      "mfcc_5_std": 9.233271598815918,
+      "mfcc_6_std": 11.164499282836914,
+      "mfcc_7_std": 7.661304950714111,
+      "mfcc_8_std": 9.664722442626953,
+      "mfcc_9_std": 8.129182815551758,
+      "mfcc_10_std": 7.711524486541748,
+      "mfcc_11_std": 7.379793167114258,
+      "mfcc_12_std": 6.384091854095459,
+      "mfcc_13_std": 6.289440155029297,
+      "chroma_C_mean": 0.2794076204299927,
+      "chroma_C#_mean": 0.3310401737689972,
+      "chroma_D_mean": 0.5832940340042114,
+      "chroma_D#_mean": 0.4280516505241394,
+      "chroma_E_mean": 0.5317157506942749,
+      "chroma_F_mean": 0.5714146494865417,
+      "chroma_F#_mean": 0.561547577381134,
+      "chroma_G_mean": 0.34841278195381165,
+      "chroma_G#_mean": 0.3560407757759094,
+      "chroma_A_mean": 0.4897610545158386,
+      "chroma_A#_mean": 0.45944568514823914,
+      "chroma_B_mean": 0.29502618312835693,
+      "tonnetz_1_mean": 0.0997096200130188,
+      "tonnetz_2_mean": 0.014192886426358655,
+      "tonnetz_3_mean": -0.088482777599614,
+      "tonnetz_4_mean": -0.08702299764533115,
+      "tonnetz_5_mean": -0.01593597443396758,
+      "tonnetz_6_mean": -0.012171667531076368,
+      "mood_descriptors": "spacey",
+      "character_tags": "rich_texture",
+      "primary_mood": "spacey",
+      "primary_character": "rich_texture",
+      "cluster": 3
+    },
+    {
+      "filename": "2022-12-14 a quatrax cosmos memory.aif",
+      "duration": 692.0,
+      "tempo": "[126.04801829]",
+      "detected_key": "C#",
+      "key_confidence": 0.5870454907417297,
+      "num_phases": 30,
+      "energy_range": 0.08700474351644516,
+      "brightness_range": 2180.376469292575,
+      "has_climax": false,
+      "has_breakdown": false,
+      "spectral_centroid_mean": 1008.6090357406522,
+      "spectral_centroid_std": 545.3617915445565,
+      "spectral_rolloff_mean": 1444.1751128738738,
+      "spectral_bandwidth_mean": 1646.2453903693286,
+      "zero_crossing_rate_mean": 0.030321615173163712,
+      "rms_mean": 0.09417780488729477,
+      "rms_std": 0.039855413138866425,
+      "mfcc_1_mean": -304.71270751953125,
+      "mfcc_2_mean": 215.8482208251953,
+      "mfcc_3_mean": 36.29365539550781,
+      "mfcc_4_mean": -24.372617721557617,
+      "mfcc_5_mean": -19.978818893432617,
+      "mfcc_6_mean": -9.850459098815918,
+      "mfcc_7_mean": -12.067190170288086,
+      "mfcc_8_mean": -13.134966850280762,
+      "mfcc_9_mean": -11.850747108459473,
+      "mfcc_10_mean": -9.552647590637207,
+      "mfcc_11_mean": -8.433722496032715,
+      "mfcc_12_mean": -5.711979866027832,
+      "mfcc_13_mean": -4.459246635437012,
+      "mfcc_1_std": 59.12421417236328,
+      "mfcc_2_std": 31.319114685058594,
+      "mfcc_3_std": 42.18938446044922,
+      "mfcc_4_std": 24.664663314819336,
+      "mfcc_5_std": 19.59206771850586,
+      "mfcc_6_std": 14.696017265319824,
+      "mfcc_7_std": 10.161282539367676,
+      "mfcc_8_std": 10.178055763244629,
+      "mfcc_9_std": 10.235776901245117,
+      "mfcc_10_std": 8.537810325622559,
+      "mfcc_11_std": 7.794306755065918,
+      "mfcc_12_std": 7.504905700683594,
+      "mfcc_13_std": 7.527661323547363,
+      "chroma_C_mean": 0.5197051167488098,
+      "chroma_C#_mean": 0.5870445370674133,
+      "chroma_D_mean": 0.4176015257835388,
+      "chroma_D#_mean": 0.4952298104763031,
+      "chroma_E_mean": 0.2818452715873718,
+      "chroma_F_mean": 0.17190322279930115,
+      "chroma_F#_mean": 0.19672757387161255,
+      "chroma_G_mean": 0.2334987223148346,
+      "chroma_G#_mean": 0.19380249083042145,
+      "chroma_A_mean": 0.21418209373950958,
+      "chroma_A#_mean": 0.33685487508773804,
+      "chroma_B_mean": 0.44190096855163574,
+      "tonnetz_1_mean": -0.08130156537703577,
+      "tonnetz_2_mean": -0.0688893942192571,
+      "tonnetz_3_mean": 0.03916805092435917,
+      "tonnetz_4_mean": -0.002238161932848759,
+      "tonnetz_5_mean": 0.035141148355912255,
+      "tonnetz_6_mean": 0.0024561204962588556,
+      "mood_descriptors": "driving",
+      "character_tags": "warm_harmonics",
+      "primary_mood": "driving",
+      "primary_character": "warm_harmonics",
+      "cluster": 0
+    },
+    {
+      "filename": "2022 01 15 dont pick up.aif",
+      "duration": 436.5,
+      "tempo": "[184.5703125]",
+      "detected_key": "C#",
+      "key_confidence": 0.663937509059906,
+      "num_phases": 27,
+      "energy_range": 0.14509081840515137,
+      "brightness_range": 10380.822416962701,
+      "has_climax": true,
+      "has_breakdown": false,
+      "spectral_centroid_mean": 2154.398094594758,
+      "spectral_centroid_std": 1311.6800182688146,
+      "spectral_rolloff_mean": 4198.604621098841,
+      "spectral_bandwidth_mean": 3984.1973337703084,
+      "zero_crossing_rate_mean": 0.053551233413736465,
+      "rms_mean": 0.04932069778442383,
+      "rms_std": 0.039475951343774796,
+      "mfcc_1_mean": -369.4541015625,
+      "mfcc_2_mean": 177.6947021484375,
+      "mfcc_3_mean": 82.75975799560547,
+      "mfcc_4_mean": 3.9523510932922363,
+      "mfcc_5_mean": -7.609810829162598,
+      "mfcc_6_mean": 9.62695598602295,
+      "mfcc_7_mean": -16.079809188842773,
+      "mfcc_8_mean": 10.128937721252441,
+      "mfcc_9_mean": -16.216310501098633,
+      "mfcc_10_mean": -1.3113080263137817,
+      "mfcc_11_mean": -0.16298598051071167,
+      "mfcc_12_mean": -11.436120986938477,
+      "mfcc_13_mean": 11.490729331970215,
+      "mfcc_1_std": 48.898921966552734,
+      "mfcc_2_std": 34.09036636352539,
+      "mfcc_3_std": 24.67937660217285,
+      "mfcc_4_std": 18.18378257751465,
+      "mfcc_5_std": 9.532058715820312,
+      "mfcc_6_std": 7.176782131195068,
+      "mfcc_7_std": 7.604010581970215,
+      "mfcc_8_std": 6.9434709548950195,
+      "mfcc_9_std": 6.764861106872559,
+      "mfcc_10_std": 6.580556869506836,
+      "mfcc_11_std": 5.884451389312744,
+      "mfcc_12_std": 5.850393295288086,
+      "mfcc_13_std": 5.68706750869751,
+      "chroma_C_mean": 0.6271266937255859,
+      "chroma_C#_mean": 0.6639329791069031,
+      "chroma_D_mean": 0.5834308862686157,
+      "chroma_D#_mean": 0.4610334634780884,
+      "chroma_E_mean": 0.2932983934879303,
+      "chroma_F_mean": 0.32956063747406006,
+      "chroma_F#_mean": 0.2659585475921631,
+      "chroma_G_mean": 0.3587435781955719,
+      "chroma_G#_mean": 0.4259220063686371,
+      "chroma_A_mean": 0.46024787425994873,
+      "chroma_A#_mean": 0.5265505909919739,
+      "chroma_B_mean": 0.5352619886398315,
+      "tonnetz_1_mean": -0.09942495600546898,
+      "tonnetz_2_mean": -0.0062212858176671606,
+      "tonnetz_3_mean": -0.10264793586745521,
+      "tonnetz_4_mean": 0.0731456870775937,
+      "tonnetz_5_mean": -0.014873698052295407,
+      "tonnetz_6_mean": -0.04678387422695054,
+      "mood_descriptors": "balanced",
+      "character_tags": "rich_texture",
+      "primary_mood": "balanced",
+      "primary_character": "rich_texture",
+      "cluster": 2
+    },
+    {
+      "filename": "2022 06 05 negative 60.aif",
+      "duration": 252.0,
+      "tempo": "[74.89809783]",
+      "detected_key": "C",
+      "key_confidence": 0.795402467250824,
+      "num_phases": 4,
+      "energy_range": 0.03012022003531456,
+      "brightness_range": 13400.864277428449,
+      "has_climax": false,
+      "has_breakdown": true,
+      "spectral_centroid_mean": 1494.544780374897,
+      "spectral_centroid_std": 2822.0700138513585,
+      "spectral_rolloff_mean": 2306.8383804809155,
+      "spectral_bandwidth_mean": 2168.4679342566105,
+      "zero_crossing_rate_mean": 0.029540993129779786,
+      "rms_mean": 0.026594288647174835,
+      "rms_std": 0.019655680283904076,
+      "mfcc_1_mean": -496.13470458984375,
+      "mfcc_2_mean": 166.5458221435547,
+      "mfcc_3_mean": 26.214372634887695,
+      "mfcc_4_mean": 14.628777503967285,
+      "mfcc_5_mean": 35.10089874267578,
+      "mfcc_6_mean": 15.98384952545166,
+      "mfcc_7_mean": 0.5855676531791687,
+      "mfcc_8_mean": -1.0962681770324707,
+      "mfcc_9_mean": -2.8492796421051025,
+      "mfcc_10_mean": -3.701655149459839,
+      "mfcc_11_mean": -4.408929824829102,
+      "mfcc_12_mean": -4.289462089538574,
+      "mfcc_13_mean": -6.126497268676758,
+      "mfcc_1_std": 100.20287322998047,
+      "mfcc_2_std": 70.25597381591797,
+      "mfcc_3_std": 33.69308090209961,
+      "mfcc_4_std": 16.34872055053711,
+      "mfcc_5_std": 14.387198448181152,
+      "mfcc_6_std": 9.851950645446777,
+      "mfcc_7_std": 9.40660285949707,
+      "mfcc_8_std": 7.813730239868164,
+      "mfcc_9_std": 7.9977641105651855,
+      "mfcc_10_std": 6.7018280029296875,
+      "mfcc_11_std": 8.643880844116211,
+      "mfcc_12_std": 7.235296726226807,
+      "mfcc_13_std": 7.350730895996094,
+      "chroma_C_mean": 0.7954049706459045,
+      "chroma_C#_mean": 0.4992813766002655,
+      "chroma_D_mean": 0.24498185515403748,
+      "chroma_D#_mean": 0.16486573219299316,
+      "chroma_E_mean": 0.14036431908607483,
+      "chroma_F_mean": 0.08275078237056732,
+      "chroma_F#_mean": 0.2849647104740143,
+      "chroma_G_mean": 0.5035718679428101,
+      "chroma_G#_mean": 0.3554784655570984,
+      "chroma_A_mean": 0.3826281726360321,
+      "chroma_A#_mean": 0.448692262172699,
+      "chroma_B_mean": 0.6126145720481873,
+      "tonnetz_1_mean": 0.12602288551851587,
+      "tonnetz_2_mean": -0.1573504005987605,
+      "tonnetz_3_mean": 0.3401457819986828,
+      "tonnetz_4_mean": 0.12211147030182982,
+      "tonnetz_5_mean": -0.11641142673994537,
+      "tonnetz_6_mean": 0.010439155757724356,
+      "mood_descriptors": "balanced",
+      "character_tags": "",
+      "primary_mood": "balanced",
+      "primary_character": "unknown",
+      "cluster": 1
+    },
+    {
+      "filename": "2022 09 17 caving in.aif",
+      "duration": 568.0,
+      "tempo": "[63.02400915]",
+      "detected_key": "C",
+      "key_confidence": 0.5972915887832642,
+      "num_phases": 34,
+      "energy_range": 0.553150475025177,
+      "brightness_range": 9790.828984812066,
+      "has_climax": true,
+      "has_breakdown": false,
+      "spectral_centroid_mean": 1242.2664179113585,
+      "spectral_centroid_std": 879.5784800477908,
+      "spectral_rolloff_mean": 1915.2984012831125,
+      "spectral_bandwidth_mean": 2610.2254991630093,
+      "zero_crossing_rate_mean": 0.016780411326751697,
+      "rms_mean": 0.14525587856769562,
+      "rms_std": 0.11524645984172821,
+      "mfcc_1_mean": -269.2779541015625,
+      "mfcc_2_mean": 153.15203857421875,
+      "mfcc_3_mean": 34.70011520385742,
+      "mfcc_4_mean": 17.444963455200195,
+      "mfcc_5_mean": 0.9368890523910522,
+      "mfcc_6_mean": -2.680344343185425,
+      "mfcc_7_mean": -3.5095958709716797,
+      "mfcc_8_mean": 0.2798560857772827,
+      "mfcc_9_mean": 0.8227202296257019,
+      "mfcc_10_mean": 1.39329195022583,
+      "mfcc_11_mean": 1.0494084358215332,
+      "mfcc_12_mean": 1.1927803754806519,
+      "mfcc_13_mean": 1.3388044834136963,
+      "mfcc_1_std": 64.37277221679688,
+      "mfcc_2_std": 30.13469886779785,
+      "mfcc_3_std": 29.050689697265625,
+      "mfcc_4_std": 17.29718017578125,
+      "mfcc_5_std": 17.239200592041016,
+      "mfcc_6_std": 17.425844192504883,
+      "mfcc_7_std": 14.018108367919922,
+      "mfcc_8_std": 11.85854721069336,
+      "mfcc_9_std": 10.617733001708984,
+      "mfcc_10_std": 9.709378242492676,
+      "mfcc_11_std": 8.480142593383789,
+      "mfcc_12_std": 7.935755729675293,
+      "mfcc_13_std": 7.759917736053467,
+      "chroma_C_mean": 0.5972925424575806,
+      "chroma_C#_mean": 0.4496317505836487,
+      "chroma_D_mean": 0.3454252779483795,
+      "chroma_D#_mean": 0.382927268743515,
+      "chroma_E_mean": 0.4057370722293854,
+      "chroma_F_mean": 0.38819801807403564,
+      "chroma_F#_mean": 0.49499934911727905,
+      "chroma_G_mean": 0.42894446849823,
+      "chroma_G#_mean": 0.33692899346351624,
+      "chroma_A_mean": 0.3377496302127838,
+      "chroma_A#_mean": 0.47975829243659973,
+      "chroma_B_mean": 0.5544516444206238,
+      "tonnetz_1_mean": -0.041880865106940224,
+      "tonnetz_2_mean": -0.13589774830938786,
+      "tonnetz_3_mean": 0.04940682127283457,
+      "tonnetz_4_mean": -0.08270990763315676,
+      "tonnetz_5_mean": 0.003040696526738711,
+      "tonnetz_6_mean": 0.01966597611185588,
+      "mood_descriptors": "energetic",
+      "character_tags": "rich_texture, warm_harmonics",
+      "primary_mood": "energetic",
+      "primary_character": "rich_texture",
+      "cluster": 0
+    },
+    {
+      "filename": "2022-09-25 while madeline sleeps.aif",
+      "duration": 642.0,
+      "tempo": "[178.20581897]",
+      "detected_key": "C",
+      "key_confidence": 0.6199126243591309,
+      "num_phases": 24,
+      "energy_range": 0.26360443234443665,
+      "brightness_range": 10013.310920126669,
+      "has_climax": true,
+      "has_breakdown": false,
+      "spectral_centroid_mean": 1170.3290876055116,
+      "spectral_centroid_std": 1216.4769693551043,
+      "spectral_rolloff_mean": 1813.0553609816359,
+      "spectral_bandwidth_mean": 2012.4682281246191,
+      "zero_crossing_rate_mean": 0.025568054987296106,
+      "rms_mean": 0.14057961106300354,
+      "rms_std": 0.0919731929898262,
+      "mfcc_1_mean": -266.5418395996094,
+      "mfcc_2_mean": 188.65138244628906,
+      "mfcc_3_mean": 23.153390884399414,
+      "mfcc_4_mean": 2.296509027481079,
+      "mfcc_5_mean": -0.344574511051178,
+      "mfcc_6_mean": -6.543442249298096,
+      "mfcc_7_mean": -6.652746200561523,
+      "mfcc_8_mean": -8.677281379699707,
+      "mfcc_9_mean": -8.716882705688477,
+      "mfcc_10_mean": -7.333765506744385,
+      "mfcc_11_mean": -6.017795085906982,
+      "mfcc_12_mean": -3.7908055782318115,
+      "mfcc_13_mean": -0.8714740872383118,
+      "mfcc_1_std": 76.33772277832031,
+      "mfcc_2_std": 45.45977783203125,
+      "mfcc_3_std": 27.71976661682129,
+      "mfcc_4_std": 19.358049392700195,
+      "mfcc_5_std": 20.552833557128906,
+      "mfcc_6_std": 14.712268829345703,
+      "mfcc_7_std": 12.759352684020996,
+      "mfcc_8_std": 11.777084350585938,
+      "mfcc_9_std": 10.449472427368164,
+      "mfcc_10_std": 9.663625717163086,
+      "mfcc_11_std": 9.545313835144043,
+      "mfcc_12_std": 8.702339172363281,
+      "mfcc_13_std": 7.829934597015381,
+      "chroma_C_mean": 0.6199147701263428,
+      "chroma_C#_mean": 0.34515783190727234,
+      "chroma_D_mean": 0.2792159616947174,
+      "chroma_D#_mean": 0.43559718132019043,
+      "chroma_E_mean": 0.33506476879119873,
+      "chroma_F_mean": 0.29001858830451965,
+      "chroma_F#_mean": 0.5055565237998962,
+      "chroma_G_mean": 0.5517306327819824,
+      "chroma_G#_mean": 0.3668918013572693,
+      "chroma_A_mean": 0.2932060956954956,
+      "chroma_A#_mean": 0.21466492116451263,
+      "chroma_B_mean": 0.343863844871521,
+      "tonnetz_1_mean": -0.023881262996444184,
+      "tonnetz_2_mean": 0.03620177579365363,
+      "tonnetz_3_mean": 0.10994129130288012,
+      "tonnetz_4_mean": -0.009551727583007295,
+      "tonnetz_5_mean": -0.028332835671085084,
+      "tonnetz_6_mean": 0.042136897390616136,
+      "mood_descriptors": "energetic",
+      "character_tags": "warm_harmonics",
+      "primary_mood": "energetic",
+      "primary_character": "warm_harmonics",
+      "cluster": 0
+    }
+  ],
+  "cluster_analysis": {
+    "Cluster_0": {
+      "count": 3,
+      "files": [
+        "2022-12-14 a quatrax cosmos memory.aif",
+        "2022 09 17 caving in.aif",
+        "2022-09-25 while madeline sleeps.aif"
+      ],
+      "avg_tempo": 122.42594880151387,
+      "avg_duration": 634.0,
+      "avg_phases": 29.333333333333332,
+      "common_key": "C",
+      "avg_energy": 0.12667109072208405,
+      "avg_brightness": 1140.4015137525075,
+      "energy_variation": 0.30125319957733154,
+      "has_climax_percent": 66.66666666666666,
+      "has_breakdown_percent": 0.0
+    },
+    "Cluster_1": {
+      "count": 1,
+      "files": [
+        "2022 06 05 negative 60.aif"
+      ],
+      "avg_tempo": 74.89809782608695,
+      "avg_duration": 252.0,
+      "avg_phases": 4.0,
+      "common_key": "C",
+      "avg_energy": 0.026594288647174835,
+      "avg_brightness": 1494.544780374897,
+      "energy_variation": 0.03012022003531456,
+      "has_climax_percent": 0.0,
+      "has_breakdown_percent": 100.0
+    },
+    "Cluster_2": {
+      "count": 3,
+      "files": [
+        "2021 04 18 grampy rabbit.aif",
+        "2021 12 20 chiminy biscuits.aif",
+        "2022 01 15 dont pick up.aif"
+      ],
+      "avg_tempo": 123.73046875,
+      "avg_duration": 430.1666666666667,
+      "avg_phases": 21.0,
+      "common_key": "D",
+      "avg_energy": 0.05965091288089752,
+      "avg_brightness": 1545.8151326670443,
+      "energy_variation": 0.09805955737829208,
+      "has_climax_percent": 66.66666666666666,
+      "has_breakdown_percent": 0.0
+    },
+    "Cluster_3": {
+      "count": 1,
+      "files": [
+        "2023 04 13 centers.aif"
+      ],
+      "avg_tempo": 126.04801829268293,
+      "avg_duration": 576.5,
+      "avg_phases": 2.0,
+      "common_key": "D",
+      "avg_energy": 0.010998241603374481,
+      "avg_brightness": 2305.3786914212574,
+      "energy_variation": 0.01097968127578497,
+      "has_climax_percent": 0.0,
+      "has_breakdown_percent": 0.0
+    },
+    "Cluster_4": {
+      "count": 1,
+      "files": [
+        "Timeliner.wav"
+      ],
+      "avg_tempo": 101.33272058823529,
+      "avg_duration": 172.87256235827664,
+      "avg_phases": 10.0,
+      "common_key": "C",
+      "avg_energy": 0.15947461128234863,
+      "avg_brightness": 1277.0237248825192,
+      "energy_variation": 0.16294008493423462,
+      "has_climax_percent": 100.0,
+      "has_breakdown_percent": 0.0
+    }
+  },
+  "phase_analysis": [
+    {
+      "filename": "Timeliner.wav",
+      "total_duration": 172.87256235827664,
+      "num_phases": 10,
+      "phases": [
+        {
+          "phase_number": 1,
+          "start_time": 0.0,
+          "end_time": 20.59609977324263,
+          "duration": 20.59609977324263,
+          "avg_energy": "0.06889971",
+          "avg_brightness": 517.4830799398297,
+          "avg_roughness": 0.015828404646984217,
+          "onset_density": 0.48552881905298756,
+          "phase_type": "Introduction",
+          "mood_descriptors": [
+            "balanced"
+          ]
+        },
+        {
+          "phase_number": 2,
+          "start_time": 20.59609977324263,
+          "end_time": 35.631020408163266,
+          "duration": 15.034920634920635,
+          "avg_energy": "0.14577512",
+          "avg_brightness": 642.6819550901414,
+          "avg_roughness": 0.02414333976833977,
+          "onset_density": 2.5274493243243246,
+          "phase_type": "Build-up/Energetic",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 3,
+          "start_time": 35.631020408163266,
+          "end_time": 51.2,
+          "duration": 15.568979591836737,
+          "avg_energy": "0.1516163",
+          "avg_brightness": 1784.7477800542279,
+          "avg_roughness": 0.06623620723806861,
+          "onset_density": 7.386482802013422,
+          "phase_type": "Build-up/Energetic",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 4,
+          "start_time": 51.2,
+          "end_time": 67.32625850340136,
+          "duration": 16.12625850340136,
+          "avg_energy": "0.20053652",
+          "avg_brightness": 1824.1521389253821,
+          "avg_roughness": 0.07413543635259179,
+          "onset_density": 6.38709840712743,
+          "phase_type": "Build-up/Energetic",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 5,
+          "start_time": 67.32625850340136,
+          "end_time": 80.48036281179138,
+          "duration": 13.154104308390018,
+          "avg_energy": "0.2318398",
+          "avg_brightness": 1792.979408233085,
+          "avg_roughness": 0.0707154505461165,
+          "onset_density": 6.461861484995589,
+          "phase_type": "Build-up/Energetic",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 6,
+          "start_time": 80.48036281179138,
+          "end_time": 97.5934693877551,
+          "duration": 17.113106575963727,
+          "avg_energy": "0.17404833",
+          "avg_brightness": 1920.8729599284916,
+          "avg_roughness": 0.0785960555885346,
+          "onset_density": 3.8566930970149236,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 7,
+          "start_time": 97.5934693877551,
+          "end_time": 123.61142857142858,
+          "duration": 26.01795918367347,
+          "avg_energy": "0.19600673",
+          "avg_brightness": 824.2168026514158,
+          "avg_roughness": 0.033994484883980366,
+          "onset_density": 2.3060993975903616,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 8,
+          "start_time": 123.61142857142858,
+          "end_time": 137.9265306122449,
+          "duration": 14.315102040816328,
+          "avg_energy": "0.18696347",
+          "avg_brightness": 2033.258758152099,
+          "avg_roughness": 0.0685748048459043,
+          "onset_density": 6.636348083941606,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "exuberant",
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 9,
+          "start_time": 137.9265306122449,
+          "end_time": 152.4622222222222,
+          "duration": 14.535691609977306,
+          "avg_energy": "0.21425077",
+          "avg_brightness": 1565.512540473567,
+          "avg_roughness": 0.0598115257793765,
+          "onset_density": 3.027031749201282,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 10,
+          "start_time": 152.4622222222222,
+          "end_time": 172.87256235827664,
+          "duration": 20.41034013605443,
+          "avg_energy": "0.070971765",
+          "avg_brightness": 660.1921707130984,
+          "avg_roughness": 0.02143080008172257,
+          "onset_density": 0.09798954778156993,
+          "phase_type": "Conclusion",
+          "mood_descriptors": [
+            "droning"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "2021 04 18 grampy rabbit.aif",
+      "total_duration": 526.0,
+      "num_phases": 12,
+      "phases": [
+        {
+          "phase_number": 1,
+          "start_time": 0.0,
+          "end_time": 59.628843537414966,
+          "duration": 59.628843537414966,
+          "avg_energy": "0.09756774",
+          "avg_brightness": 929.8874446517694,
+          "avg_roughness": 0.021637533312646028,
+          "onset_density": 3.739800854264019,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 2,
+          "start_time": 59.628843537414966,
+          "end_time": 114.56725623582767,
+          "duration": 54.938412698412705,
+          "avg_energy": "0.12017709",
+          "avg_brightness": 806.3404413234496,
+          "avg_roughness": 0.014117024051669484,
+          "onset_density": 5.569873335798816,
+          "phase_type": "Build-up/Energetic",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 3,
+          "start_time": 114.56725623582767,
+          "end_time": 127.82585034013606,
+          "duration": 13.258594104308386,
+          "avg_energy": "0.12780946",
+          "avg_brightness": 837.443056167769,
+          "avg_roughness": 0.01431450785354641,
+          "onset_density": 6.637204465849389,
+          "phase_type": "Build-up/Energetic",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 4,
+          "start_time": 127.82585034013606,
+          "end_time": 176.93605442176872,
+          "duration": 49.11020408163266,
+          "avg_energy": "0.1310582",
+          "avg_brightness": 795.0135684171013,
+          "avg_roughness": 0.013568677969858157,
+          "onset_density": 6.658494015957446,
+          "phase_type": "Build-up/Energetic",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 5,
+          "start_time": 176.93605442176872,
+          "end_time": 193.60798185941044,
+          "duration": 16.671927437641727,
+          "avg_energy": "0.12442495",
+          "avg_brightness": 889.271884576266,
+          "avg_roughness": 0.014009183495821727,
+          "onset_density": 7.3176901984679645,
+          "phase_type": "Build-up/Energetic",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 6,
+          "start_time": 193.60798185941044,
+          "end_time": 208.82866213151928,
+          "duration": 15.220680272108837,
+          "avg_energy": "0.13651067",
+          "avg_brightness": 1051.9411952874484,
+          "avg_roughness": 0.014700952874713959,
+          "onset_density": 7.949710383295198,
+          "phase_type": "Build-up/Energetic",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 7,
+          "start_time": 208.82866213151928,
+          "end_time": 220.6592290249433,
+          "duration": 11.83056689342402,
+          "avg_energy": "0.13074854",
+          "avg_brightness": 931.895708231301,
+          "avg_roughness": 0.012257824000245339,
+          "onset_density": 7.100251472031413,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 8,
+          "start_time": 220.6592290249433,
+          "end_time": 244.4132426303855,
+          "duration": 23.754013605442196,
+          "avg_energy": "0.13875835",
+          "avg_brightness": 936.0710454390662,
+          "avg_roughness": 0.014823130498533725,
+          "onset_density": 7.198783449413484,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 9,
+          "start_time": 244.4132426303855,
+          "end_time": 282.50557823129253,
+          "duration": 38.092335600907035,
+          "avg_energy": "0.13206871",
+          "avg_brightness": 869.4911506602073,
+          "avg_roughness": 0.013662945748247486,
+          "onset_density": 7.009284040688813,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 10,
+          "start_time": 282.50557823129253,
+          "end_time": 297.64498866213154,
+          "duration": 15.139410430839007,
+          "avg_energy": "0.11579626",
+          "avg_brightness": 1072.5582672258936,
+          "avg_roughness": 0.016841209739263802,
+          "onset_density": 6.671329802530673,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 11,
+          "start_time": 297.64498866213154,
+          "end_time": 521.7756009070295,
+          "duration": 224.13061224489792,
+          "avg_energy": "0.112679794",
+          "avg_brightness": 758.550661392585,
+          "avg_roughness": 0.009608783143939394,
+          "onset_density": 6.960227272727274,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 12,
+          "start_time": 521.7756009070295,
+          "end_time": 525.990022675737,
+          "duration": 4.2144217687075525,
+          "avg_energy": "0.0064527844",
+          "avg_brightness": 12757.635707735457,
+          "avg_roughness": 0.2755063059573003,
+          "onset_density": 0.0,
+          "phase_type": "Outro/Fade",
+          "mood_descriptors": [
+            "ethereal",
+            "atmospheric"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "2021 12 20 chiminy biscuits.aif",
+      "total_duration": 328.0,
+      "num_phases": 24,
+      "phases": [
+        {
+          "phase_number": 1,
+          "start_time": 0.0,
+          "end_time": 18.52952380952381,
+          "duration": 18.52952380952381,
+          "avg_energy": "0.013592357",
+          "avg_brightness": 1190.3409409651574,
+          "avg_roughness": 0.011237505384555138,
+          "onset_density": 4.263466282894737,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 2,
+          "start_time": 18.52952380952381,
+          "end_time": 30.243990929705216,
+          "duration": 11.714467120181407,
+          "avg_energy": "0.014970519",
+          "avg_brightness": 1207.4106148310284,
+          "avg_roughness": 0.00854758346754212,
+          "onset_density": 8.451088639742318,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 3,
+          "start_time": 30.243990929705216,
+          "end_time": 41.203809523809525,
+          "duration": 10.95981859410431,
+          "avg_energy": "0.011813964",
+          "avg_brightness": 1391.2949690798084,
+          "avg_roughness": 0.010743739241260594,
+          "onset_density": 6.204482256355932,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 4,
+          "start_time": 41.203809523809525,
+          "end_time": 54.36952380952381,
+          "duration": 13.165714285714287,
+          "avg_energy": "0.012023581",
+          "avg_brightness": 1387.0030740929058,
+          "avg_roughness": 0.010287061149691358,
+          "onset_density": 6.228298611111111,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 5,
+          "start_time": 54.36952380952381,
+          "end_time": 65.23646258503402,
+          "duration": 10.866938775510206,
+          "avg_energy": "0.014566842",
+          "avg_brightness": 1212.8642289143206,
+          "avg_roughness": 0.013487726195245726,
+          "onset_density": 3.128756009615384,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 6,
+          "start_time": 65.23646258503402,
+          "end_time": 75.98730158730159,
+          "duration": 10.750839002267568,
+          "avg_energy": "0.016683193",
+          "avg_brightness": 1033.3124424439718,
+          "avg_roughness": 0.011745642379859611,
+          "onset_density": 7.627311690064799,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 7,
+          "start_time": 75.98730158730159,
+          "end_time": 90.33723356009071,
+          "duration": 14.349931972789122,
+          "avg_energy": "0.016813343",
+          "avg_brightness": 1222.6576223410711,
+          "avg_roughness": 0.010157119109021036,
+          "onset_density": 8.292722239077666,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 8,
+          "start_time": 90.33723356009071,
+          "end_time": 100.82104308390022,
+          "duration": 10.483809523809512,
+          "avg_energy": "0.012280662",
+          "avg_brightness": 1089.1939833580145,
+          "avg_roughness": 0.006973824231727575,
+          "onset_density": 7.6308139534883805,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 9,
+          "start_time": 100.82104308390022,
+          "end_time": 111.1307029478458,
+          "duration": 10.309659863945583,
+          "avg_energy": "0.013886362",
+          "avg_brightness": 1232.4122840792568,
+          "avg_roughness": 0.008902884818412162,
+          "onset_density": 4.752824113175674,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 10,
+          "start_time": 111.1307029478458,
+          "end_time": 121.97442176870749,
+          "duration": 10.843718820861682,
+          "avg_energy": "0.013043931",
+          "avg_brightness": 1185.9061861888772,
+          "avg_roughness": 0.008465981330299787,
+          "onset_density": 6.178692117237685,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 11,
+          "start_time": 121.97442176870749,
+          "end_time": 137.96136054421768,
+          "duration": 15.986938775510197,
+          "avg_energy": "0.015185398",
+          "avg_brightness": 1411.139425596579,
+          "avg_roughness": 0.010949981844589687,
+          "onset_density": 6.63041258169935,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 12,
+          "start_time": 137.96136054421768,
+          "end_time": 150.38403628117914,
+          "duration": 12.422675736961452,
+          "avg_energy": "0.014153438",
+          "avg_brightness": 1140.4934078841088,
+          "avg_roughness": 0.009371349299065421,
+          "onset_density": 10.545232184579438,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 13,
+          "start_time": 150.38403628117914,
+          "end_time": 162.15655328798186,
+          "duration": 11.77251700680273,
+          "avg_energy": "0.013664211",
+          "avg_brightness": 1351.5005108150208,
+          "avg_roughness": 0.011502538677268245,
+          "onset_density": 5.096616124260351,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 14,
+          "start_time": 162.15655328798186,
+          "end_time": 172.81451247165532,
+          "duration": 10.657959183673455,
+          "avg_energy": "0.011054086",
+          "avg_brightness": 1422.8379612372441,
+          "avg_roughness": 0.010906543607026144,
+          "onset_density": 5.441942401960792,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 15,
+          "start_time": 172.81451247165532,
+          "end_time": 189.7534693877551,
+          "duration": 16.938956916099784,
+          "avg_energy": "0.012018135",
+          "avg_brightness": 1328.5479238573764,
+          "avg_roughness": 0.014521598162268678,
+          "onset_density": 4.781876499314596,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 16,
+          "start_time": 189.7534693877551,
+          "end_time": 206.34412698412697,
+          "duration": 16.59065759637187,
+          "avg_energy": "0.012083589",
+          "avg_brightness": 1457.1635186801755,
+          "avg_roughness": 0.009388052724807557,
+          "onset_density": 7.89601010321904,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 17,
+          "start_time": 206.34412698412697,
+          "end_time": 229.80789115646257,
+          "duration": 23.4637641723356,
+          "avg_energy": "0.011602121",
+          "avg_brightness": 1467.8352201390173,
+          "avg_roughness": 0.022574249675284513,
+          "onset_density": 0.9802348775358734,
+          "phase_type": "Conclusion",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 18,
+          "start_time": 229.80789115646257,
+          "end_time": 243.4380045351474,
+          "duration": 13.630113378684825,
+          "avg_energy": "0.010097465",
+          "avg_brightness": 1286.9678323163052,
+          "avg_roughness": 0.01784805219867973,
+          "onset_density": 2.2010088373083447,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 19,
+          "start_time": 243.4380045351474,
+          "end_time": 256.65015873015875,
+          "duration": 13.212154195011351,
+          "avg_energy": "0.013141385",
+          "avg_brightness": 1519.7241664674902,
+          "avg_roughness": 0.012941169403558874,
+          "onset_density": 6.584845946836549,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 20,
+          "start_time": 256.65015873015875,
+          "end_time": 275.92272108843537,
+          "duration": 19.272562358276616,
+          "avg_energy": "0.011993424",
+          "avg_brightness": 1137.2128975240385,
+          "avg_roughness": 0.014380176957831326,
+          "onset_density": 5.7594832454819365,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 21,
+          "start_time": 275.92272108843537,
+          "end_time": 294.7308843537415,
+          "duration": 18.80816326530612,
+          "avg_energy": "0.015538863",
+          "avg_brightness": 1400.6388179233243,
+          "avg_roughness": 0.04235297309027778,
+          "onset_density": 5.157335069444445,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 22,
+          "start_time": 294.7308843537415,
+          "end_time": 308.082358276644,
+          "duration": 13.351473922902528,
+          "avg_energy": "0.011355515",
+          "avg_brightness": 1224.2077776108608,
+          "avg_roughness": 0.02770337975543478,
+          "onset_density": 1.7226562499999956,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 23,
+          "start_time": 308.082358276644,
+          "end_time": 323.61650793650796,
+          "duration": 15.534149659863942,
+          "avg_energy": "0.002089443",
+          "avg_brightness": 3160.638478205224,
+          "avg_roughness": 0.02874801476083707,
+          "onset_density": 2.639346272421525,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 24,
+          "start_time": 323.61650793650796,
+          "end_time": 327.9934693877551,
+          "duration": 4.376961451247155,
+          "avg_energy": "3.1073847e-05",
+          "avg_brightness": 14077.308603430603,
+          "avg_roughness": 0.3519575285974801,
+          "onset_density": 0.0,
+          "phase_type": "Outro/Fade",
+          "mood_descriptors": [
+            "ethereal",
+            "atmospheric"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "2023 04 13 centers.aif",
+      "total_duration": 576.5,
+      "num_phases": 2,
+      "phases": [
+        {
+          "phase_number": 1,
+          "start_time": 0.0,
+          "end_time": 575.738775510204,
+          "duration": 575.738775510204,
+          "avg_energy": "0.0110128345",
+          "avg_brightness": 2291.2076488961634,
+          "avg_roughness": 0.06869651454426295,
+          "onset_density": 11.541692661070782,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "spacey"
+          ]
+        },
+        {
+          "phase_number": 2,
+          "start_time": 575.738775510204,
+          "end_time": 576.4934240362812,
+          "duration": 0.754648526077176,
+          "avg_energy": "3.3153283e-05",
+          "avg_brightness": 12908.586985724518,
+          "avg_roughness": 0.3492938701923077,
+          "onset_density": 0.0,
+          "phase_type": "Outro/Fade",
+          "mood_descriptors": [
+            "ethereal",
+            "atmospheric"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "2022-12-14 a quatrax cosmos memory.aif",
+      "total_duration": 692.0,
+      "num_phases": 30,
+      "phases": [
+        {
+          "phase_number": 1,
+          "start_time": 0.0,
+          "end_time": 21.524897959183672,
+          "duration": 21.524897959183672,
+          "avg_energy": "0.07207593",
+          "avg_brightness": 1177.391695253861,
+          "avg_roughness": 0.03587497682375944,
+          "onset_density": 3.0197587985436893,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 2,
+          "start_time": 21.524897959183672,
+          "end_time": 51.49024943310658,
+          "duration": 29.965351473922905,
+          "avg_energy": "0.076167144",
+          "avg_brightness": 1105.451879520621,
+          "avg_roughness": 0.03327898737165827,
+          "onset_density": 2.102428201278574,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "balanced"
+          ]
+        },
+        {
+          "phase_number": 3,
+          "start_time": 51.49024943310658,
+          "end_time": 69.99655328798185,
+          "duration": 18.506303854875277,
+          "avg_energy": "0.07440372",
+          "avg_brightness": 1275.6367941585904,
+          "avg_roughness": 0.0345833701153484,
+          "onset_density": 3.4582810539523225,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 4,
+          "start_time": 69.99655328798185,
+          "end_time": 83.35963718820862,
+          "duration": 13.36308390022677,
+          "avg_energy": "0.09033412",
+          "avg_brightness": 875.492894226537,
+          "avg_roughness": 0.028395758734809026,
+          "onset_density": 1.6463265638575137,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 5,
+          "start_time": 83.35963718820862,
+          "end_time": 94.28462585034013,
+          "duration": 10.924988662131511,
+          "avg_energy": "0.079187654",
+          "avg_brightness": 834.0904991838073,
+          "avg_roughness": 0.026350063928002126,
+          "onset_density": 2.2883318942614257,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "balanced"
+          ]
+        },
+        {
+          "phase_number": 6,
+          "start_time": 94.28462585034013,
+          "end_time": 108.07727891156462,
+          "duration": 13.792653061224485,
+          "avg_energy": "0.07276681",
+          "avg_brightness": 1509.851452011157,
+          "avg_roughness": 0.049067333491161616,
+          "onset_density": 2.247573390151516,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 7,
+          "start_time": 108.07727891156462,
+          "end_time": 120.39546485260772,
+          "duration": 12.318185941043097,
+          "avg_energy": "0.09808726",
+          "avg_brightness": 921.4230717299796,
+          "avg_roughness": 0.027886796065032988,
+          "onset_density": 1.055350200282751,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 8,
+          "start_time": 120.39546485260772,
+          "end_time": 131.48299319727892,
+          "duration": 11.087528344671199,
+          "avg_energy": "0.09006589",
+          "avg_brightness": 1488.4476044772923,
+          "avg_roughness": 0.04580793929973822,
+          "onset_density": 0.901914267015707,
+          "phase_type": "Introduction",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 9,
+          "start_time": 131.48299319727892,
+          "end_time": 149.44362811791385,
+          "duration": 17.96063492063493,
+          "avg_energy": "0.095019504",
+          "avg_brightness": 1126.7370702804699,
+          "avg_roughness": 0.03253619656997414,
+          "onset_density": 0.16703195701357457,
+          "phase_type": "Introduction",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 10,
+          "start_time": 149.44362811791385,
+          "end_time": 159.83455782312924,
+          "duration": 10.390929705215399,
+          "avg_energy": "0.10373494",
+          "avg_brightness": 1971.2376741739026,
+          "avg_roughness": 0.04643527409217877,
+          "onset_density": 0.19247555865921825,
+          "phase_type": "Development",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 11,
+          "start_time": 159.83455782312924,
+          "end_time": 170.14421768707484,
+          "duration": 10.309659863945598,
+          "avg_energy": "0.114925146",
+          "avg_brightness": 2820.8441077352495,
+          "avg_roughness": 0.053747228673986486,
+          "onset_density": 0.09699641047297279,
+          "phase_type": "Bright/Melodic",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 12,
+          "start_time": 170.14421768707484,
+          "end_time": 180.1752380952381,
+          "duration": 10.031020408163243,
+          "avg_energy": "0.11156344",
+          "avg_brightness": 2887.4290174765338,
+          "avg_roughness": 0.05649425365306713,
+          "onset_density": 0.1993815104166671,
+          "phase_type": "Bright/Melodic",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 13,
+          "start_time": 180.1752380952381,
+          "end_time": 197.90367346938777,
+          "duration": 17.728435374149683,
+          "avg_energy": "0.088583134",
+          "avg_brightness": 1164.669812603666,
+          "avg_roughness": 0.029261700843156515,
+          "onset_density": 1.6357901522593299,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 14,
+          "start_time": 197.90367346938777,
+          "end_time": 214.0995918367347,
+          "duration": 16.195918367346934,
+          "avg_energy": "0.120125696",
+          "avg_brightness": 1029.9180541829319,
+          "avg_roughness": 0.03139350918458781,
+          "onset_density": 1.975806451612904,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 15,
+          "start_time": 214.0995918367347,
+          "end_time": 235.33424036281178,
+          "duration": 21.23464852607708,
+          "avg_energy": "0.09893298",
+          "avg_brightness": 1558.556576990241,
+          "avg_roughness": 0.03742572999248223,
+          "onset_density": 1.9778994669218168,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 16,
+          "start_time": 235.33424036281178,
+          "end_time": 253.2368253968254,
+          "duration": 17.90258503401361,
+          "avg_energy": "0.087276675",
+          "avg_brightness": 981.5818143742392,
+          "avg_roughness": 0.029630628850518807,
+          "onset_density": 1.2288728112840464,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 17,
+          "start_time": 253.2368253968254,
+          "end_time": 265.6014512471655,
+          "duration": 12.364625850340133,
+          "avg_energy": "0.10131492",
+          "avg_brightness": 885.7391505072783,
+          "avg_roughness": 0.028125916960093898,
+          "onset_density": 1.3748899647887327,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 18,
+          "start_time": 265.6014512471655,
+          "end_time": 280.82213151927436,
+          "duration": 15.220680272108837,
+          "avg_energy": "0.113566406",
+          "avg_brightness": 916.3345407180572,
+          "avg_roughness": 0.028726282418001525,
+          "onset_density": 0.9198012013729981,
+          "phase_type": "Development",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 19,
+          "start_time": 280.82213151927436,
+          "end_time": 384.8707482993197,
+          "duration": 104.04861678004534,
+          "avg_energy": "0.09466633",
+          "avg_brightness": 791.8773219821335,
+          "avg_roughness": 0.026378247653286096,
+          "onset_density": 2.921711113590717,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 20,
+          "start_time": 384.8707482993197,
+          "end_time": 419.4917006802721,
+          "duration": 34.62095238095242,
+          "avg_energy": "0.065508015",
+          "avg_brightness": 945.8382589892514,
+          "avg_roughness": 0.03210424657318914,
+          "onset_density": 2.5418133802816874,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 21,
+          "start_time": 419.4917006802721,
+          "end_time": 433.8184126984127,
+          "duration": 14.326712018140597,
+          "avg_energy": "0.061149262",
+          "avg_brightness": 812.2691358563602,
+          "avg_roughness": 0.02387038467382496,
+          "onset_density": 1.1865946616693672,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "balanced"
+          ]
+        },
+        {
+          "phase_number": 22,
+          "start_time": 433.8184126984127,
+          "end_time": 451.1637188208617,
+          "duration": 17.34530612244896,
+          "avg_energy": "0.06642595",
+          "avg_brightness": 824.8346428602606,
+          "avg_roughness": 0.024852012215528782,
+          "onset_density": 0.8071347891566274,
+          "phase_type": "Conclusion",
+          "mood_descriptors": [
+            "balanced"
+          ]
+        },
+        {
+          "phase_number": 23,
+          "start_time": 451.1637188208617,
+          "end_time": 469.0895238095238,
+          "duration": 17.92580498866215,
+          "avg_energy": "0.09083242",
+          "avg_brightness": 773.935053882311,
+          "avg_roughness": 0.026176808411593266,
+          "onset_density": 2.2872055132771996,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 24,
+          "start_time": 469.0895238095238,
+          "end_time": 502.3521088435374,
+          "duration": 33.26258503401357,
+          "avg_energy": "0.10985153",
+          "avg_brightness": 707.0525481839587,
+          "avg_roughness": 0.023801878817626528,
+          "onset_density": 1.9541475785340336,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 25,
+          "start_time": 502.3521088435374,
+          "end_time": 518.5596371882086,
+          "duration": 16.207528344671232,
+          "avg_energy": "0.148154",
+          "avg_brightness": 858.5298293739396,
+          "avg_roughness": 0.031029993620164755,
+          "onset_density": 1.912691395057303,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 26,
+          "start_time": 518.5596371882086,
+          "end_time": 553.6798185941043,
+          "duration": 35.120181405895664,
+          "avg_energy": "0.11943636",
+          "avg_brightness": 846.4351865286948,
+          "avg_roughness": 0.027631069214876035,
+          "onset_density": 1.8507877066115717,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 27,
+          "start_time": 553.6798185941043,
+          "end_time": 610.4526077097506,
+          "duration": 56.77278911564633,
+          "avg_energy": "0.116465785",
+          "avg_brightness": 725.6952237990968,
+          "avg_roughness": 0.02395963142254601,
+          "onset_density": 1.796635352760734,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 28,
+          "start_time": 610.4526077097506,
+          "end_time": 642.8792743764172,
+          "duration": 32.42666666666662,
+          "avg_energy": "0.108612835",
+          "avg_brightness": 782.0598346808878,
+          "avg_roughness": 0.02670721866049051,
+          "onset_density": 1.017680921052633,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 29,
+          "start_time": 642.8792743764172,
+          "end_time": 683.2471655328798,
+          "duration": 40.36789115646252,
+          "avg_energy": "0.06746977",
+          "avg_brightness": 935.4673341734194,
+          "avg_roughness": 0.030236212375934983,
+          "onset_density": 0.6936205780845568,
+          "phase_type": "Conclusion",
+          "mood_descriptors": [
+            "balanced"
+          ]
+        },
+        {
+          "phase_number": 30,
+          "start_time": 683.2471655328798,
+          "end_time": 691.9894784580499,
+          "duration": 8.742312925170154,
+          "avg_energy": "0.06252031",
+          "avg_brightness": 946.775026605937,
+          "avg_roughness": 0.027694742622679045,
+          "onset_density": 0.0,
+          "phase_type": "Conclusion",
+          "mood_descriptors": [
+            "balanced"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "2022 01 15 dont pick up.aif",
+      "total_duration": 436.5,
+      "num_phases": 27,
+      "phases": [
+        {
+          "phase_number": 1,
+          "start_time": 0.0,
+          "end_time": 11.679637188208616,
+          "duration": 11.679637188208616,
+          "avg_energy": "0.011364994",
+          "avg_brightness": 4254.6570042267485,
+          "avg_roughness": 0.12030356920974156,
+          "onset_density": 2.226096545725646,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 2,
+          "start_time": 11.679637188208616,
+          "end_time": 23.939773242630384,
+          "duration": 12.260136054421768,
+          "avg_energy": "0.014431259",
+          "avg_brightness": 3716.6958563315743,
+          "avg_roughness": 0.10008563417376894,
+          "onset_density": 3.262606534090909,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 3,
+          "start_time": 23.939773242630384,
+          "end_time": 36.52498866213152,
+          "duration": 12.585215419501136,
+          "avg_energy": "0.016520575",
+          "avg_brightness": 3322.324908473569,
+          "avg_roughness": 0.08694694490890222,
+          "onset_density": 3.0988742504612543,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 4,
+          "start_time": 36.52498866213152,
+          "end_time": 53.09242630385488,
+          "duration": 16.56743764172336,
+          "avg_energy": "0.03529351",
+          "avg_brightness": 2055.1215122648427,
+          "avg_roughness": 0.04232922816660827,
+          "onset_density": 2.2936558339173088,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 5,
+          "start_time": 53.09242630385488,
+          "end_time": 64.91138321995464,
+          "duration": 11.818956916099765,
+          "avg_energy": "0.04525851",
+          "avg_brightness": 1758.7473215890261,
+          "avg_roughness": 0.03404730476424361,
+          "onset_density": 2.115245886542241,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 6,
+          "start_time": 64.91138321995464,
+          "end_time": 99.93868480725624,
+          "duration": 35.027301587301594,
+          "avg_energy": "0.049400505",
+          "avg_brightness": 1636.4107892614268,
+          "avg_roughness": 0.032935759860788866,
+          "onset_density": 2.426678509280742,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 7,
+          "start_time": 99.93868480725624,
+          "end_time": 113.62684807256235,
+          "duration": 13.688163265306116,
+          "avg_energy": "0.040631622",
+          "avg_brightness": 2039.0635022117358,
+          "avg_roughness": 0.03889808298876166,
+          "onset_density": 2.6300095419847342,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 8,
+          "start_time": 113.62684807256235,
+          "end_time": 159.70684807256237,
+          "duration": 46.08000000000001,
+          "avg_energy": "0.04908454",
+          "avg_brightness": 1611.6290746886573,
+          "avg_roughness": 0.03266994008251449,
+          "onset_density": 2.018229166666666,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 9,
+          "start_time": 159.70684807256237,
+          "end_time": 178.52662131519276,
+          "duration": 18.81977324263039,
+          "avg_energy": "0.018262003",
+          "avg_brightness": 2985.5128035937514,
+          "avg_roughness": 0.07647068746144356,
+          "onset_density": 3.772627814620604,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 10,
+          "start_time": 178.52662131519276,
+          "end_time": 192.16834467120182,
+          "duration": 13.641723356009066,
+          "avg_energy": "0.011878721",
+          "avg_brightness": 3912.125232902716,
+          "avg_roughness": 0.12053149933510639,
+          "onset_density": 4.178357712765958,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 11,
+          "start_time": 192.16834467120182,
+          "end_time": 202.25741496598638,
+          "duration": 10.089070294784563,
+          "avg_energy": "0.014870992",
+          "avg_brightness": 3317.203329946472,
+          "avg_roughness": 0.09870192480581128,
+          "onset_density": 9.118778768699672,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 12,
+          "start_time": 202.25741496598638,
+          "end_time": 212.5902947845805,
+          "duration": 10.332879818594108,
+          "avg_energy": "0.020462152",
+          "avg_brightness": 2695.247967721392,
+          "avg_roughness": 0.06671951808286516,
+          "onset_density": 5.22603581460674,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "balanced"
+          ]
+        },
+        {
+          "phase_number": 13,
+          "start_time": 212.5902947845805,
+          "end_time": 228.37986394557822,
+          "duration": 15.78956916099773,
+          "avg_energy": "0.033000357",
+          "avg_brightness": 2083.8697817458237,
+          "avg_roughness": 0.04254940257352941,
+          "onset_density": 3.229980468750001,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 14,
+          "start_time": 228.37986394557822,
+          "end_time": 240.9534693877551,
+          "duration": 12.57360544217687,
+          "avg_energy": "0.03491797",
+          "avg_brightness": 1932.7254264766275,
+          "avg_roughness": 0.04050434989612189,
+          "onset_density": 2.6245455332409975,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 15,
+          "start_time": 240.9534693877551,
+          "end_time": 252.22675736961452,
+          "duration": 11.273287981859426,
+          "avg_energy": "0.03725058",
+          "avg_brightness": 1871.564349229578,
+          "avg_roughness": 0.039003664875128734,
+          "onset_density": 1.0644631822863013,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic",
+            "pensive"
+          ]
+        },
+        {
+          "phase_number": 16,
+          "start_time": 252.22675736961452,
+          "end_time": 266.0310204081633,
+          "duration": 13.804263038548754,
+          "avg_energy": "0.043483082",
+          "avg_brightness": 1712.1121291188865,
+          "avg_roughness": 0.03627326009251472,
+          "onset_density": 0.7244138982338099,
+          "phase_type": "Development",
+          "mood_descriptors": [
+            "synthetic",
+            "pensive"
+          ]
+        },
+        {
+          "phase_number": 17,
+          "start_time": 266.0310204081633,
+          "end_time": 282.31981859410433,
+          "duration": 16.28879818594106,
+          "avg_energy": "0.05053444",
+          "avg_brightness": 1555.919865647692,
+          "avg_roughness": 0.03206786239308625,
+          "onset_density": 0.7367026015680675,
+          "phase_type": "Development",
+          "mood_descriptors": [
+            "synthetic",
+            "pensive"
+          ]
+        },
+        {
+          "phase_number": 18,
+          "start_time": 282.31981859410433,
+          "end_time": 304.0536961451247,
+          "duration": 21.733877551020385,
+          "avg_energy": "0.054498684",
+          "avg_brightness": 1503.9548777342222,
+          "avg_roughness": 0.032033023671207264,
+          "onset_density": 0.8742112379807702,
+          "phase_type": "Development",
+          "mood_descriptors": [
+            "synthetic",
+            "pensive"
+          ]
+        },
+        {
+          "phase_number": 19,
+          "start_time": 304.0536961451247,
+          "end_time": 326.1823129251701,
+          "duration": 22.128616780045377,
+          "avg_energy": "0.08002063",
+          "avg_brightness": 1283.3651550320487,
+          "avg_roughness": 0.025751584224160545,
+          "onset_density": 2.2143272888247614,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 20,
+          "start_time": 326.1823129251701,
+          "end_time": 336.87510204081633,
+          "duration": 10.692789115646235,
+          "avg_energy": "0.054561935",
+          "avg_brightness": 1709.028868925818,
+          "avg_roughness": 0.03249429543295331,
+          "onset_density": 1.7768984120521212,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 21,
+          "start_time": 336.87510204081633,
+          "end_time": 351.79392290249433,
+          "duration": 14.918820861678,
+          "avg_energy": "0.07046215",
+          "avg_brightness": 1792.3853831636393,
+          "avg_roughness": 0.04061512037937743,
+          "onset_density": 5.965618920233465,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic",
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 22,
+          "start_time": 351.79392290249433,
+          "end_time": 364.3675283446712,
+          "duration": 12.57360544217687,
+          "avg_energy": "0.14558406",
+          "avg_brightness": 1228.101413371976,
+          "avg_roughness": 0.02486402066020314,
+          "onset_density": 4.294710872576178,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 23,
+          "start_time": 364.3675283446712,
+          "end_time": 376.894693877551,
+          "duration": 12.527165532879792,
+          "avg_energy": "0.1108389",
+          "avg_brightness": 1151.7828778659234,
+          "avg_roughness": 0.023984664888682745,
+          "onset_density": 3.1132341867469946,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 24,
+          "start_time": 376.894693877551,
+          "end_time": 412.00326530612244,
+          "duration": 35.10857142857145,
+          "avg_energy": "0.099225245",
+          "avg_brightness": 1211.9467026483119,
+          "avg_roughness": 0.026288578254132233,
+          "onset_density": 2.079264322916665,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 25,
+          "start_time": 412.00326530612244,
+          "end_time": 425.3082993197279,
+          "duration": 13.30503401360545,
+          "avg_energy": "0.022946334",
+          "avg_brightness": 2730.6511818122294,
+          "avg_roughness": 0.06130784385907504,
+          "onset_density": 3.6076570680628253,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "balanced"
+          ]
+        },
+        {
+          "phase_number": 26,
+          "start_time": 425.3082993197279,
+          "end_time": 435.52507936507936,
+          "duration": 10.21678004535147,
+          "avg_energy": "0.007256017",
+          "avg_brightness": 6332.0479652725,
+          "avg_roughness": 0.282769775390625,
+          "onset_density": 0.978781960227273,
+          "phase_type": "Bright/Melodic",
+          "mood_descriptors": [
+            "subtle"
+          ]
+        },
+        {
+          "phase_number": 27,
+          "start_time": 435.52507936507936,
+          "end_time": 436.4887074829932,
+          "duration": 0.9636281179138564,
+          "avg_energy": "0.0004932492",
+          "avg_brightness": 11532.605294828625,
+          "avg_roughness": 0.4959996234939759,
+          "onset_density": 0.0,
+          "phase_type": "Outro/Fade",
+          "mood_descriptors": [
+            "ethereal",
+            "atmospheric"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "2022 06 05 negative 60.aif",
+      "total_duration": 252.0,
+      "num_phases": 4,
+      "phases": [
+        {
+          "phase_number": 1,
+          "start_time": 0.0,
+          "end_time": 10.820498866213152,
+          "duration": 10.820498866213152,
+          "avg_energy": "0.0030250177",
+          "avg_brightness": 4637.840035049937,
+          "avg_roughness": 0.07050477383986052,
+          "onset_density": 0.27725154238197425,
+          "phase_type": "Intro/Ambient",
+          "mood_descriptors": [
+            "ethereal"
+          ]
+        },
+        {
+          "phase_number": 2,
+          "start_time": 10.820498866213152,
+          "end_time": 25.077551020408162,
+          "duration": 14.25705215419501,
+          "avg_energy": "0.0044856234",
+          "avg_brightness": 2464.1400829387226,
+          "avg_roughness": 0.022025142508143324,
+          "onset_density": 0.2805629071661238,
+          "phase_type": "Breakdown/Quiet",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 3,
+          "start_time": 25.077551020408162,
+          "end_time": 243.4031746031746,
+          "duration": 218.32562358276644,
+          "avg_energy": "0.03024901",
+          "avg_brightness": 775.645130352138,
+          "avg_roughness": 0.015836930420765755,
+          "onset_density": 1.75426041943632,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "balanced"
+          ]
+        },
+        {
+          "phase_number": 4,
+          "start_time": 243.4031746031746,
+          "end_time": 251.99455782312924,
+          "duration": 8.59138321995465,
+          "avg_energy": "0.00012879068",
+          "avg_brightness": 14176.509407780586,
+          "avg_roughness": 0.33842443517736487,
+          "onset_density": 0.0,
+          "phase_type": "Outro/Fade",
+          "mood_descriptors": [
+            "ethereal",
+            "atmospheric"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "2022 09 17 caving in.aif",
+      "total_duration": 568.0,
+      "num_phases": 34,
+      "phases": [
+        {
+          "phase_number": 1,
+          "start_time": 0.0,
+          "end_time": 12.34140589569161,
+          "duration": 12.34140589569161,
+          "avg_energy": "0.087738566",
+          "avg_brightness": 1712.3091163446545,
+          "avg_roughness": 0.010316376852069615,
+          "onset_density": 2.7549535512699905,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic",
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 2,
+          "start_time": 12.34140589569161,
+          "end_time": 28.421224489795918,
+          "duration": 16.07981859410431,
+          "avg_energy": "0.11079285",
+          "avg_brightness": 1614.9336393242006,
+          "avg_roughness": 0.006263749435920577,
+          "onset_density": 2.7985390342960286,
+          "phase_type": "Build-up/Energetic",
+          "mood_descriptors": [
+            "synthetic",
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 3,
+          "start_time": 28.421224489795918,
+          "end_time": 45.51111111111111,
+          "duration": 17.089886621315195,
+          "avg_energy": "0.13689019",
+          "avg_brightness": 995.7819560999006,
+          "avg_roughness": 0.007411127505095109,
+          "onset_density": 2.457593834918478,
+          "phase_type": "Build-up/Energetic",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 4,
+          "start_time": 45.51111111111111,
+          "end_time": 59.199274376417236,
+          "duration": 13.688163265306123,
+          "avg_energy": "0.09310763",
+          "avg_brightness": 1106.0348703700233,
+          "avg_roughness": 0.008917862727947413,
+          "onset_density": 2.9222328244274807,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 5,
+          "start_time": 59.199274376417236,
+          "end_time": 70.36807256235828,
+          "duration": 11.168798185941043,
+          "avg_energy": "0.10338905",
+          "avg_brightness": 1056.2620530011495,
+          "avg_roughness": 0.007434361194126819,
+          "onset_density": 2.954659888253638,
+          "phase_type": "Build-up/Energetic",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 6,
+          "start_time": 70.36807256235828,
+          "end_time": 82.73269841269841,
+          "duration": 12.364625850340133,
+          "avg_energy": "0.12642205",
+          "avg_brightness": 1224.2989729439485,
+          "avg_roughness": 0.007986263937793427,
+          "onset_density": 2.1027728873239444,
+          "phase_type": "Build-up/Energetic",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 7,
+          "start_time": 82.73269841269841,
+          "end_time": 98.90539682539682,
+          "duration": 16.17269841269841,
+          "avg_energy": "0.13894874",
+          "avg_brightness": 1431.097073945012,
+          "avg_roughness": 0.009402481155778894,
+          "onset_density": 1.607647613065327,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 8,
+          "start_time": 98.90539682539682,
+          "end_time": 124.4821768707483,
+          "duration": 25.576780045351484,
+          "avg_energy": "0.16851623",
+          "avg_brightness": 1698.8911922621703,
+          "avg_roughness": 0.0157411413413527,
+          "onset_density": 0.8210572231048567,
+          "phase_type": "Introduction",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 9,
+          "start_time": 124.4821768707483,
+          "end_time": 160.7633560090703,
+          "duration": 36.28117913832199,
+          "avg_energy": "0.1698437",
+          "avg_brightness": 1607.4502471923154,
+          "avg_roughness": 0.0149425,
+          "onset_density": 0.6063750000000001,
+          "phase_type": "Introduction",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 10,
+          "start_time": 160.7633560090703,
+          "end_time": 172.26884353741497,
+          "duration": 11.505487528344673,
+          "avg_energy": "0.1566983",
+          "avg_brightness": 924.1492513914662,
+          "avg_roughness": 0.013828558589808275,
+          "onset_density": 1.3037257189707363,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 11,
+          "start_time": 172.26884353741497,
+          "end_time": 190.26430839002268,
+          "duration": 17.99546485260771,
+          "avg_energy": "0.12489377",
+          "avg_brightness": 874.2540013929492,
+          "avg_roughness": 0.01951266381048387,
+          "onset_density": 1.5003780241935483,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 12,
+          "start_time": 190.26430839002268,
+          "end_time": 204.6722902494331,
+          "duration": 14.407981859410427,
+          "avg_energy": "0.11598249",
+          "avg_brightness": 931.0081168670903,
+          "avg_roughness": 0.021023635802780015,
+          "onset_density": 1.6657433521353753,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 13,
+          "start_time": 204.6722902494331,
+          "end_time": 220.9146485260771,
+          "duration": 16.242358276643984,
+          "avg_energy": "0.10399862",
+          "avg_brightness": 1957.5736047135688,
+          "avg_roughness": 0.03308585373481058,
+          "onset_density": 1.2313482844889212,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 14,
+          "start_time": 220.9146485260771,
+          "end_time": 238.21351473922903,
+          "duration": 17.29886621315194,
+          "avg_energy": "0.09416309",
+          "avg_brightness": 1017.2632535996511,
+          "avg_roughness": 0.012200149433724833,
+          "onset_density": 2.0232539848993274,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 15,
+          "start_time": 238.21351473922903,
+          "end_time": 248.31419501133786,
+          "duration": 10.100680272108832,
+          "avg_energy": "0.088945374",
+          "avg_brightness": 1047.5322215453289,
+          "avg_roughness": 0.012551073096264367,
+          "onset_density": 1.7820581896551744,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 16,
+          "start_time": 248.31419501133786,
+          "end_time": 260.69043083900226,
+          "duration": 12.376235827664402,
+          "avg_energy": "0.087828934",
+          "avg_brightness": 1110.0348383534445,
+          "avg_roughness": 0.009959838180112571,
+          "onset_density": 1.7776002579737331,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 17,
+          "start_time": 260.69043083900226,
+          "end_time": 274.07673469387754,
+          "duration": 13.38630385487528,
+          "avg_energy": "0.07946318",
+          "avg_brightness": 1036.0538281568327,
+          "avg_roughness": 0.011280863779271465,
+          "onset_density": 2.0916901561144847,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "balanced"
+          ]
+        },
+        {
+          "phase_number": 18,
+          "start_time": 274.07673469387754,
+          "end_time": 285.2919727891156,
+          "duration": 11.215238095238078,
+          "avg_energy": "0.09351468",
+          "avg_brightness": 1980.9010710324103,
+          "avg_roughness": 0.03221441871761658,
+          "onset_density": 1.2483016304347845,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 19,
+          "start_time": 285.2919727891156,
+          "end_time": 309.22013605442174,
+          "duration": 23.928163265306125,
+          "avg_energy": "0.1586143",
+          "avg_brightness": 1298.7369576833405,
+          "avg_roughness": 0.01307958818534692,
+          "onset_density": 1.2955444868995631,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 20,
+          "start_time": 309.22013605442174,
+          "end_time": 327.29687074829934,
+          "duration": 18.076734693877597,
+          "avg_energy": "0.12433976",
+          "avg_brightness": 1382.9846693532063,
+          "avg_roughness": 0.016384061095956356,
+          "onset_density": 1.1063945086705174,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 21,
+          "start_time": 327.29687074829934,
+          "end_time": 338.72108843537416,
+          "duration": 11.424217687074815,
+          "avg_energy": "0.08222216",
+          "avg_brightness": 1176.595878823013,
+          "avg_roughness": 0.008708674733231708,
+          "onset_density": 2.1008003048780513,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 22,
+          "start_time": 338.72108843537416,
+          "end_time": 356.80943310657597,
+          "duration": 18.08834467120181,
+          "avg_energy": "0.11655207",
+          "avg_brightness": 1062.605024026731,
+          "avg_roughness": 0.013004954268292682,
+          "onset_density": 1.9902318677792046,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 23,
+          "start_time": 356.80943310657597,
+          "end_time": 376.81342403628116,
+          "duration": 20.003990929705196,
+          "avg_energy": "0.15884896",
+          "avg_brightness": 1063.869459402947,
+          "avg_roughness": 0.009202245356935578,
+          "onset_density": 1.8996209373186321,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 24,
+          "start_time": 376.81342403628116,
+          "end_time": 387.34367346938774,
+          "duration": 10.530249433106576,
+          "avg_energy": "0.16597076",
+          "avg_brightness": 1473.1560557046291,
+          "avg_roughness": 0.023170479603087102,
+          "onset_density": 2.0892192668136715,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 25,
+          "start_time": 387.34367346938774,
+          "end_time": 405.5713378684807,
+          "duration": 18.227664399092987,
+          "avg_energy": "0.23279046",
+          "avg_brightness": 1319.9344942310288,
+          "avg_roughness": 0.023670444367038218,
+          "onset_density": 2.1396048964968135,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 26,
+          "start_time": 405.5713378684807,
+          "end_time": 420.5598185941043,
+          "duration": 14.98848072562356,
+          "avg_energy": "0.23370592",
+          "avg_brightness": 985.4636488236238,
+          "avg_roughness": 0.010103753146785438,
+          "onset_density": 1.067486444616578,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 27,
+          "start_time": 420.5598185941043,
+          "end_time": 433.9693424036281,
+          "duration": 13.409523809523819,
+          "avg_energy": "0.3352638",
+          "avg_brightness": 736.2475233776594,
+          "avg_roughness": 0.005656452922077922,
+          "onset_density": 2.535511363636362,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 28,
+          "start_time": 433.9693424036281,
+          "end_time": 444.3486621315193,
+          "duration": 10.379319727891186,
+          "avg_energy": "0.55339575",
+          "avg_brightness": 365.2263009274227,
+          "avg_roughness": 0.0022928464065995525,
+          "onset_density": 2.794017407718113,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 29,
+          "start_time": 444.3486621315193,
+          "end_time": 464.32943310657595,
+          "duration": 19.980770975056657,
+          "avg_energy": "0.36984873",
+          "avg_brightness": 1223.5816241105142,
+          "avg_roughness": 0.016251452643811736,
+          "onset_density": 0.850818020046486,
+          "phase_type": "Conclusion",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 30,
+          "start_time": 464.32943310657595,
+          "end_time": 474.88290249433106,
+          "duration": 10.553469387755115,
+          "avg_energy": "0.059929222",
+          "avg_brightness": 1273.9908194405168,
+          "avg_roughness": 0.020355258182068205,
+          "onset_density": 1.0423112623762363,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "pensive"
+          ]
+        },
+        {
+          "phase_number": 31,
+          "start_time": 474.88290249433106,
+          "end_time": 493.9000453514739,
+          "duration": 19.017142857142858,
+          "avg_energy": "0.075521894",
+          "avg_brightness": 965.0061231254065,
+          "avg_roughness": 0.019164890014499388,
+          "onset_density": 1.3146033653846154,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "balanced"
+          ]
+        },
+        {
+          "phase_number": 32,
+          "start_time": 493.9000453514739,
+          "end_time": 512.928798185941,
+          "duration": 19.02875283446707,
+          "avg_energy": "0.08696053",
+          "avg_brightness": 1005.4340169137322,
+          "avg_roughness": 0.028008802178724052,
+          "onset_density": 1.4189053920073254,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 33,
+          "start_time": 512.928798185941,
+          "end_time": 566.4507936507937,
+          "duration": 53.521995464852694,
+          "avg_energy": "0.081044674",
+          "avg_brightness": 1040.0961081760242,
+          "avg_roughness": 0.03010421749620473,
+          "onset_density": 0.4110459598698475,
+          "phase_type": "Conclusion",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 34,
+          "start_time": 566.4507936507937,
+          "end_time": 567.9949206349206,
+          "duration": 1.5441269841269332,
+          "avg_energy": "0.00024525242",
+          "avg_brightness": 10156.055285739489,
+          "avg_roughness": 0.22488105028195488,
+          "onset_density": 0.0,
+          "phase_type": "Outro/Fade",
+          "mood_descriptors": [
+            "ethereal",
+            "atmospheric"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "2022-09-25 while madeline sleeps.aif",
+      "total_duration": 642.0,
+      "num_phases": 24,
+      "phases": [
+        {
+          "phase_number": 1,
+          "start_time": 0.0,
+          "end_time": 16.474557823129253,
+          "duration": 16.474557823129253,
+          "avg_energy": "0.0016121657",
+          "avg_brightness": 6058.436202438903,
+          "avg_roughness": 0.14531717979210712,
+          "onset_density": 0.0,
+          "phase_type": "Intro/Ambient",
+          "mood_descriptors": [
+            "ethereal",
+            "atmospheric"
+          ]
+        },
+        {
+          "phase_number": 2,
+          "start_time": 16.474557823129253,
+          "end_time": 32.58920634920635,
+          "duration": 16.114648526077097,
+          "avg_energy": "0.010678544",
+          "avg_brightness": 2120.6217301570414,
+          "avg_roughness": 0.028262267538724784,
+          "onset_density": 2.0478262337896256,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 3,
+          "start_time": 32.58920634920635,
+          "end_time": 46.49795918367347,
+          "duration": 13.908752834467123,
+          "avg_energy": "0.013598756",
+          "avg_brightness": 1785.4671398654568,
+          "avg_roughness": 0.029184790405884807,
+          "onset_density": 1.0065604131886476,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "synthetic"
+          ]
+        },
+        {
+          "phase_number": 4,
+          "start_time": 46.49795918367347,
+          "end_time": 61.95083900226757,
+          "duration": 15.452879818594099,
+          "avg_energy": "0.026174415",
+          "avg_brightness": 1434.7316066298808,
+          "avg_roughness": 0.018120333630728774,
+          "onset_density": 0.5824157118707741,
+          "phase_type": "Introduction",
+          "mood_descriptors": [
+            "balanced"
+          ]
+        },
+        {
+          "phase_number": 5,
+          "start_time": 61.95083900226757,
+          "end_time": 78.6227664399093,
+          "duration": 16.671927437641727,
+          "avg_energy": "0.036970776",
+          "avg_brightness": 1456.9641873876196,
+          "avg_roughness": 0.02675312010358635,
+          "onset_density": 0.23992426880222836,
+          "phase_type": "Introduction",
+          "mood_descriptors": [
+            "balanced"
+          ]
+        },
+        {
+          "phase_number": 6,
+          "start_time": 78.6227664399093,
+          "end_time": 96.80399092970522,
+          "duration": 18.181224489795923,
+          "avg_energy": "0.103431985",
+          "avg_brightness": 1051.6186024588746,
+          "avg_roughness": 0.015168210708014048,
+          "onset_density": 0.2200071839080459,
+          "phase_type": "Introduction",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 7,
+          "start_time": 96.80399092970522,
+          "end_time": 107.07882086167801,
+          "duration": 10.27482993197279,
+          "avg_energy": "0.1520884",
+          "avg_brightness": 762.804604674605,
+          "avg_roughness": 0.0074798066737288135,
+          "onset_density": 0.09732521186440678,
+          "phase_type": "Introduction",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 8,
+          "start_time": 107.07882086167801,
+          "end_time": 128.92879818594105,
+          "duration": 21.849977324263037,
+          "avg_energy": "0.10708547",
+          "avg_brightness": 950.9544501099988,
+          "avg_roughness": 0.01782019004051541,
+          "onset_density": 0.22883318942614242,
+          "phase_type": "Development",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 9,
+          "start_time": 128.92879818594105,
+          "end_time": 153.39102040816326,
+          "duration": 24.46222222222221,
+          "avg_energy": "0.072059214",
+          "avg_brightness": 933.7426367182788,
+          "avg_roughness": 0.02213719335844803,
+          "onset_density": 0.7358284883720935,
+          "phase_type": "Development",
+          "mood_descriptors": [
+            "balanced"
+          ]
+        },
+        {
+          "phase_number": 10,
+          "start_time": 153.39102040816326,
+          "end_time": 172.67519274376417,
+          "duration": 19.284172335600914,
+          "avg_energy": "0.10277629",
+          "avg_brightness": 922.9494739859113,
+          "avg_roughness": 0.016734142177152318,
+          "onset_density": 0.414847983142685,
+          "phase_type": "Development",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 11,
+          "start_time": 172.67519274376417,
+          "end_time": 183.7278911564626,
+          "duration": 11.052698412698419,
+          "avg_energy": "0.22480397",
+          "avg_brightness": 670.6566593824622,
+          "avg_roughness": 0.004849986869747899,
+          "onset_density": 0.5428538602941173,
+          "phase_type": "Development",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 12,
+          "start_time": 183.7278911564626,
+          "end_time": 229.43637188208618,
+          "duration": 45.70848072562359,
+          "avg_energy": "0.16394794",
+          "avg_brightness": 977.3404771711114,
+          "avg_roughness": 0.01811266708470917,
+          "onset_density": 0.10938889065278129,
+          "phase_type": "Development",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 13,
+          "start_time": 229.43637188208618,
+          "end_time": 281.2981405895692,
+          "duration": 51.86176870748301,
+          "avg_energy": "0.120617956",
+          "avg_brightness": 1055.7155501788213,
+          "avg_roughness": 0.02359326467008059,
+          "onset_density": 0.01928202652787105,
+          "phase_type": "Development",
+          "mood_descriptors": [
+            "droning"
+          ]
+        },
+        {
+          "phase_number": 14,
+          "start_time": 281.2981405895692,
+          "end_time": 294.6380045351474,
+          "duration": 13.339863945578202,
+          "avg_energy": "0.26373848",
+          "avg_brightness": 869.8004869160342,
+          "avg_roughness": 0.01454857144799826,
+          "onset_density": 0.2248898498694522,
+          "phase_type": "Development",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 15,
+          "start_time": 294.6380045351474,
+          "end_time": 310.85714285714283,
+          "duration": 16.219138321995445,
+          "avg_energy": "0.19959019",
+          "avg_brightness": 1134.6476149562923,
+          "avg_roughness": 0.021032819775250716,
+          "onset_density": 0.18496666964924863,
+          "phase_type": "Development",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 16,
+          "start_time": 310.85714285714283,
+          "end_time": 330.7218140589569,
+          "duration": 19.864671201814076,
+          "avg_energy": "0.20490757",
+          "avg_brightness": 1278.732951470971,
+          "avg_roughness": 0.024317090756425234,
+          "onset_density": 0.0,
+          "phase_type": "Development",
+          "mood_descriptors": [
+            "droning"
+          ]
+        },
+        {
+          "phase_number": 17,
+          "start_time": 330.7218140589569,
+          "end_time": 383.1756916099773,
+          "duration": 52.45387755102041,
+          "avg_energy": "0.24534506",
+          "avg_brightness": 861.898529036754,
+          "avg_roughness": 0.019635758182547588,
+          "onset_density": 0.6100597609561752,
+          "phase_type": "Conclusion",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 18,
+          "start_time": 383.1756916099773,
+          "end_time": 393.72916099773244,
+          "duration": 10.553469387755115,
+          "avg_energy": "0.25924698",
+          "avg_brightness": 1299.604450131493,
+          "avg_roughness": 0.0298028826320132,
+          "onset_density": 3.0321782178217784,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "percussive"
+          ]
+        },
+        {
+          "phase_number": 19,
+          "start_time": 393.72916099773244,
+          "end_time": 404.8863492063492,
+          "duration": 11.157188208616788,
+          "avg_energy": "0.2209182",
+          "avg_brightness": 1234.4371090407612,
+          "avg_roughness": 0.0283345392169615,
+          "onset_density": 2.2407079214360026,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 20,
+          "start_time": 404.8863492063492,
+          "end_time": 424.0428117913832,
+          "duration": 19.156462585033978,
+          "avg_energy": "0.21675795",
+          "avg_brightness": 857.488435814092,
+          "avg_roughness": 0.021967329545454547,
+          "onset_density": 2.2968750000000044,
+          "phase_type": "Climax/Peak",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 21,
+          "start_time": 424.0428117913832,
+          "end_time": 499.948843537415,
+          "duration": 75.90603174603177,
+          "avg_energy": "0.20152433",
+          "avg_brightness": 736.333960598423,
+          "avg_roughness": 0.01879121039977822,
+          "onset_density": 1.5940762178800851,
+          "phase_type": "Rhythmic/Percussive",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 22,
+          "start_time": 499.948843537415,
+          "end_time": 512.1509297052154,
+          "duration": 12.202086167800417,
+          "avg_energy": "0.26083604",
+          "avg_brightness": 1116.827154701611,
+          "avg_roughness": 0.01809753359895338,
+          "onset_density": 0.49171919600380737,
+          "phase_type": "Conclusion",
+          "mood_descriptors": [
+            "energetic"
+          ]
+        },
+        {
+          "phase_number": 23,
+          "start_time": 512.1509297052154,
+          "end_time": 639.3034013605442,
+          "duration": 127.15247165532878,
+          "avg_energy": "0.090881124",
+          "avg_brightness": 847.7276783480384,
+          "avg_roughness": 0.024334919114121997,
+          "onset_density": 0.039322869110664724,
+          "phase_type": "Conclusion",
+          "mood_descriptors": [
+            "droning"
+          ]
+        },
+        {
+          "phase_number": 24,
+          "start_time": 639.3034013605442,
+          "end_time": 641.9969160997732,
+          "duration": 2.6935147392290446,
+          "avg_energy": "0.00013405134",
+          "avg_brightness": 10683.967579509132,
+          "avg_roughness": 0.32488096834763946,
+          "onset_density": 0.0,
+          "phase_type": "Outro/Fade",
+          "mood_descriptors": [
+            "ethereal",
+            "atmospheric"
+          ]
+        }
+      ]
+    }
+  ],
+  "export_timestamp": "2025-07-13T08:15:41.544029"
+}
