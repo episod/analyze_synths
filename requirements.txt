@@ -5,4 +5,5 @@ matplotlib
 seaborn
 pydub
 numpy
+scipy
 fastmcp
