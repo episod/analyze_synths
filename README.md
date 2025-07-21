@@ -5,8 +5,8 @@ A comprehensive, modular audio analysis toolkit designed specifically for compos
 ## ✨ Features
 
 ### 🎵 Creative Mood Analysis
-- **17 Creative Descriptors**: spacey, organic, synthetic, oozy, pensive, tense, exuberant, glitchy, chaos, ethereal, atmospheric, crystalline, warm, melodic, driving, percussive, droning
-- **Instrument Character Classification**: Identifies analog synths, digital synths, Mellotron, percussive instruments, and acoustic elements
+- **117 Creative Descriptors**: Core (9), Extended (8), Advanced (100) - from spacey and organic to tempestuous, celestial, velvet, and microscopic
+- **Character Classification**: 59 tags across synthesis types, textures, and processing - from analog synths to crystalline textures to reverbed atmospheres
 - **Phase-by-Phase Analysis**: Detailed breakdown of each musical section with mood descriptors
 
 ### 🎯 Intelligent Song Sequencing
@@ -39,9 +39,9 @@ audio_analysis/
 │   ├── tensor_operations.py    # 🆕 Hardware-agnostic tensor processing
 │   └── sequencing.py           # Intelligent song ordering
 ├── analysis/                   # Creative interpretation modules
-│   ├── mood_analyzer.py        # 17 creative mood descriptors
-│   ├── character_analyzer.py   # Synthesis type identification
-│   └── descriptors.py          # Descriptor definitions and thresholds
+│   ├── mood_analyzer.py        # 117 creative mood descriptors
+│   ├── character_analyzer.py   # 59 character tags (synthesis, texture, processing)
+│   └── descriptors.py          # Comprehensive descriptor definitions and thresholds
 ├── utils/                      # Support utilities
 │   ├── audio_io.py            # File loading and validation
 │   ├── data_processing.py     # Data cleaning and standardization
@@ -303,7 +303,7 @@ Each analysis creates a timestamped directory with organized results:
 
 ## 🎼 Understanding Your Music
 
-### Mood Descriptors (17 Total)
+### Mood Descriptors (117 Total)
 **Core Moods:**
 - **Spacey**: Low energy, ethereal, expansive atmospheres
 - **Organic**: Natural textures, acoustic-like characteristics  
@@ -325,19 +325,42 @@ Each analysis creates a timestamped directory with organized results:
 - **Percussive**: Rhythmic, transient, beat-focused
 - **Droning**: Sustained, minimal, hypnotic
 
-### Character Tags (9 Total)
-**Synthesis Types:**
+### Character Tags (59 Total)
+The expanded character system now includes three comprehensive categories:
+
+**Synthesis Types (25 total):**
 - **Analog Synth**: Warm, vintage synthesizer characteristics
 - **Digital Synth**: Clean, precise digital synthesis
-- **Mellotron**: Sampled instrument textures, tape-like
-- **Percussive Instrument**: Mallet instruments, bells, percussion
-- **Acoustic Instrument**: Live recorded instruments
+- **FM Synth**: Complex harmonic interactions from frequency modulation
+- **Granular Synth**: Fragmented, particulate textures
+- **Wavetable Synth**: Morphing spectral evolution
+- **Physical Modeling**: Realistic acoustic behavior through physics simulation
+- **Subtractive/Additive Synth**: Filtered or harmonic-stacked synthesis
+- **Modular Synth**: Experimental, unpredictable characteristics
+- **Pad/Lead/Bass/Arp Synth**: Role-specific synthesizer voices
+- **Piano/Organ/Choir/Brass/Woodwind**: Acoustic instrument emulations
+- **Drum Machine/Sampler**: Rhythmic and sampling-based sources
+- **Plus 10 additional specialized synthesis types**
 
-**Texture Types:**
-- **Rich Texture**: Complex, layered, harmonically dense
-- **Pure Tone**: Simple, clean, focused
-- **Bright Harmonics**: High-frequency emphasis, sparkly
-- **Warm Harmonics**: Low-frequency emphasis, cozy
+**Texture Types (20 total):**
+- **Rich/Pure Texture**: Complex layered vs. simple clean textures
+- **Bright/Warm Harmonics**: High vs. low frequency emphasis
+- **Smooth/Rough Texture**: Silky vs. gritty surface characteristics
+- **Crystalline/Organic Texture**: Glass-like precision vs. natural breathing
+- **Mechanical/Liquid Texture**: Industrial precision vs. flowing fluidity
+- **Metallic/Wooden/Glassy**: Material-inspired sonic characteristics
+- **Fabric/Sandy/Rubbery**: Tactile texture associations
+- **Plus 8 additional texture descriptors**
+
+**Processing Types (14 total):**
+- **Reverbed/Delayed**: Spatial effects and echo patterns
+- **Chorused/Flanged/Phased**: Modulation-based effects
+- **Distorted/Filtered**: Harmonic saturation and frequency shaping
+- **Compressed/Pitched**: Dynamic control and frequency shifting
+- **Ring Modulated**: Metallic, inharmonic characteristics
+- **Bit Crushed**: Digital degradation and lo-fi character
+- **Tape/Tube Saturated**: Vintage warmth and harmonic distortion
+- **Plus 5 additional processing characteristics**
 
 ## 🎯 Creative Applications
 
@@ -422,7 +445,7 @@ When running in MCP mode, six powerful tools are available for remote analysis:
 ### 🎭 `analyze_audio_mood`
 Comprehensive mood and character analysis with confidence scores
 - **Input**: Audio files (base64 encoded)
-- **Output**: 17 mood descriptors, character tags, musical metrics
+- **Output**: 117 mood descriptors, 59 character tags, musical metrics
 
 ### 🎵 `analyze_audio_phases`
 Musical structure detection with mood analysis per section

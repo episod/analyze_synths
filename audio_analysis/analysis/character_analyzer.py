@@ -46,6 +46,7 @@ class CharacterAnalyzer:
         self.character_tags = CharacterTags.get_all_tags()
         self.synthesis_tags = CharacterTags.get_synthesis_tag_names()
         self.texture_tags = CharacterTags.get_texture_tag_names()
+        self.processing_tags = CharacterTags.get_processing_tag_names()
         
     def analyze_character(self, spectral_features: Dict[str, float],
                          confidence_threshold: float = 0.6) -> Tuple[List[str], Dict[str, float]]:
@@ -389,7 +390,9 @@ class CharacterAnalyzer:
             'spectral_rolloff_range': tag_definition.spectral_rolloff_range,
             'zero_crossing_rate_range': tag_definition.zero_crossing_rate_range,
             'mfcc_characteristics': tag_definition.mfcc_characteristics,
-            'category': 'synthesis' if character_name in self.synthesis_tags else 'texture'
+            'category': ('synthesis' if character_name in self.synthesis_tags 
+                         else 'texture' if character_name in self.texture_tags 
+                         else 'processing')
         }
     
     def analyze_character_distribution(self, track_characters: List[str]) -> Dict[str, Any]:
@@ -425,6 +428,7 @@ class CharacterAnalyzer:
         # Categorize characters
         synthesis_characters = [char for char in track_characters if char in self.synthesis_tags]
         texture_characters = [char for char in track_characters if char in self.texture_tags]
+        processing_characters = [char for char in track_characters if char in self.processing_tags]
         
         return {
             'total_tracks': total_tracks,
@@ -434,6 +438,7 @@ class CharacterAnalyzer:
             'dominant_characters': dominant_characters,
             'synthesis_character_ratio': len(synthesis_characters) / total_tracks,
             'texture_character_ratio': len(texture_characters) / total_tracks,
+            'processing_character_ratio': len(processing_characters) / total_tracks,
             'character_diversity': len(character_counts) / len(self.character_tags)
         }
     

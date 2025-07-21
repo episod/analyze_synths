@@ -352,7 +352,7 @@ Every analytical approach includes detailed comments explaining:
 
 ## Creative Descriptors System
 
-### Mood Descriptors (17 total)
+### Mood Descriptors (117 total)
 Empirically calibrated thresholds based on energy, spectral, and temporal characteristics:
 
 **Core Descriptors** (9):
@@ -376,21 +376,90 @@ Empirically calibrated thresholds based on energy, spectral, and temporal charac
 - **percussive**: High rhythm density (>2.5), focused energy bursts
 - **droning**: Very low rhythm (<0.1), sustained energy, long duration (>15s)
 
-### Character Tags (9 total)
-Based on spectral analysis and harmonic content:
+**Advanced Descriptors** (100):
+The advanced mood library includes comprehensive creative vocabulary organized by categories:
 
-**Synthesis Types** (5):
+*Ethereal and Atmospheric* (10): celestial, gossamer, luminous, nebulous, spectral, prismatic, vaporous, iridescent, translucent, opalescent
+
+*Textural and Tactile* (15): velvet, silky, granular, fibrous, crystalline_hard, molten, metallic, ceramic, wooden, plastic, rubbery, spongy, viscous, gelatinous, powdery
+
+*Emotional and Psychological* (20): euphoric, melancholic, nostalgic, anxious, serene, mysterious, playful, brooding, hopeful, longing, triumphant, contemplative, yearning, ecstatic, introspective, wistful, vindictive, compassionate, rebellious, transcendent
+
+*Dynamic and Kinetic* (15): pulsating, undulating, oscillating, spiraling, cascading, surging, rippling, churning, flowing, jolting, drifting, accelerating, decelerating, pendular, gyrating
+
+*Spatial and Dimensional* (10): cavernous, intimate, expansive, compressed, panoramic, claustrophobic, dimensional, microscopic, telescopic, fractal
+
+*Temporal and Rhythmic* (15): syncopated, polyrhythmic, rubato, staccato, legato, accelerando, ritardando, tremolo, vibrato, sforzando, tenuto, marcato, fermata, ostinato, hemiola
+
+*Climatic and Environmental* (15): tempestuous, arctic, tropical, desert, oceanic, volcanic, glacial, pastoral, urban, subterranean, celestial_storms, aurora, mirage, monsoon, eclipse
+
+### Character Tags (59 total)
+Based on spectral analysis, harmonic content, and synthesis characteristics:
+
+**Synthesis Types** (25):
 - **analog_synth**: Narrow bandwidth (<1000Hz), low roughness (<0.1)
 - **digital_synth**: Narrow bandwidth (<800Hz), high brightness (>2000Hz)
 - **mellotron**: Moderate bandwidth (1200-2000Hz), irregular spectrum
 - **percussive_instrument**: High brightness (>2500Hz), high rolloff (>4000Hz)
 - **acoustic_instrument**: Wide bandwidth (>1800Hz), high roughness (>0.12)
+- **fm_synth**: Complex harmonics, moderate brightness (1500-3000Hz)
+- **am_synth**: Amplitude modulation characteristics, tremolo-like variations
+- **granular_synth**: High roughness (>0.2), fragmented spectral content
+- **wavetable_synth**: Dynamic spectral evolution, wide bandwidth variations
+- **physical_modeling**: Realistic acoustic characteristics with digital precision
+- **drum_machine**: Percussive patterns, high onset density (>3.0)
+- **sampler**: Variable characteristics based on source material
+- **subtractive_synth**: Filtered characteristics, smooth spectral rolloff
+- **additive_synth**: Complex harmonic stacking, precise frequency control
+- **modular_synth**: Experimental characteristics, wide parameter ranges
+- **string_machine**: Ensemble characteristics, rich harmonic content
+- **organ**: Harmonic drawbar characteristics, sustained notes
+- **piano**: Attack-decay envelope, rich initial harmonics
+- **choir**: Formant characteristics, sustained harmonic content
+- **brass**: Bright harmonics with dynamic expression
+- **woodwind**: Breathy characteristics, moderate bandwidth
+- **pad_synth**: Sustained, evolving textures with slow attack
+- **lead_synth**: Prominent melodic characteristics, sustained notes
+- **bass_synth**: Low-frequency emphasis, narrow bandwidth
+- **arp_synth**: Repetitive patterns, consistent timing
 
-**Texture Types** (4):
+**Texture Types** (20):
 - **rich_texture**: Very wide bandwidth (>2200Hz)
 - **pure_tone**: Very narrow bandwidth (<600Hz)
 - **bright_harmonics**: High rolloff (>5000Hz)
 - **warm_harmonics**: Low rolloff (<2000Hz)
+- **smooth_texture**: Low roughness (<0.05), flowing character
+- **rough_texture**: High roughness (>0.15), gritty character
+- **crystalline_texture**: Precise, glass-like characteristics
+- **organic_texture**: Natural, breathing characteristics
+- **mechanical_texture**: Industrial, machine-like precision
+- **liquid_texture**: Flowing, fluid characteristics
+- **gaseous_texture**: Ethereal, cloud-like characteristics
+- **metallic_texture**: Cold, resonant, industrial character
+- **wooden_texture**: Warm, natural resonance
+- **glassy_texture**: Brittle, transparent characteristics
+- **fabric_texture**: Soft, woven characteristics
+- **sandy_texture**: Granular, particulate character
+- **waxy_texture**: Smooth but not pure, slightly irregular
+- **rubbery_texture**: Elastic, bouncy characteristics
+- **ceramic_texture**: Hard, resonant, precise
+- **plastic_texture**: Artificial, uniform characteristics
+
+**Processing Types** (14):
+- **reverbed**: Spacious, echo-rich environment
+- **delayed**: Distinct echo patterns, rhythmic repeats
+- **chorused**: Modulated, thick, ensemble-like
+- **flanged**: Sweeping, jet-like modulation
+- **phased**: Notched frequency sweeping
+- **distorted**: Harmonic saturation, aggressive character
+- **compressed**: Controlled dynamics, consistent level
+- **filtered**: Frequency-shaped, resonant characteristics
+- **pitched**: Frequency-shifted, harmonized
+- **ring_modulated**: Metallic, bell-like inharmonic content
+- **bit_crushed**: Digital degradation, lo-fi character
+- **tape_saturated**: Vintage warmth, subtle compression
+- **tube_saturated**: Warm harmonic distortion
+- **multiband_processed**: Frequency-specific processing
 
 ## Common Development Tasks
 

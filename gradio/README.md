@@ -26,8 +26,8 @@ A comprehensive audio analysis toolkit designed specifically for composers and s
 ## ✨ Features
 
 ### 🎯 Specialized for Electronic Music
-- **17 Mood Descriptors**: Creative terms like "spacey," "organic," "crystalline," "oozy" calibrated for synthesizer music
-- **9 Character Tags**: Synthesis type identification (analog_synth, digital_synth, mellotron) and texture analysis
+- **117 Mood Descriptors**: Core (9), Extended (8), and Advanced (100) creative terms from "spacey" and "organic" to "tempestuous," "celestial," and "microscopic"
+- **59 Character Tags**: Synthesis types (25), textures (20), and processing (14) - from analog synths to crystalline textures to reverbed atmospheres
 - **Phase Detection**: Automatic musical structure detection (intro, verse, chorus, breakdown, climax, outro)
 - **80+ Audio Features**: Comprehensive spectral, temporal, and harmonic analysis
 

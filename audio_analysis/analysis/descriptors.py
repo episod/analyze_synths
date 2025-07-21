@@ -1406,9 +1406,14 @@ class CharacterTags:
     This class contains the comprehensive set of character tags
     used to identify different synthesizer types and sound sources.
     Each tag is defined with specific technical characteristics.
+    
+    The character system recognizes 59 distinct tags organized into:
+    - Synthesis types: Specific synthesizer and instrument categories (25 tags)
+    - Texture types: Surface characteristics and material qualities (20 tags)
+    - Processing types: Effects and signal processing characteristics (14 tags)
     """
     
-    # Synthesis type tags
+    # Synthesis type tags (25 total)
     SYNTHESIS_TAGS = {
         'analog_synth': CharacterTag(
             name='analog_synth',
@@ -1458,10 +1463,210 @@ class CharacterTags:
             spectral_rolloff_range=(0.0, float('inf')),
             zero_crossing_rate_range=(0.12, float('inf')),
             mfcc_characteristics={'complexity': 'high', 'naturalness': 'high'}
+        ),
+        
+        'fm_synth': CharacterTag(
+            name='fm_synth',
+            description='FM synthesizer with complex harmonic interactions',
+            spectral_centroid_range=(1500, 3000),
+            spectral_bandwidth_range=(1000, 2500),
+            spectral_rolloff_range=(3000, float('inf')),
+            zero_crossing_rate_range=(0.08, 0.25),
+            mfcc_characteristics={'harmonics': 'complex', 'modulation': 'high'}
+        ),
+        
+        'am_synth': CharacterTag(
+            name='am_synth',
+            description='Amplitude modulation synthesizer with tremolo characteristics',
+            spectral_centroid_range=(800, 2500),
+            spectral_bandwidth_range=(600, 1800),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.05, 0.2),
+            mfcc_characteristics={'modulation': 'amplitude', 'tremolo': 'present'}
+        ),
+        
+        'granular_synth': CharacterTag(
+            name='granular_synth',
+            description='Granular synthesizer with fragmented, particulate texture',
+            spectral_centroid_range=(1000, float('inf')),
+            spectral_bandwidth_range=(1500, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.2, float('inf')),
+            mfcc_characteristics={'fragmentation': 'high', 'grain_density': 'variable'}
+        ),
+        
+        'wavetable_synth': CharacterTag(
+            name='wavetable_synth',
+            description='Wavetable synthesizer with morphing spectral evolution',
+            spectral_centroid_range=(1200, 4000),
+            spectral_bandwidth_range=(1000, 3000),
+            spectral_rolloff_range=(2500, float('inf')),
+            zero_crossing_rate_range=(0.06, 0.3),
+            mfcc_characteristics={'evolution': 'dynamic', 'morphing': 'present'}
+        ),
+        
+        'physical_modeling': CharacterTag(
+            name='physical_modeling',
+            description='Physical modeling synthesis with realistic acoustic behavior',
+            spectral_centroid_range=(600, 3500),
+            spectral_bandwidth_range=(1200, 2800),
+            spectral_rolloff_range=(1800, 5000),
+            zero_crossing_rate_range=(0.08, 0.18),
+            mfcc_characteristics={'realism': 'high', 'physics': 'modeled'}
+        ),
+        
+        'drum_machine': CharacterTag(
+            name='drum_machine',
+            description='Drum machine with quantized rhythmic patterns',
+            spectral_centroid_range=(1500, float('inf')),
+            spectral_bandwidth_range=(1800, float('inf')),
+            spectral_rolloff_range=(3500, float('inf')),
+            zero_crossing_rate_range=(0.15, float('inf')),
+            mfcc_characteristics={'rhythm': 'quantized', 'percussion': 'electronic'}
+        ),
+        
+        'sampler': CharacterTag(
+            name='sampler',
+            description='Digital sampler with variable source characteristics',
+            spectral_centroid_range=(0.0, float('inf')),
+            spectral_bandwidth_range=(800, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.0, float('inf')),
+            mfcc_characteristics={'source': 'variable', 'sampling': 'digital'}
+        ),
+        
+        'subtractive_synth': CharacterTag(
+            name='subtractive_synth',
+            description='Subtractive synthesizer with filtered spectral shaping',
+            spectral_centroid_range=(800, 2800),
+            spectral_bandwidth_range=(600, 2000),
+            spectral_rolloff_range=(1500, 4000),
+            zero_crossing_rate_range=(0.0, 0.15),
+            mfcc_characteristics={'filtering': 'subtractive', 'resonance': 'variable'}
+        ),
+        
+        'additive_synth': CharacterTag(
+            name='additive_synth',
+            description='Additive synthesizer with precise harmonic control',
+            spectral_centroid_range=(1000, 4000),
+            spectral_bandwidth_range=(1500, float('inf')),
+            spectral_rolloff_range=(2000, float('inf')),
+            zero_crossing_rate_range=(0.02, 0.12),
+            mfcc_characteristics={'harmonics': 'controlled', 'precision': 'very_high'}
+        ),
+        
+        'modular_synth': CharacterTag(
+            name='modular_synth',
+            description='Modular synthesizer with experimental characteristics',
+            spectral_centroid_range=(0.0, float('inf')),
+            spectral_bandwidth_range=(0.0, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.0, float('inf')),
+            mfcc_characteristics={'unpredictability': 'high', 'modulation': 'complex'}
+        ),
+        
+        'string_machine': CharacterTag(
+            name='string_machine',
+            description='String synthesizer with ensemble characteristics',
+            spectral_centroid_range=(800, 2200),
+            spectral_bandwidth_range=(1200, 2400),
+            spectral_rolloff_range=(2000, 4500),
+            zero_crossing_rate_range=(0.03, 0.12),
+            mfcc_characteristics={'ensemble': 'string', 'chorus': 'built_in'}
+        ),
+        
+        'organ': CharacterTag(
+            name='organ',
+            description='Organ with harmonic drawbar characteristics',
+            spectral_centroid_range=(400, 1800),
+            spectral_bandwidth_range=(800, 2000),
+            spectral_rolloff_range=(1200, 3000),
+            zero_crossing_rate_range=(0.0, 0.08),
+            mfcc_characteristics={'harmonics': 'drawbar', 'sustain': 'infinite'}
+        ),
+        
+        'piano': CharacterTag(
+            name='piano',
+            description='Piano with attack-decay envelope and rich harmonics',
+            spectral_centroid_range=(600, 2500),
+            spectral_bandwidth_range=(1500, 3500),
+            spectral_rolloff_range=(2000, 5000),
+            zero_crossing_rate_range=(0.08, 0.2),
+            mfcc_characteristics={'attack': 'percussive', 'decay': 'natural'}
+        ),
+        
+        'choir': CharacterTag(
+            name='choir',
+            description='Vocal ensemble with formant characteristics',
+            spectral_centroid_range=(600, 2000),
+            spectral_bandwidth_range=(1000, 2200),
+            spectral_rolloff_range=(1800, 3500),
+            zero_crossing_rate_range=(0.05, 0.15),
+            mfcc_characteristics={'formants': 'vocal', 'ensemble': 'human'}
+        ),
+        
+        'brass': CharacterTag(
+            name='brass',
+            description='Brass instruments with bright, dynamic harmonics',
+            spectral_centroid_range=(1200, 3500),
+            spectral_bandwidth_range=(1300, 3000),
+            spectral_rolloff_range=(3000, float('inf')),
+            zero_crossing_rate_range=(0.08, 0.2),
+            mfcc_characteristics={'brightness': 'dynamic', 'expression': 'high'}
+        ),
+        
+        'woodwind': CharacterTag(
+            name='woodwind',
+            description='Woodwind instruments with breathy characteristics',
+            spectral_centroid_range=(800, 2800),
+            spectral_bandwidth_range=(1100, 2400),
+            spectral_rolloff_range=(2200, 4500),
+            zero_crossing_rate_range=(0.1, 0.25),
+            mfcc_characteristics={'breathiness': 'present', 'reed': 'characteristic'}
+        ),
+        
+        'pad_synth': CharacterTag(
+            name='pad_synth',
+            description='Pad synthesizer with sustained, evolving textures',
+            spectral_centroid_range=(600, 2200),
+            spectral_bandwidth_range=(1200, 2800),
+            spectral_rolloff_range=(1800, 4000),
+            zero_crossing_rate_range=(0.0, 0.1),
+            mfcc_characteristics={'evolution': 'slow', 'sustain': 'long'}
+        ),
+        
+        'lead_synth': CharacterTag(
+            name='lead_synth',
+            description='Lead synthesizer with prominent melodic characteristics',
+            spectral_centroid_range=(1500, 4000),
+            spectral_bandwidth_range=(800, 2200),
+            spectral_rolloff_range=(2500, float('inf')),
+            zero_crossing_rate_range=(0.02, 0.15),
+            mfcc_characteristics={'prominence': 'high', 'melodic': 'focused'}
+        ),
+        
+        'bass_synth': CharacterTag(
+            name='bass_synth',
+            description='Bass synthesizer with low-frequency emphasis',
+            spectral_centroid_range=(0.0, 800),
+            spectral_bandwidth_range=(200, 1200),
+            spectral_rolloff_range=(400, 1500),
+            zero_crossing_rate_range=(0.0, 0.08),
+            mfcc_characteristics={'frequency': 'low', 'fundamental': 'strong'}
+        ),
+        
+        'arp_synth': CharacterTag(
+            name='arp_synth',
+            description='Arpeggiator synthesizer with repetitive melodic patterns',
+            spectral_centroid_range=(1200, 3500),
+            spectral_bandwidth_range=(800, 2000),
+            spectral_rolloff_range=(2000, 5000),
+            zero_crossing_rate_range=(0.05, 0.2),
+            mfcc_characteristics={'pattern': 'repetitive', 'timing': 'precise'}
         )
     }
     
-    # Texture tags
+    # Texture tags (20 total)
     TEXTURE_TAGS = {
         'rich_texture': CharacterTag(
             name='rich_texture',
@@ -1501,6 +1706,309 @@ class CharacterTags:
             spectral_rolloff_range=(0.0, 2000),
             zero_crossing_rate_range=(0.0, float('inf')),
             mfcc_characteristics={'warmth': 'high', 'harmonics': 'lower'}
+        ),
+        
+        'smooth_texture': CharacterTag(
+            name='smooth_texture',
+            description='Silky smooth texture with minimal roughness',
+            spectral_centroid_range=(400, 2500),
+            spectral_bandwidth_range=(600, 1800),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.0, 0.05),
+            mfcc_characteristics={'smoothness': 'high', 'roughness': 'minimal'}
+        ),
+        
+        'rough_texture': CharacterTag(
+            name='rough_texture',
+            description='Gritty, coarse texture with high roughness',
+            spectral_centroid_range=(0.0, float('inf')),
+            spectral_bandwidth_range=(1500, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.15, float('inf')),
+            mfcc_characteristics={'roughness': 'high', 'grittiness': 'present'}
+        ),
+        
+        'crystalline_texture': CharacterTag(
+            name='crystalline_texture',
+            description='Glass-like, precise texture with sharp definition',
+            spectral_centroid_range=(2500, float('inf')),
+            spectral_bandwidth_range=(0.0, 1000),
+            spectral_rolloff_range=(4000, float('inf')),
+            zero_crossing_rate_range=(0.0, 0.06),
+            mfcc_characteristics={'precision': 'crystalline', 'definition': 'sharp'}
+        ),
+        
+        'organic_texture': CharacterTag(
+            name='organic_texture',
+            description='Natural, breathing texture with irregular variations',
+            spectral_centroid_range=(0.0, float('inf')),
+            spectral_bandwidth_range=(1200, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.08, 0.2),
+            mfcc_characteristics={'naturalness': 'high', 'variation': 'irregular'}
+        ),
+        
+        'mechanical_texture': CharacterTag(
+            name='mechanical_texture',
+            description='Machine-like texture with precise, industrial character',
+            spectral_centroid_range=(1500, 4000),
+            spectral_bandwidth_range=(1000, 2500),
+            spectral_rolloff_range=(3000, float('inf')),
+            zero_crossing_rate_range=(0.1, 0.3),
+            mfcc_characteristics={'precision': 'mechanical', 'character': 'industrial'}
+        ),
+        
+        'liquid_texture': CharacterTag(
+            name='liquid_texture',
+            description='Flowing, fluid texture with smooth modulation',
+            spectral_centroid_range=(600, 2200),
+            spectral_bandwidth_range=(800, 2000),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.02, 0.12),
+            mfcc_characteristics={'flow': 'smooth', 'modulation': 'fluid'}
+        ),
+        
+        'gaseous_texture': CharacterTag(
+            name='gaseous_texture',
+            description='Ethereal, cloud-like texture with diffuse characteristics',
+            spectral_centroid_range=(1200, 3500),
+            spectral_bandwidth_range=(1800, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.05, 0.18),
+            mfcc_characteristics={'diffusion': 'high', 'density': 'variable'}
+        ),
+        
+        'metallic_texture': CharacterTag(
+            name='metallic_texture',
+            description='Cold, resonant texture with industrial character',
+            spectral_centroid_range=(2000, float('inf')),
+            spectral_bandwidth_range=(1200, 2800),
+            spectral_rolloff_range=(3500, float('inf')),
+            zero_crossing_rate_range=(0.08, 0.25),
+            mfcc_characteristics={'resonance': 'metallic', 'coldness': 'present'}
+        ),
+        
+        'wooden_texture': CharacterTag(
+            name='wooden_texture',
+            description='Warm, natural texture with organic resonance',
+            spectral_centroid_range=(400, 1600),
+            spectral_bandwidth_range=(800, 2200),
+            spectral_rolloff_range=(1200, 3000),
+            zero_crossing_rate_range=(0.05, 0.15),
+            mfcc_characteristics={'warmth': 'natural', 'resonance': 'wooden'}
+        ),
+        
+        'glassy_texture': CharacterTag(
+            name='glassy_texture',
+            description='Brittle, transparent texture with fragile character',
+            spectral_centroid_range=(3000, float('inf')),
+            spectral_bandwidth_range=(400, 1200),
+            spectral_rolloff_range=(5000, float('inf')),
+            zero_crossing_rate_range=(0.0, 0.08),
+            mfcc_characteristics={'transparency': 'high', 'fragility': 'present'}
+        ),
+        
+        'fabric_texture': CharacterTag(
+            name='fabric_texture',
+            description='Soft, woven texture with gentle characteristics',
+            spectral_centroid_range=(600, 1800),
+            spectral_bandwidth_range=(1000, 2200),
+            spectral_rolloff_range=(1500, 3500),
+            zero_crossing_rate_range=(0.06, 0.16),
+            mfcc_characteristics={'softness': 'high', 'weaving': 'present'}
+        ),
+        
+        'sandy_texture': CharacterTag(
+            name='sandy_texture',
+            description='Granular, particulate texture with gritty character',
+            spectral_centroid_range=(1200, float('inf')),
+            spectral_bandwidth_range=(1800, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.2, float('inf')),
+            mfcc_characteristics={'granularity': 'high', 'particles': 'present'}
+        ),
+        
+        'waxy_texture': CharacterTag(
+            name='waxy_texture',
+            description='Smooth but impure texture with slight irregularities',
+            spectral_centroid_range=(800, 2000),
+            spectral_bandwidth_range=(800, 1600),
+            spectral_rolloff_range=(1800, 3500),
+            zero_crossing_rate_range=(0.03, 0.1),
+            mfcc_characteristics={'smoothness': 'moderate', 'purity': 'low'}
+        ),
+        
+        'rubbery_texture': CharacterTag(
+            name='rubbery_texture',
+            description='Elastic, bouncy texture with flexible response',
+            spectral_centroid_range=(1000, 2800),
+            spectral_bandwidth_range=(1200, 2400),
+            spectral_rolloff_range=(2000, 4000),
+            zero_crossing_rate_range=(0.08, 0.2),
+            mfcc_characteristics={'elasticity': 'high', 'bounce': 'present'}
+        ),
+        
+        'ceramic_texture': CharacterTag(
+            name='ceramic_texture',
+            description='Hard, resonant texture with precise characteristics',
+            spectral_centroid_range=(1800, 3500),
+            spectral_bandwidth_range=(600, 1400),
+            spectral_rolloff_range=(3000, 5000),
+            zero_crossing_rate_range=(0.02, 0.1),
+            mfcc_characteristics={'hardness': 'high', 'resonance': 'precise'}
+        ),
+        
+        'plastic_texture': CharacterTag(
+            name='plastic_texture',
+            description='Artificial, uniform texture with synthetic character',
+            spectral_centroid_range=(1200, 2800),
+            spectral_bandwidth_range=(600, 1200),
+            spectral_rolloff_range=(2200, 4000),
+            zero_crossing_rate_range=(0.0, 0.08),
+            mfcc_characteristics={'artificiality': 'high', 'uniformity': 'present'}
+        )
+    }
+    
+    # Processing type tags (14 total)
+    PROCESSING_TAGS = {
+        'reverbed': CharacterTag(
+            name='reverbed',
+            description='Spacious texture with echo and reverberation',
+            spectral_centroid_range=(0.0, float('inf')),
+            spectral_bandwidth_range=(1200, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.0, float('inf')),
+            mfcc_characteristics={'space': 'large', 'decay': 'extended'}
+        ),
+        
+        'delayed': CharacterTag(
+            name='delayed',
+            description='Texture with distinct echo patterns and rhythmic repeats',
+            spectral_centroid_range=(0.0, float('inf')),
+            spectral_bandwidth_range=(0.0, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.0, float('inf')),
+            mfcc_characteristics={'echo': 'distinct', 'rhythm': 'delayed'}
+        ),
+        
+        'chorused': CharacterTag(
+            name='chorused',
+            description='Thick, ensemble-like texture with modulation',
+            spectral_centroid_range=(0.0, float('inf')),
+            spectral_bandwidth_range=(1400, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.05, 0.2),
+            mfcc_characteristics={'thickness': 'high', 'modulation': 'chorus'}
+        ),
+        
+        'flanged': CharacterTag(
+            name='flanged',
+            description='Sweeping, jet-like texture with comb filtering',
+            spectral_centroid_range=(1000, float('inf')),
+            spectral_bandwidth_range=(1500, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.1, 0.3),
+            mfcc_characteristics={'sweep': 'present', 'comb': 'filtering'}
+        ),
+        
+        'phased': CharacterTag(
+            name='phased',
+            description='Notched texture with frequency sweeping',
+            spectral_centroid_range=(800, float('inf')),
+            spectral_bandwidth_range=(1200, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.08, 0.25),
+            mfcc_characteristics={'notches': 'moving', 'phase': 'shifting'}
+        ),
+        
+        'distorted': CharacterTag(
+            name='distorted',
+            description='Saturated texture with harmonic distortion',
+            spectral_centroid_range=(0.0, float('inf')),
+            spectral_bandwidth_range=(1800, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.12, float('inf')),
+            mfcc_characteristics={'saturation': 'present', 'harmonics': 'added'}
+        ),
+        
+        'compressed': CharacterTag(
+            name='compressed',
+            description='Controlled dynamics with consistent level',
+            spectral_centroid_range=(0.0, float('inf')),
+            spectral_bandwidth_range=(0.0, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.0, float('inf')),
+            mfcc_characteristics={'dynamics': 'controlled', 'level': 'consistent'}
+        ),
+        
+        'filtered': CharacterTag(
+            name='filtered',
+            description='Frequency-shaped texture with resonant characteristics',
+            spectral_centroid_range=(0.0, float('inf')),
+            spectral_bandwidth_range=(0.0, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.0, float('inf')),
+            mfcc_characteristics={'frequency': 'shaped', 'resonance': 'variable'}
+        ),
+        
+        'pitched': CharacterTag(
+            name='pitched',
+            description='Frequency-shifted texture with harmonization',
+            spectral_centroid_range=(0.0, float('inf')),
+            spectral_bandwidth_range=(1000, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.0, float('inf')),
+            mfcc_characteristics={'frequency': 'shifted', 'harmony': 'added'}
+        ),
+        
+        'ring_modulated': CharacterTag(
+            name='ring_modulated',
+            description='Metallic texture with bell-like inharmonic content',
+            spectral_centroid_range=(1500, float('inf')),
+            spectral_bandwidth_range=(1800, float('inf')),
+            spectral_rolloff_range=(3000, float('inf')),
+            zero_crossing_rate_range=(0.15, float('inf')),
+            mfcc_characteristics={'inharmonics': 'present', 'metallic': 'bell_like'}
+        ),
+        
+        'bit_crushed': CharacterTag(
+            name='bit_crushed',
+            description='Digital degradation with lo-fi character',
+            spectral_centroid_range=(0.0, float('inf')),
+            spectral_bandwidth_range=(1200, float('inf')),
+            spectral_rolloff_range=(0.0, 8000),
+            zero_crossing_rate_range=(0.1, float('inf')),
+            mfcc_characteristics={'degradation': 'digital', 'fidelity': 'low'}
+        ),
+        
+        'tape_saturated': CharacterTag(
+            name='tape_saturated',
+            description='Vintage warmth with subtle compression',
+            spectral_centroid_range=(400, 2500),
+            spectral_bandwidth_range=(800, 2200),
+            spectral_rolloff_range=(0.0, 6000),
+            zero_crossing_rate_range=(0.0, 0.12),
+            mfcc_characteristics={'warmth': 'vintage', 'compression': 'tape'}
+        ),
+        
+        'tube_saturated': CharacterTag(
+            name='tube_saturated',
+            description='Warm harmonic distortion from tube saturation',
+            spectral_centroid_range=(600, 3000),
+            spectral_bandwidth_range=(1000, 2400),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.02, 0.15),
+            mfcc_characteristics={'warmth': 'tube', 'harmonics': 'even_order'}
+        ),
+        
+        'multiband_processed': CharacterTag(
+            name='multiband_processed',
+            description='Frequency-specific processing across multiple bands',
+            spectral_centroid_range=(0.0, float('inf')),
+            spectral_bandwidth_range=(1500, float('inf')),
+            spectral_rolloff_range=(0.0, float('inf')),
+            zero_crossing_rate_range=(0.0, float('inf')),
+            mfcc_characteristics={'processing': 'multiband', 'bands': 'specific'}
         )
     }
     
@@ -1510,6 +2018,7 @@ class CharacterTags:
         all_tags = {}
         all_tags.update(cls.SYNTHESIS_TAGS)
         all_tags.update(cls.TEXTURE_TAGS)
+        all_tags.update(cls.PROCESSING_TAGS)
         return all_tags
     
     @classmethod
@@ -1526,6 +2035,11 @@ class CharacterTags:
     def get_texture_tag_names(cls) -> List[str]:
         """Get list of texture tag names."""
         return list(cls.TEXTURE_TAGS.keys())
+        
+    @classmethod
+    def get_processing_tag_names(cls) -> List[str]:
+        """Get list of processing tag names."""
+        return list(cls.PROCESSING_TAGS.keys())
     
     @classmethod
     def get_tag_descriptions(cls) -> Dict[str, str]:
