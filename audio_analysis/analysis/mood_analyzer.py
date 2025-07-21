@@ -11,9 +11,10 @@ The analytical approach is based on:
 3. Threshold-based classification optimized for electronic music
 4. Multi-descriptor analysis for nuanced mood characterization
 
-The mood analysis system recognizes 17 distinct moods organized into:
+The mood analysis system recognizes 117 distinct moods organized into:
 - Core moods: Fundamental emotional categories (9 descriptors)
 - Extended moods: Nuanced atmospheric characteristics (8 descriptors)
+- Advanced moods: Comprehensive creative vocabulary (100 descriptors)
 
 Each mood is defined by specific combinations of:
 - Energy levels (RMS power)
@@ -51,6 +52,7 @@ class MoodAnalyzer:
         self.mood_descriptors = MoodDescriptors.get_all_descriptors()
         self.core_descriptors = MoodDescriptors.get_core_descriptor_names()
         self.extended_descriptors = MoodDescriptors.get_extended_descriptor_names()
+        self.advanced_descriptors = MoodDescriptors.get_advanced_descriptor_names()
         
     def analyze_mood(self, phase_data: Dict[str, float], 
                     spectral_features: Dict[str, float],
@@ -249,26 +251,34 @@ class MoodAnalyzer:
         energy = safe_float_convert(energy, 0.0)
         brightness = safe_float_convert(brightness, 0.0)
         onset_density = safe_float_convert(onset_density, 0.0)
-        # High energy moods
+        # High energy moods - use advanced descriptors for more nuance
         if energy > 0.08:
-            if onset_density > 2.0:
-                return 'energetic'
+            if onset_density > 4.0:
+                return 'tempestuous' if brightness > 2500 else 'volcanic'
+            elif onset_density > 2.0:
+                return 'euphoric' if brightness > 2500 else 'surging'
             else:
-                return 'intense'
+                return 'triumphant' if brightness > 2200 else 'molten'
         
-        # Low energy moods
+        # Low energy moods - ethereal and atmospheric categories
         elif energy < 0.02:
-            if brightness > 2000:
-                return 'subtle'
+            if brightness > 3000:
+                return 'celestial' if onset_density < 0.2 else 'gossamer'
+            elif brightness > 2000:
+                return 'luminous' if onset_density < 0.6 else 'spectral'
             else:
-                return 'quiet'
+                return 'glacial' if onset_density < 0.1 else 'serene'
         
-        # Medium energy moods
+        # Medium energy moods - textural and emotional categories
         else:
-            if onset_density > 1.0:
-                return 'rhythmic'
+            if brightness > 2500:
+                return 'crystalline_hard' if onset_density > 1.5 else 'prismatic'
+            elif onset_density > 2.0:
+                return 'pulsating' if brightness > 1500 else 'granular'
+            elif brightness < 1000:
+                return 'velvet' if onset_density < 1.0 else 'wooden'
             else:
-                return 'balanced'
+                return 'hopeful' if brightness > 1500 else 'contemplative'
     
     def analyze_track_mood(self, features: Dict[str, Any]) -> Tuple[List[str], str, Dict[str, float]]:
         """
@@ -350,7 +360,9 @@ class MoodAnalyzer:
             'onset_density_range': descriptor.onset_density_range,
             'duration_threshold': descriptor.duration_threshold,
             'spectral_bandwidth_range': descriptor.spectral_bandwidth_range,
-            'category': 'core' if mood_name in self.core_descriptors else 'extended'
+            'category': ('core' if mood_name in self.core_descriptors 
+                         else 'extended' if mood_name in self.extended_descriptors 
+                         else 'advanced')
         }
     
     def analyze_mood_distribution(self, track_moods: List[str]) -> Dict[str, Any]:
@@ -386,6 +398,7 @@ class MoodAnalyzer:
         # Categorize moods
         core_moods = [mood for mood in track_moods if mood in self.core_descriptors]
         extended_moods = [mood for mood in track_moods if mood in self.extended_descriptors]
+        advanced_moods = [mood for mood in track_moods if mood in self.advanced_descriptors]
         
         return {
             'total_tracks': total_tracks,
@@ -395,6 +408,7 @@ class MoodAnalyzer:
             'dominant_moods': dominant_moods,
             'core_mood_ratio': len(core_moods) / total_tracks,
             'extended_mood_ratio': len(extended_moods) / total_tracks,
+            'advanced_mood_ratio': len(advanced_moods) / total_tracks,
             'mood_diversity': len(mood_counts) / len(self.mood_descriptors)
         }
     
@@ -411,26 +425,77 @@ class MoodAnalyzer:
         Returns:
             List of compatible moods for transition
         """
-        # Define mood transition compatibility
+        # Define mood transition compatibility - expanded for advanced descriptors
         transition_map = {
-            'atmospheric': ['spacey', 'ethereal', 'oozy', 'pensive', 'warm'],
-            'spacey': ['atmospheric', 'ethereal', 'crystalline', 'pensive'],
-            'ethereal': ['atmospheric', 'spacey', 'crystalline', 'warm'],
-            'oozy': ['atmospheric', 'warm', 'pensive', 'organic'],
-            'pensive': ['atmospheric', 'oozy', 'warm', 'melodic'],
-            'warm': ['pensive', 'oozy', 'organic', 'melodic'],
-            'organic': ['warm', 'oozy', 'melodic', 'driving'],
-            'melodic': ['pensive', 'warm', 'organic', 'driving'],
-            'driving': ['melodic', 'organic', 'energetic', 'percussive'],
-            'energetic': ['driving', 'exuberant', 'percussive', 'tense'],
-            'exuberant': ['energetic', 'driving', 'percussive'],
-            'tense': ['energetic', 'glitchy', 'chaos'],
-            'glitchy': ['tense', 'chaos', 'synthetic'],
-            'chaos': ['glitchy', 'tense'],
-            'synthetic': ['crystalline', 'glitchy', 'driving'],
-            'crystalline': ['synthetic', 'ethereal', 'spacey'],
-            'percussive': ['driving', 'energetic', 'exuberant'],
-            'droning': ['atmospheric', 'oozy', 'warm']
+            # Original core and extended transitions
+            'atmospheric': ['spacey', 'ethereal', 'oozy', 'pensive', 'warm', 'nebulous', 'vaporous', 'serene'],
+            'spacey': ['atmospheric', 'ethereal', 'crystalline', 'pensive', 'celestial', 'gossamer', 'telescopic'],
+            'ethereal': ['atmospheric', 'spacey', 'crystalline', 'warm', 'celestial', 'luminous', 'transcendent'],
+            'oozy': ['atmospheric', 'warm', 'pensive', 'organic', 'viscous', 'gelatinous', 'molten'],
+            'pensive': ['atmospheric', 'oozy', 'warm', 'melodic', 'contemplative', 'introspective', 'serene'],
+            'warm': ['pensive', 'oozy', 'organic', 'melodic', 'velvet', 'compassionate', 'nostalgic'],
+            'organic': ['warm', 'oozy', 'melodic', 'driving', 'wooden', 'fibrous', 'pastoral'],
+            'melodic': ['pensive', 'warm', 'organic', 'driving', 'hopeful', 'flowing', 'legato'],
+            'driving': ['melodic', 'organic', 'exuberant', 'percussive', 'pulsating', 'accelerating', 'ostinato'],
+            'exuberant': ['driving', 'percussive', 'euphoric', 'triumphant', 'playful'],
+            'tense': ['glitchy', 'chaos', 'anxious', 'vindictive', 'tempestuous'],
+            'glitchy': ['tense', 'chaos', 'synthetic', 'granular', 'fractual', 'microscopic'],
+            'chaos': ['glitchy', 'tense', 'tempestuous', 'churning', 'volcanic'],
+            'synthetic': ['crystalline', 'glitchy', 'driving', 'plastic', 'metallic', 'ceramic'],
+            'crystalline': ['synthetic', 'ethereal', 'spacey', 'crystalline_hard', 'prismatic', 'arctic'],
+            'percussive': ['driving', 'exuberant', 'staccato', 'marcato', 'syncopated'],
+            'droning': ['atmospheric', 'oozy', 'warm', 'glacial', 'fermata', 'subterranean'],
+            
+            # New advanced descriptor transitions
+            'celestial': ['ethereal', 'spacey', 'luminous', 'transcendent', 'gossamer'],
+            'gossamer': ['celestial', 'ethereal', 'iridescent', 'translucent'],
+            'luminous': ['celestial', 'ethereal', 'hopeful', 'opalescent'],
+            'nebulous': ['atmospheric', 'vaporous', 'mysterious', 'drifting'],
+            'spectral': ['mysterious', 'brooding', 'arctic', 'telescopic'],
+            'prismatic': ['crystalline', 'iridescent', 'dimensional', 'aurora'],
+            'vaporous': ['nebulous', 'drifting', 'translucent', 'mirage'],
+            'iridescent': ['gossamer', 'prismatic', 'aurora', 'opalescent'],
+            'translucent': ['gossamer', 'vaporous', 'serene', 'flowing'],
+            'opalescent': ['luminous', 'iridescent', 'warm', 'silky'],
+            
+            # Textural transitions
+            'velvet': ['warm', 'silky', 'intimate', 'compassionate'],
+            'silky': ['velvet', 'flowing', 'legato', 'opalescent'],
+            'granular': ['glitchy', 'powdery', 'microscopic', 'urban'],
+            'fibrous': ['organic', 'wooden', 'textured', 'woven'],
+            'crystalline_hard': ['crystalline', 'metallic', 'arctic', 'ceramic'],
+            'molten': ['oozy', 'volcanic', 'viscous', 'churning'],
+            'metallic': ['crystalline_hard', 'synthetic', 'urban', 'industrial'],
+            'ceramic': ['crystalline_hard', 'clean', 'resonant', 'precise'],
+            'wooden': ['organic', 'warm', 'pastoral', 'natural'],
+            'plastic': ['synthetic', 'uniform', 'artificial', 'clean'],
+            'rubbery': ['elastic', 'bouncy', 'flexible', 'playful'],
+            'spongy': ['absorbent', 'soft', 'textured', 'organic'],
+            'viscous': ['oozy', 'molten', 'thick', 'slow'],
+            'gelatinous': ['oozy', 'viscous', 'wobbling', 'soft'],
+            'powdery': ['granular', 'dusty', 'diffuse', 'microscopic'],
+            
+            # Emotional transitions
+            'euphoric': ['exuberant', 'ecstatic', 'triumphant', 'hopeful'],
+            'melancholic': ['nostalgic', 'wistful', 'brooding', 'yearning'],
+            'nostalgic': ['melancholic', 'wistful', 'warm', 'contemplative'],
+            'anxious': ['tense', 'restless', 'claustrophobic', 'churning'],
+            'serene': ['peaceful', 'calm', 'translucent', 'flowing'],
+            'mysterious': ['enigmatic', 'spectral', 'brooding', 'dimensional'],
+            'playful': ['whimsical', 'bouncy', 'rubbery', 'spiraling'],
+            'brooding': ['melancholic', 'mysterious', 'dark', 'subterranean'],
+            'hopeful': ['optimistic', 'luminous', 'rising', 'euphoric'],
+            'longing': ['yearning', 'melancholic', 'reaching', 'distant'],
+            'triumphant': ['victorious', 'euphoric', 'soaring', 'ecstatic'],
+            'contemplative': ['thoughtful', 'pensive', 'introspective', 'meditative'],
+            'yearning': ['longing', 'melancholic', 'poignant', 'reaching'],
+            'ecstatic': ['euphoric', 'overwhelming', 'explosive', 'triumphant'],
+            'introspective': ['contemplative', 'inward', 'pensive', 'quiet'],
+            'wistful': ['nostalgic', 'melancholic', 'gentle', 'remembering'],
+            'vindictive': ['vengeful', 'aggressive', 'sharp', 'intense'],
+            'compassionate': ['gentle', 'caring', 'warm', 'enveloping'],
+            'rebellious': ['defiant', 'challenging', 'irregular', 'chaotic'],
+            'transcendent': ['spiritual', 'uplifting', 'celestial', 'ethereal']
         }
         
         return transition_map.get(current_mood, [])
