@@ -464,13 +464,17 @@ class ParallelAudioAnalyzer:
         return self.sequence_recommendations
     
     def export_comprehensive_analysis(self, export_dir: Optional[Path] = None,
-                                    show_plots: bool = False) -> Dict[str, Any]:
+                                    show_plots: bool = False,
+                                    export_format: str = "all",
+                                    base_name: str = "analysis") -> Dict[str, Any]:
         """
-        Export comprehensive analysis results in all formats.
+        Export comprehensive analysis results in specified formats.
         
         Args:
             export_dir: Directory for export
             show_plots: Whether to display plots
+            export_format: Format for exports ("all", "csv", "json", "markdown")
+            base_name: Base name for generated files
             
         Returns:
             Dictionary with export information
@@ -486,14 +490,21 @@ class ParallelAudioAnalyzer:
         
         print(f"Exporting comprehensive analysis to: {export_dir}")
         
-        # Export data files
-        data_exports = self._export_data_files(export_dir)
+        # Export based on requested format
+        data_exports = {}
+        visualization_exports = {}
+        report_exports = {}
         
-        # Generate visualizations
-        visualization_exports = self._generate_visualizations(export_dir, show_plots)
+        if export_format in ["all", "csv"]:
+            # Export data files
+            data_exports = self._export_data_files(export_dir, base_name)
         
-        # Generate reports
-        report_exports = self._generate_reports(export_dir)
+        if export_format == "all":
+            # Generate visualizations
+            visualization_exports = self._generate_visualizations(export_dir, show_plots)
+        
+        # Generate reports based on format
+        report_exports = self._generate_reports(export_dir, export_format, base_name)
         
         # Create export summary with parallel processing stats
         export_summary = {

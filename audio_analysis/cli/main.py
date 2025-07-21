@@ -266,7 +266,8 @@ def run_local_analysis(args: argparse.Namespace) -> int:
         
         export_results = analyzer.export_comprehensive_analysis(
             export_dir=args.export_dir,
-            show_plots=not args.no_plots
+            show_plots=not args.no_plots,
+            export_format=args.export_format
         )
         
         # Print summary

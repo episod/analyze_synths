@@ -480,9 +480,11 @@ class AudioAnalyzer:
         return self.sequence_recommendations
     
     def export_comprehensive_analysis(self, export_dir: Optional[Path] = None,
-                                    show_plots: bool = False) -> Dict[str, Any]:
+                                    show_plots: bool = False,
+                                    export_format: str = "all",
+                                    base_name: str = "analysis") -> Dict[str, Any]:
         """
-        Export comprehensive analysis results in all formats.
+        Export comprehensive analysis results in specified formats.
         
         This method creates a complete export package with all analysis
         results, visualizations, and reports in an organized directory structure.
@@ -490,6 +492,8 @@ class AudioAnalyzer:
         Args:
             export_dir: Directory for export (None = create timestamped directory)
             show_plots: Whether to display plots during generation
+            export_format: Format for exports ("all", "csv", "json", "markdown")
+            base_name: Base name for generated files
             
         Returns:
             Dictionary with export information
@@ -505,16 +509,23 @@ class AudioAnalyzer:
         
         print(f"Exporting comprehensive analysis to: {export_dir}")
         
-        # Export data files
-        data_exports = self._export_data_files(export_dir)
-        print("✓ Data files exported")
+        # Export based on requested format
+        data_exports = {}
+        visualization_exports = {}
+        report_exports = {}
         
-        # Generate visualizations
-        visualization_exports = self._generate_visualizations(export_dir, show_plots)
-        print("✓ Visualizations generated")
+        if export_format in ["all", "csv"]:
+            # Export data files
+            data_exports = self._export_data_files(export_dir, base_name)
+            print("✓ Data files exported")
         
-        # Generate reports
-        report_exports = self._generate_reports(export_dir)
+        if export_format == "all":
+            # Generate visualizations
+            visualization_exports = self._generate_visualizations(export_dir, show_plots)
+            print("✓ Visualizations generated")
+        
+        # Generate reports based on format
+        report_exports = self._generate_reports(export_dir, export_format, base_name)
         print("✓ Reports generated")
         
         # Create export summary
@@ -534,12 +545,13 @@ class AudioAnalyzer:
         
         return export_summary
     
-    def _export_data_files(self, export_dir: Path) -> Dict[str, str]:
+    def _export_data_files(self, export_dir: Path, base_name: str = "analysis") -> Dict[str, str]:
         """
         Export data files in various formats.
         
         Args:
             export_dir: Export directory
+            base_name: Base name for generated files
             
         Returns:
             Dictionary with exported file paths
@@ -547,27 +559,27 @@ class AudioAnalyzer:
         data_dir = export_dir / "data"
         
         # Export main features as CSV
-        features_path = data_dir / "audio_features.csv"
+        features_path = data_dir / f"{base_name}_audio_features.csv"
         self.csv_exporter.export_features(self.df, features_path)
         
         # Export phase data as CSV
-        phase_path = data_dir / "phase_analysis.csv"
+        phase_path = data_dir / f"{base_name}_phase_analysis.csv"
         self.csv_exporter.export_phases(self.phase_data, phase_path)
         
         # Export cluster analysis if available
         cluster_path = None
         if self.cluster_analysis:
-            cluster_path = data_dir / "cluster_analysis.csv"
+            cluster_path = data_dir / f"{base_name}_cluster_analysis.csv"
             self.csv_exporter.export_clusters(self.cluster_analysis, cluster_path)
         
         # Export sequence recommendations if available
         sequence_path = None
         if self.sequence_recommendations:
-            sequence_path = data_dir / "sequence_recommendations.csv"
+            sequence_path = data_dir / f"{base_name}_sequence_recommendations.csv"
             self.csv_exporter.export_sequence(self.sequence_recommendations, sequence_path)
         
         # Export summary statistics
-        summary_path = data_dir / "summary_statistics.csv"
+        summary_path = data_dir / f"{base_name}_summary_statistics.csv"
         self.csv_exporter.export_summary_stats(self.df, self.phase_data, summary_path)
         
         return {
@@ -628,12 +640,14 @@ class AudioAnalyzer:
         
         return visualization_paths
     
-    def _generate_reports(self, export_dir: Path) -> Dict[str, str]:
+    def _generate_reports(self, export_dir: Path, export_format: str = "all", base_name: str = "analysis") -> Dict[str, str]:
         """
-        Generate analysis reports.
+        Generate analysis reports in specified format.
         
         Args:
             export_dir: Export directory
+            export_format: Format for exports ("all", "csv", "json", "markdown")
+            base_name: Base name for generated files
             
         Returns:
             Dictionary with report file paths
@@ -641,21 +655,23 @@ class AudioAnalyzer:
         reports_dir = export_dir / "reports"
         report_paths = {}
         
-        # Generate comprehensive markdown report
-        markdown_path = reports_dir / "comprehensive_analysis_report.md"
-        self.markdown_exporter.generate_comprehensive_report(
-            self.df, self.phase_data, self.cluster_analysis, 
-            self.sequence_recommendations, markdown_path
-        )
-        report_paths['comprehensive_report'] = str(markdown_path)
+        # Generate markdown report if requested
+        if export_format in ["all", "markdown"]:
+            markdown_path = reports_dir / f"{base_name}_comprehensive_report.md"
+            self.markdown_exporter.generate_comprehensive_report(
+                self.df, self.phase_data, self.cluster_analysis, 
+                self.sequence_recommendations, markdown_path
+            )
+            report_paths['comprehensive_report'] = str(markdown_path)
         
-        # Generate JSON export for programmatic access
-        json_path = reports_dir / "analysis_data.json"
-        self.json_exporter.export_comprehensive_data(
-            self.df, self.phase_data, self.cluster_analysis,
-            self.sequence_recommendations, json_path
-        )
-        report_paths['json_data'] = str(json_path)
+        # Generate JSON export if requested
+        if export_format in ["all", "json"]:
+            json_path = reports_dir / f"{base_name}_data.json"
+            self.json_exporter.export_comprehensive_data(
+                self.df, self.phase_data, self.cluster_analysis,
+                self.sequence_recommendations, json_path
+            )
+            report_paths['json_data'] = str(json_path)
         
         return report_paths
     

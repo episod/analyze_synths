@@ -215,7 +215,7 @@ def demo_complete_parallel_analysis(directory: Path, config: ProcessingConfig):
     
     # Export results
     export_dir = Path(f"parallel_analysis_demo_{int(time.time())}")
-    export_info = analyzer.export_comprehensive_analysis(export_dir)
+    export_info = analyzer.export_comprehensive_analysis(export_dir, export_format="all")
     
     print(f"\nResults exported to: {export_dir}")
     print(f"Export files: {len(export_info['data_exports'])} data files, {len(export_info['visualization_exports'])} visualizations")

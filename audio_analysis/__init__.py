@@ -22,14 +22,14 @@ Usage:
     
     analyzer = AudioAnalyzer('/path/to/audio/files')
     results = analyzer.analyze_directory()
-    analyzer.export_comprehensive_analysis()
+    analyzer.export_comprehensive_analysis(export_format="all")
     
     # Parallel processing for better performance
     from audio_analysis import ParallelAudioAnalyzer
     
     analyzer = ParallelAudioAnalyzer('/path/to/audio/files')
     results = analyzer.analyze_directory()
-    analyzer.export_comprehensive_analysis()
+    analyzer.export_comprehensive_analysis(export_format="markdown", base_name="my_analysis")
 """
 
 from .api.analyzer import AudioAnalyzer

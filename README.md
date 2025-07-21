@@ -196,8 +196,12 @@ cluster_labels, centers, features = analyzer.perform_clustering()
 # Generate sequence recommendations  
 sequence = analyzer.recommend_sequence()
 
-# Export all results
+# Export all results (default: all formats)
 export_info = analyzer.export_comprehensive_analysis()
+
+# Export specific formats
+export_info = analyzer.export_comprehensive_analysis(export_format="markdown")
+export_info = analyzer.export_comprehensive_analysis(export_format="json", base_name="my_analysis")
 ```
 
 **Parallel Processing (NEW v2.1):**
@@ -219,7 +223,7 @@ analyzer = ParallelAudioAnalyzer('/path/to/audio/files', config)
 df = analyzer.analyze_directory()
 cluster_labels, centers, features = analyzer.perform_clustering()
 sequence = analyzer.recommend_sequence()
-export_info = analyzer.export_comprehensive_analysis()
+export_info = analyzer.export_comprehensive_analysis(export_format="all")
 
 # Get parallel processing statistics
 stats = analyzer.get_processing_statistics()
@@ -238,6 +242,36 @@ features = extractor.extract_features_from_paths(audio_file_paths)
 # Tenstorrent processing (when available)
 extractor = TensorFeatureExtractor(device="tenstorrent", device_id=0)
 features = extractor.extract_features_from_paths(audio_file_paths)
+```
+
+**Export Format Options (NEW v2.2):**
+```python
+from audio_analysis import AudioAnalyzer
+
+analyzer = AudioAnalyzer('/path/to/audio/files')
+analyzer.analyze_directory()
+
+# Export all formats (default: CSV data + JSON + Markdown + visualizations)
+analyzer.export_comprehensive_analysis()
+
+# Export only specific formats for faster processing
+analyzer.export_comprehensive_analysis(export_format="markdown")  # Human-readable report only
+analyzer.export_comprehensive_analysis(export_format="json")     # Programmatic data only  
+analyzer.export_comprehensive_analysis(export_format="csv")      # Spreadsheet data only
+
+# Customize file naming
+analyzer.export_comprehensive_analysis(
+    export_format="json", 
+    base_name="my_project"
+)  # → Creates: my_project_data.json
+
+# Full customization
+analyzer.export_comprehensive_analysis(
+    export_dir="/custom/path",
+    export_format="markdown", 
+    base_name="album_analysis",
+    show_plots=True
+)  # → Creates: album_analysis_comprehensive_report.md
 ```
 
 ## 📁 What You Get
@@ -566,3 +600,58 @@ done
 **New in v2.1**: Comprehensive parallel processing capabilities with 6x+ performance improvements, hardware acceleration readiness for Tenstorrent processors, tensor-optimized data structures, and a refactored architecture that eliminates code duplication while maintaining full backward compatibility.
 
 **Previous v2.0**: Complete modular refactor with extensive inline documentation, enhanced CLI, robust error handling, professional-grade architecture, and convenient wrapper scripts for easy access.
+
+## 🌐 Hugging Face Deployment (NEW v2.2)
+
+The toolkit now includes a complete **Hugging Face Spaces** deployment for web-based audio analysis, making it accessible to users worldwide without any installation required.
+
+### 🚀 Web Interface Features
+
+**Easy Access**: Upload audio files directly through your web browser for instant analysis
+- **Multiple Analysis Types**: Comprehensive analysis, mood-only, or phase detection only
+- **Export Options**: Download results in Markdown, JSON, or CSV formats  
+- **Public Demo**: Share and demonstrate your audio analysis capabilities
+- **No Installation**: Works immediately in any web browser
+
+### 📁 Deployment Structure
+```
+gradio/
+├── app.py                 # Complete Gradio web interface  
+├── requirements.txt       # HF-specific dependencies
+├── README.md             # Model card with proper YAML frontmatter
+└── CLAUDE.md             # Deployment-specific guidance
+```
+
+### 🎯 Deployment Options
+
+**Option 1: Hugging Face Spaces** (Recommended)
+1. Create new Space at [hf.co/new-space](https://hf.co/new-space)
+2. Choose "Gradio" SDK
+3. Upload contents of `gradio/` directory  
+4. Automatic deployment at `https://huggingface.co/spaces/yourusername/spacename`
+
+**Option 2: Hugging Face Model Repository**
+- Upload complete Python package as model repository
+- Users install via `pip install git+https://huggingface.co/username/repo.git`
+- Include comprehensive documentation and examples
+
+**Option 3: PyPI + HF Community**
+- Package for PyPI distribution (`pip install audio-analysis-toolkit`)
+- List as community resource on Hugging Face Hub
+
+### 🎵 Web Analysis Capabilities
+
+**Supported Audio**: WAV (recommended), AIFF, MP3 up to 100MB, 1s-30min duration
+**Analysis Results**: Same 17 mood descriptors, 9 character tags, and phase detection as desktop version
+**Export Formats**: Human-readable reports, structured JSON data, and spreadsheet-ready CSV files
+**Real-time Processing**: Immediate results with downloadable complete analysis
+
+### 💡 Benefits for Users
+
+- **Accessibility**: No Python knowledge or installation required
+- **Educational**: Interactive exploration of audio analysis concepts
+- **Professional**: API-quality outputs for integration workflows  
+- **Gateway**: Introduction to full desktop toolkit capabilities
+- **Shareable**: Public demos for collaboration and teaching
+
+The web interface maintains full compatibility with all desktop analysis features while providing an intuitive, browser-based experience that makes advanced audio analysis accessible to a broader audience.
