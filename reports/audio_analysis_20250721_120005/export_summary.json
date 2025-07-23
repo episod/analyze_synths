@@ -1,0 +1,28 @@
+{
+  "export_directory": "reports/audio_analysis_20250721_120005",
+  "export_timestamp": "2025-07-21T12:00:15.040894",
+  "files_analyzed": 43,
+  "data_exports": {
+    "features": "reports/audio_analysis_20250721_120005/data/analysis_audio_features.csv",
+    "phases": "reports/audio_analysis_20250721_120005/data/analysis_phase_analysis.csv",
+    "clusters": "reports/audio_analysis_20250721_120005/data/analysis_cluster_analysis.csv",
+    "sequence": null,
+    "summary": "reports/audio_analysis_20250721_120005/data/analysis_summary_statistics.csv"
+  },
+  "visualization_exports": {
+    "phase_timeline": "reports/audio_analysis_20250721_120005/images/phase_timeline.png",
+    "cluster_analysis": "reports/audio_analysis_20250721_120005/images/cluster_analysis.png",
+    "mood_distribution": "reports/audio_analysis_20250721_120005/images/mood_distribution.png"
+  },
+  "report_exports": {
+    "comprehensive_report": "reports/audio_analysis_20250721_120005/reports/analysis_comprehensive_report.md",
+    "json_data": "reports/audio_analysis_20250721_120005/reports/analysis_data.json"
+  },
+  "analysis_stats": {
+    "files_found": 44,
+    "files_processed": 43,
+    "processing_errors": 1,
+    "start_time": "2025-07-21 10:25:32.489885",
+    "end_time": "2025-07-21 12:00:05.031523"
+  }
+}
